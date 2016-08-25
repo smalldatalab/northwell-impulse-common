@@ -1,8 +1,8 @@
 {
   "documentProperties": {
     "htmlDocument": "asthma_fullconsent",
-    "investigatorShortDescription": "Mount Sinai",
-    "investigatorLongDescription": "Mount Sinai and its partners",
+    "investigatorShortDescription": "Northwell Health",
+    "investigatorLongDescription": "Northwell Health and the Robert Wood Johnson Foundation",
     "htmlContent": "consent_section_html_sharing_rsch",
     "requiresSignature": true,
     "requiresName": true,
@@ -21,17 +21,17 @@
         "prompt": "What is the purpose of this study?",
         "type": "singleChoiceText",
         "textChoices": [
-          "Understand the fluctuations of Parkinson disease symptoms",
-          "Treating Parkinson disease"
+          "Make me less impulsive",
+          "To learn whether a mobile health app can help me understand how my levels of concentration fluctuate"
         ],
-        "expectedAnswer": "0"
+        "expectedAnswer": "1"
       },
       {
         "identifier": "question1",
-        "prompt": "If my asthma gets worse during the study I should stop relying on the app and see my doctor.",
+        "prompt": "This study will last three weeks, although I can continue to use the app for longer.",
         "type": "boolean",
-        "positiveFeedback": "The app does not replace your usual medical care. Continue asthma care with your usual doctor at all times and let him/her know you are in the study. If your asthma is getting worse at any time, including during the study, please contact your doctor.",
-        "negativeFeedback": "The app does not replace your usual medical care. Continue asthma care with your usual doctor at all times and let him/her know you are in the study. If your asthma is getting worse at any time, including during the study, please contact your doctor.",
+        "positiveFeedback": "If you choose to take part in this study, the study period will last for a total of 3 weeks from the time you enroll in the study, but you will be able to use the mobile application for longer if you wish.",
+        "negativeFeedback": "If you choose to take part in this study, the study period will last for a total of 3 weeks from the time you enroll in the study, but you will be able to use the mobile application for longer if you wish.",
         "expectedAnswer": "true"
       },
       {
@@ -62,18 +62,18 @@
   "sections": [
     {
       "sectionType": "overview",
-      "sectionSummary": "Mount Sinai is doing a research study about whether an asthma app on your iPhone will help you to monitor your asthma. This simple walkthrough will help you to understand the study, the impact it will have on your life, and will allow you to provide consent to participate.",
+      "sectionSummary": "Northwell Health is doing a study to understand whether using a mobile health application that you download onto your mobile will help you and us understand how your levels of concentration, self-regulation and control vary throughout the day and in different circumstances, like when you are feeling happy or sad or in the morning or evening.",
       "sectionHtmlContent": "consent_section_html_welcome"
     },
     {
       "sectionType": "custom",
       "sectionTitle": "We'll Test Your Understanding",
-      "sectionSummary": "We’ll walk you through some information on our Asthma research study, and  provide a short quiz at the end to confirm your understanding.",
+      "sectionSummary": "We’ll walk you through some information on our Impulsivity research study, and  provide a short quiz at the end to confirm your understanding.",
       "sectionHtmlContent": "consent_section_html_quiz_headsup"
     },
     {
       "sectionType": "dataGathering",
-      "sectionSummary": "This study will gather location and sensor data from your phone and personal fitness devices (such as Apple Watch) with your permission. You can choose not to do this and still participate in the study.",
+      "sectionSummary": "This study will gather location and sensor data from your phone with your permission.",
       "sectionHtmlContent": "consent_section_html_dataprocessing"
     },
     {
@@ -89,20 +89,20 @@
     },
     {
       "sectionType": "timeCommitment",
-      "sectionSummary": "Your participation in this study will average 15 minutes each week for 6 months.",
+      "sectionSummary": "Your participation in this study will average 15 minutes each day for 3 weeks.",
       "sectionHtmlContent": "consent_section_html_time"
     },
     {
       "sectionType": "studySurvey",
       "sectionTitle": "Study Tasks",
-      "sectionSummary": "You will answer a few simple daily and weekly questions about your asthma. These questions should only take a few minutes.",
+      "sectionSummary": "You will answer a few simple daily questions about your mood. These questions should only take a few minutes.",
       "sectionHtmlContent": "consent_section_html_study_survey"
     },
     {
       "sectionType": "studyTasks",
       "sectionTitle": "Potential Benefits",
-      "sectionSummary": "You could learn more about asthma and monitoring your health that may help you to be healthier. It is possible that neither you nor others may benefit from taking part in this research.",
-      "sectionHtmlContent": "consent_section_html_study_task"
+      "sectionSummary": "The possible benefits you may experience from this study include monitoring your moods and thoughts, and identifying the times of the day, moods, thoughts and behaviors associated with when you are able to concentrate the least and most; however, this cannot be guaranteed.",
+      "sectionHtmlContent": "consent_section_html_study_survey"
     },
     {
       "sectionType": "withdrawing",
@@ -120,19 +120,11 @@
     },
     {
       "sectionType": "custom",
-      "sectionTitle": "Issues to Consider",
-      "sectionSummary": "This Asthma app does not replace your usual medical care. Continue your asthma care with your usual doctor.",
-      "sectionImage": "rsb_consent_section_visiting_doctor",
-      "sectionHtmlContent": "consent_section_html_talktodoctor",
-      "sectionAnimationUrl": "11_VisitingDoctor"
-    },
-    {
-      "sectionType": "custom",
       "sectionTitle": "Follow Up",
       "sectionSummary": "Study investigators may contact you as needed for feedback and further mobile health app development needs if you opt in at the conclusion of the study.",
       "sectionImage": "rsb_consent_section_recontact",
       "sectionHtmlContent": "consent_section_html_recontact",
-      "sectionAnimationUrl": "12_Recontact"
+      "sectionAnimationUrl": "11_Recontact"
     }
   ]
 }
