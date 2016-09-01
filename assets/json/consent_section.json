@@ -115,16 +115,16 @@
       "sectionTitle": "Secure Database",
       "sectionSummary": "Your study data will be stored in a manner that maintains strict information technology procedures to safeguard your information and to prevent improper access.",
       "sectionImage": "rsb_consent_section_potential_benefits_alt",
-      "sectionHtmlContent": "consent_section_html_security",
-      "sectionAnimationUrl": "10_PotentialBenifits_Alt"
+      "sectionHtmlContent": "consent_section_html_security"
+//      "sectionAnimationUrl": "10_PotentialBenifits_Alt"
     },
     {
       "sectionType": "custom",
       "sectionTitle": "Follow Up",
       "sectionSummary": "Study investigators may contact you as needed for feedback and further mobile health app development needs if you opt in at the conclusion of the study.",
       "sectionImage": "rsb_consent_section_recontact",
-      "sectionHtmlContent": "consent_section_html_recontact",
-      "sectionAnimationUrl": "11_Recontact"
+      "sectionHtmlContent": "consent_section_html_recontact"
+//      "sectionAnimationUrl": "11_Recontact"
     }
   ]
 }

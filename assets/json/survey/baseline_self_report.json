@@ -1,13 +1,11 @@
 {
-  "guid": "1c5ee4e2-baab-47db-b515-2fbe9fdf50a6",
-  "createdOn": "2016-03-11T16:47:26.014Z",
-  "modifiedOn": "2016-03-11T16:47:36.276Z",
-  "version": 3,
-  "name": "Practice Survey",
-  "identifier": "practiceSurvey",
+  "guid": "6bf35042-96fe-4cf8-bd86-4ff27e0b9bdf",
+  "version": 1,
+  "name": "Baseline Self-Report",
+  "identifier": "baselineSelfReport",
   "published": true,
   "deleted": false,
-  "schemaRevision": 2,
+  "schemaRevision": 1,
   "elements": [
     {
       "guid": "38a64547-cf97-4bd8-952c-77685b4082fd",
