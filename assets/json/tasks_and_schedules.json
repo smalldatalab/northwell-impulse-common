@@ -5,88 +5,24 @@
       "delay": "P3D",
       "tasks": [
         {
-          "taskTitle": "Demographics",
+          "taskTitle": "Baseline",
           "taskID": "d42cd8e9-c1d6-48ac-83c8-c496ce35ee74",
-          "taskFileName": "demographics",
+          "taskFileName": "Baseline",
           "taskClassName": "APHDailyTaskViewController",
           "taskCompletionTimeString": "7 Questions"
         }
       ]
     },
     {
-      "scheduleType": "once",
-      "delay": "P3D",
-      "tasks": [
-        {
-          "taskTitle": "Baseline Self-Report",
-          "taskID": "6bf35042-96fe-4cf8-bd86-4ff27e0b9bdf",
-          "taskFileName": "baseline_self_report",
-          "taskClassName": "APHDailyTaskViewController",
-          "taskCompletionTimeString": "8 Questions"
-        }
-      ]
-    },
-    {
       "scheduleType": "recurring",
       "scheduleString": "* * * * *",
       "tasks": [
         {
-          "taskTitle": "YADL Full",
-          "taskID": "YADL-FULL-123456",
-          "taskFileName": "yadl",
-          "taskClassName": "APHYADLFullAssessmentTaskViewController",
-          "taskCompletionTimeString": "1 Question"
-        }
-      ]
-    },
-    {
-      "scheduleType": "recurring",
-      "scheduleString": "* * * * *",
-      "tasks": [
-        {
-          "taskTitle": "YADL Spot",
-          "taskID": "YADL-SPOT-123456",
-          "taskFileName": "yadl",
-          "taskClassName": "APHYADLSpotAssessmentTaskViewController",
-          "taskCompletionTimeString": "1 Question"
-        }
-      ]
-    },
-    {
-      "scheduleType": "recurring",
-      "scheduleString": "* * * * *",
-      "tasks": [
-        {
-          "taskTitle": "MEDL Full",
-          "taskID": "MEDL-FULL-123456",
-          "taskFileName": "medl",
-          "taskClassName": "APHMEDLFullAssessmentTaskViewController",
-          "taskCompletionTimeString": "1 Question"
-        }
-      ]
-    },
-    {
-      "scheduleType": "recurring",
-      "scheduleString": "* * * * *",
-      "tasks": [
-        {
-          "taskTitle": "MEDL Spot",
-          "taskID": "MEDL-SPOT-123456",
-          "taskFileName": "medl",
-          "taskClassName": "APHMEDLSpotAssessmentTaskViewController",
-          "taskCompletionTimeString": "1 Question"
-        }
-      ]
-    },
-    {
-      "scheduleType": "recurring",
-      "scheduleString": "* * * * *",
-      "tasks": [
-        {
-          "taskTitle": "PAM",
-          "taskID": "PAM-123456",
-          "taskClassName": "APHPAMTaskViewController",
-          "taskCompletionTimeString": "1 Question"
+          "taskTitle": "Morning Survey",
+          "taskID": "morning_survey-1",
+          "taskFileName": "am_survey_go_no_go_variable",
+          "taskClassName": "CTFOrderedTask",
+          "taskCompletionTimeString": ""
         }
       ]
     }

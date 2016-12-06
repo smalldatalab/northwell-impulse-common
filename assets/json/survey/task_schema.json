@@ -1,0 +1,25 @@
+//general comments
+//RStack deserializes into intermediate object TaskModel
+//which then is converted into a SmartSurvey
+//the DataProvider interface takes a TaskScheduleModel
+/*{
+  "taskTitle"
+  "taskID"
+  "taskFileName"
+  "taskClassName"
+  "taskCompletionTimeString"
+}*/
+//and returns a Task object
+
+//lets think of the task descriptor as some metadata (identifier, etc)
+//as well as some entities that map onto an array of steps (hopefully with navigation support, future)
+//each of these entities should be treated as itself an array of entities
+//the parser must be able to handle both built-in and custom types
+
+{
+  "taskIdentifier"
+  "identifier"
+  "steps" : [
+
+  ]
+}

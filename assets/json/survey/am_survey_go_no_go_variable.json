@@ -1,0 +1,33 @@
+{
+    "type"    : "elementList",
+    "elements"         : [
+      {
+        "type"        : "CTFSemanticDifferentialForm",
+        "identifier"       : "am_1",
+        "parameterFileName": "am_likert_1"
+      },
+      {
+        "type"        : "CTFSemanticDifferentialForm",
+        "identifier"       : "am_1a",
+        "parameterFileName": "am_likert_1a"
+      },
+      {
+        "type":  "CTFBehaviorVSRStep",
+        "identifier"            : "am_behaviors",
+        "parameterFileName": "am_behaviors"
+      },
+      {
+        "type"        : "CTFSemanticDifferentialForm",
+        "identifier"       : "am_3",
+        "parameterFileName": "am_likert_3"
+      },
+      {
+        "identifier"   :   "PAM",
+        "type"            : "PAM"
+      },
+      {
+        "type"          : "elementFile",
+        "elementFileName" : "go_no_go_variable_stimulus_full_task_copy"
+      }
+    ]
+}
