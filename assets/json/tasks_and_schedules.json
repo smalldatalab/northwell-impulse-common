@@ -25,6 +25,19 @@
           "taskCompletionTimeString": ""
         }
       ]
+    },
+    {
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
+      "tasks": [
+        {
+          "taskTitle": "Square Task",
+          "taskID": "go-no-go-variable-1",
+          "taskFileName": "go_no_go_variable_stimulus_full_task_copy",
+          "taskClassName": "CTFOrderedTask",
+          "taskCompletionTimeString": ""
+        }
+      ]
     }
   ]
 }
