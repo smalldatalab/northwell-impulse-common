@@ -25,7 +25,8 @@
         {
             "identifier":"zip_code",
             "type":"textfield",
-            "text":"What is your zip code?"
+            "text":"What is your zip code?",
+            "maximumLength": 5
         },
         {
             "identifier":"education",
@@ -291,7 +292,8 @@
             "identifier":"notes",
             "type":"textfield",
             "text":"Please contact us to finalize your participant in the study. Upon hearing from you, we will schedule your payment and answer any questions.",
-            "optional":true
+            "optional":true,
+            "multipleLines": true
         }
     ]
 }

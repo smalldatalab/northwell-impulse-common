@@ -1,8 +1,8 @@
 {
   "schedules": [
     {
-      "scheduleType": "once",
-      "delay": "P3D",
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
       "tasks": [
         {
           "taskTitle": "Baseline",
