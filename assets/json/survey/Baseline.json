@@ -276,7 +276,8 @@
         },
         {
           "identifier"   :   "PAMMultipleSelection",
-          "type"            : "PAMMultipleSelection"
+          "type"            : "PAMMultipleSelection",
+          "parameterFileName": "PAMMultipleSelection"
         },
         {
             "identifier":"morning_notification_time_picker",
