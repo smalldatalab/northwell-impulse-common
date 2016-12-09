@@ -240,12 +240,12 @@
             ]
         },
         {
-            "type"        : "CTFSemanticDifferentialForm",
+            "type"        : "CTFLikertForm",
             "identifier"       : "self_assessment_3",
             "parameterFileName": "self_assessment_3"
         },
         {
-            "type"        : "CTFSemanticDifferentialForm",
+            "type"        : "CTFLikertForm",
             "identifier"       : "self_assessment_4",
             "parameterFileName": "self_assessment_4"
         },
@@ -260,7 +260,7 @@
             "parameterFileName": "baseline_behaviors_1"
         },
         {
-            "type"        : "CTFSemanticDifferentialForm",
+            "type"        : "CTFLikertForm",
             "identifier"       : "self_assessment_7",
             "parameterFileName": "self_assessment_7"
         },

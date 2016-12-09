@@ -1,0 +1,15 @@
+{
+    "type":"elementList",
+    "elements":[
+      {
+          "type"        : "CTFLikertForm",
+          "identifier"       : "self_assessment_7",
+          "parameterFileName": "self_assessment_7"
+      },
+      {
+          "type"        : "CTFSemanticDifferentialForm",
+          "identifier"       : "self_assessment_8",
+          "parameterFileName": "self_assessment_8"
+      }
+    ]
+}

@@ -38,6 +38,19 @@
           "taskCompletionTimeString": ""
         }
       ]
+    },
+    {
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
+      "tasks": [
+        {
+          "taskTitle": "LikertSemDifTest",
+          "taskID": "d42cd8e9-c1d6-48ac-83c8-c435ee74",
+          "taskFileName": "LikertSemDifTest",
+          "taskClassName": "CTFOrderedTask",
+          "taskCompletionTimeString": "7 Questions"
+        }
+      ]
     }
   ]
 }

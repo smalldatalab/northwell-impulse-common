@@ -2,76 +2,100 @@
     "taskIdentifier": "am_1",
     "schemaIdentifier": "am_likert_1",
     "title": "Think about yesterday as a whole. Yesterday, I generally felt:",
-    "gradientColors": ["#1B75BB", "#FFFFFF", "#1B75BB"],
     "items" : [
       {
         "identifier"        : "positive_am",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
           "default"   : 5,
           "step": 1,
           "minValueText": "positive",
-          "maxValueText": "negative"
+          "maxValueText": "negative",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
         }
       },
       {
         "identifier"        : "intentional_am",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
           "default"   : 5,
           "step": 1,
           "minValueText": "impulsive",
-          "maxValueText": "intentional"
+          "maxValueText": "intentional",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
         }
       },
       {
         "identifier"        : "productive_am",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
           "default"   : 5,
           "step": 1,
           "minValueText": "productive",
-          "maxValueText": "unproductive"
+          "maxValueText": "unproductive",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
         }
       },
       {
         "identifier"        : "stressed_am",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
           "default"   : 5,
           "step": 1,
           "minValueText": "stressed",
-          "maxValueText": "relaxed"
+          "maxValueText": "relaxed",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
         }
       },
       {
         "identifier"        : "healthy_am",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
           "default"   : 5,
           "step": 1,
           "minValueText": "healthy",
-          "maxValueText": "unhealthy"
+          "maxValueText": "unhealthy",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
         }
       }
     ]

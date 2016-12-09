@@ -1,147 +1,196 @@
 {
     "taskIdentifier": "am_3",
     "schemaIdentifier": "am_likert_3",
-    "gradientColors": ["#1B75BB", "#FFFFFF", "#1B75BB"],
     "title": "For each of the following, please select which comes closest to how you feel right now:",
     "items" : [
       {
         "identifier"        : "focusnow_am",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
           "default"   : 5,
           "step": 1,
           "minValueText": "focused",
-          "maxValueText": "distracted"
+          "maxValueText": "distracted",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
         }
       },
       {
         "identifier"        : "intentionalnow_am",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
           "default"   : 5,
           "step": 1,
           "minValueText": "impulsive",
-          "maxValueText": "intentional"
+          "maxValueText": "intentional",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
         }
       },
       {
         "identifier"        : "borednow_am",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
           "default"   : 5,
           "step": 1,
           "minValueText": "bored",
-          "maxValueText": "engaged"
+          "maxValueText": "engaged",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
         }
       },
       {
         "identifier"        : "proudnow_am",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
           "default"   : 5,
           "step": 1,
           "minValueText": "proud",
-          "maxValueText": "ashamed"
+          "maxValueText": "ashamed",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
         }
       },
       {
         "identifier"        : "energeticnow_am",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
           "default"   : 5,
           "step": 1,
           "minValueText": "energetic",
-          "maxValueText": "tired"
+          "maxValueText": "tired",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
         }
       },
       {
         "identifier"        : "frustratednow_am",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
           "default"   : 5,
           "step": 1,
           "minValueText": "frustrated",
-          "maxValueText": "content"
+          "maxValueText": "content",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
         }
       },
       {
         "identifier"        : "cautiousnow_am",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
           "default"   : 5,
           "step": 1,
           "minValueText": "cautious",
-          "maxValueText": "wreckless"
+          "maxValueText": "wreckless",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
         }
       },
       {
         "identifier"        : "lonelynow_am",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
           "default"   : 5,
           "step": 1,
           "minValueText": "lonely",
-          "maxValueText": "connected"
+          "maxValueText": "connected",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
         }
       },
       {
         "identifier"        : "optimisticnow_am",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
           "default"   : 5,
           "step": 1,
           "minValueText": "optimistic",
-          "maxValueText": "pessimistic"
+          "maxValueText": "pessimistic",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
         }
       },
       {
         "identifier"        : "determinednow_am",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
           "default"   : 5,
           "step": 1,
           "minValueText": "determined",
-          "maxValueText": "aimless"
+          "maxValueText": "aimless",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
         }
       }
     ]
