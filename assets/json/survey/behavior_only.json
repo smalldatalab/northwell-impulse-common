@@ -1,0 +1,151 @@
+{
+  "type": "elementList",
+  "elements": [
+    {
+      "identifier": "baseline_behaviors_4",
+      "type": "multipleChoiceText",
+      "text": "Below is a list of behaviors that people may have trouble controlling. Please select UP TO 4 of the ones that you have the most trouble controlling.",
+      "valueSuffix": "_bl_4",
+      "shuffleItems": true,
+      "items": [
+        {
+          "prompt": "Eating unhealthy food",
+          "value": "junkfood"
+        },
+        {
+          "prompt": "Gambling",
+          "value": "gambling"
+        },
+        {
+          "prompt": "Smoking / Vaping",
+          "value": "smoke"
+        },
+        {
+          "prompt": "Mobile phone",
+          "value": "mobile"
+        },
+        {
+          "prompt": "Overeating (general)",
+          "value": "overeat"
+        },
+        {
+          "prompt": "Masturbation",
+          "value": "mast"
+        },
+        {
+          "prompt": "Cutting",
+          "value": "cut"
+        },
+        {
+          "prompt": "Social media",
+          "value": "smedia"
+        },
+        {
+          "prompt": "Alcohol",
+          "value": "alcohol"
+        },
+        {
+          "prompt": "Pornography",
+          "value": "porn"
+        },
+        {
+          "prompt": "Hair pulling / skin picking",
+          "value": "hair"
+        },
+        {
+          "prompt": "Gaming",
+          "value": "gaming"
+        },
+        {
+          "prompt": "Low movement/ activity",
+          "value": "sitting"
+        },
+        {
+          "prompt": "Spending / Shopping",
+          "value": "spend"
+        },
+        {
+          "prompt": "Temper",
+          "value": "temper"
+        },
+        {
+          "prompt": "Other",
+          "value": "othermore"
+        }
+      ]
+    },
+    {
+      "identifier": "baseline_behaviors_1",
+      "type": "singleChoiceText",
+      "text": "Please select the ONE behavior that you feel you have the most difficulty controlling and / or is the most bothersome for you.",
+      "valueSuffix": "_bl_1",
+      "shuffleItems": true,
+      "items": [
+        {
+          "prompt": "Eating unhealthy food",
+          "value": "junkfood"
+        },
+        {
+          "prompt": "Gambling",
+          "value": "gambling"
+        },
+        {
+          "prompt": "Smoking / Vaping",
+          "value": "smoke"
+        },
+        {
+          "prompt": "Mobile phone",
+          "value": "mobile"
+        },
+        {
+          "prompt": "Overeating (general)",
+          "value": "overeat"
+        },
+        {
+          "prompt": "Masturbation",
+          "value": "mast"
+        },
+        {
+          "prompt": "Cutting",
+          "value": "cut"
+        },
+        {
+          "prompt": "Social media",
+          "value": "smedia"
+        },
+        {
+          "prompt": "Alcohol",
+          "value": "alcohol"
+        },
+        {
+          "prompt": "Pornography",
+          "value": "porn"
+        },
+        {
+          "prompt": "Hair pulling / skin picking",
+          "value": "hair"
+        },
+        {
+          "prompt": "Gaming",
+          "value": "gaming"
+        },
+        {
+          "prompt": "Low movement/ activity",
+          "value": "sitting"
+        },
+        {
+          "prompt": "Spending / Shopping",
+          "value": "spend"
+        },
+        {
+          "prompt": "Temper",
+          "value": "temper"
+        },
+        {
+          "prompt": "Other",
+          "value": "othermore"
+        }
+      ]
+    }
+  ]
+}
