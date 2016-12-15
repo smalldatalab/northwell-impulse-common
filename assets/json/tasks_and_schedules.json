@@ -44,6 +44,19 @@
       "scheduleString": "* * * * *",
       "tasks": [
         {
+          "taskTitle": "BART",
+          "taskID": "bart-1",
+          "taskFileName": "bart_25_cents_full_task",
+          "taskClassName": "CTFOrderedTask",
+          "taskCompletionTimeString": ""
+        }
+      ]
+    },
+    {
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
+      "tasks": [
+        {
           "taskTitle": "LikertSemDifTest",
           "taskID": "d42cd8e9-c1d6-48ac-83c8-c435ee74",
           "taskFileName": "LikertSemDifTest",
