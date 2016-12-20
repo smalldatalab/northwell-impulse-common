@@ -71,7 +71,7 @@
             {
                 "taskTitle":"Morning Survey",
                 "taskID":"test_am_survey",
-                "taskFileName":"am_survey_bart_250_dollars",
+                "taskFileName":"am_survey_dd_time_6_month",
                 "taskClassName":"CTFOrderedTask",
                 "taskCompletionTimeString":"7 Questions"
             }
@@ -126,7 +126,7 @@
               },
               {
                 "tasks": [
-                  
+
                 ]
               }
 

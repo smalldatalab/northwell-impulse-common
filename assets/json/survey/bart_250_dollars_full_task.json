@@ -31,7 +31,7 @@
         "identifier"       : "bart_250_dollars_active_task",
         "parameters": {
           "numberOfTrials": 15,
-          "earningsPerPump": 250,
+          "earningsPerPump": 250.0,
           "maxPayingPumpsPerTrial": 10
         }
       },
