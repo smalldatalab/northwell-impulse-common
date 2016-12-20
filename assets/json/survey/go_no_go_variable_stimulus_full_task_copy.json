@@ -1,5 +1,6 @@
 {
   "type"      : "elementList",
+  "identifier": "go_no_go_variable_stimulus_full_intro",
   "elements"   : [
     {
       "identifier"   : "introduction_1",
@@ -34,7 +35,24 @@
     {
       "type"        : "CTFGoNoGoActiveStep",
       "identifier"       : "go_no_go_variable_stimulus_active_task",
-      "parameterFileName": "go_no_go_variable_stimulus_active_task"
+      "parameters": {
+        "numberOfTrials": 75,
+        "waitTime": 0.25,
+        "crossTime": 0.25,
+        "blankTime": 0.25,
+        "cueTimes": [
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5,
+          0.75
+        ],
+        "fillTime": 0.4,
+        "goCueProbability": 0.5,
+        "goCueTargetProbability": 0.7,
+        "noGoCueTargetProbability": 0.7
+      }
     },
     {
       "identifier"   : "results",
