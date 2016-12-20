@@ -1,6 +1,6 @@
 {
   "type"      : "elementList",
-  "identifier": "go_no_go_stable_stimulus_full_intro",
+  "identifier": "go_no_go_practice_full_intro",
   "elements"   : [
     {
       "identifier"   : "introduction_1",
@@ -34,16 +34,16 @@
     },
     {
       "type"        : "CTFGoNoGoActiveStep",
-      "identifier"       : "go_no_go_stable_stimulus_active_task",
+      "identifier"       : "go_no_go_practice",
       "parameters": {
-        "numberOfTrials": 75,
-        "waitTime": 0.25,
-        "crossTime": 0.25,
-        "blankTime": 0.25,
+        "numberOfTrials": 6,
+        "waitTime": 0.5,
+        "crossTime": 0.5,
+        "blankTime": 0.5,
         "cueTimes": [
-          0.25
+          0.5
         ],
-        "fillTime": 0.4,
+        "fillTime": 1.0,
         "goCueProbability": 0.5,
         "goCueTargetProbability": 0.7,
         "noGoCueTargetProbability": 0.7

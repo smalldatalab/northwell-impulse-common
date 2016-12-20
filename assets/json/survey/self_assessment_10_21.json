@@ -1,10 +1,10 @@
 {
-    "taskIdentifier": "self_assessment_baseline_10_21",
+    "taskIdentifier": "self_assessment_baseline_10",
     "schemaIdentifier": "sdffsd",
     "title": "Please think about the last three weeks when answering the following questions:",
     "items" : [
                {
-               "identifier"        : "Trackunderstand_21",
+               "identifier"        : "Trackunderstand",
                "text"              : "Tracking my behavior has helped me to understand myself better.",
                "type"              : "likert",
                "range"             : {
@@ -18,7 +18,7 @@
                }
                },
                {
-               "identifier"        : "Trackmorehealth_21",
+               "identifier"        : "Trackmorehealth",
                "text"              : "Tracking my behavior has helped me to reduce the amount that I engage in unhealthy behaviors.",
                "type"              : "likert",
                "range"             : {
@@ -32,7 +32,7 @@
                }
                },
                {
-               "identifier"        : "Tracklesshealth_21",
+               "identifier"        : "Tracklesshealth",
                "text"              : "Tracking my behavior has made me engage in unhealthy behaviors more than usual.",
                "type"              : "likert",
                "range"             : {

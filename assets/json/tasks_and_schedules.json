@@ -57,27 +57,6 @@
                 }
             ]
         },
-
-        {
-          "scheduleType":"recurring",
-          "scheduleString":"* * * * *",
-          "scheduleIdentifier":"test_am_survey",
-          "scheduleGUID":"test_am_survey-1",
-          "scheduleTitle":"TEST Morning Survey",
-          "activityType":"selectOneByDate",
-          "timeEstimate":"",
-          "trialActivity":true,
-          "tasks": [
-            {
-                "taskTitle":"Morning Survey",
-                "taskID":"test_am_survey",
-                "taskFileName":"am_survey_dd_time_6_month",
-                "taskClassName":"CTFOrderedTask",
-                "taskCompletionTimeString":"7 Questions"
-            }
-          ]
-
-        },
         {
             "scheduleType":"recurring",
             "scheduleString":"* * * * *",
@@ -126,67 +105,36 @@
               },
               {
                 "tasks": [
-
+                  {
+                      "taskTitle":"Morning Survey",
+                      "taskID":"am_survey_dd_money_1_month",
+                      "taskFileName":"am_survey_dd_money_1_month",
+                      "taskClassName":"CTFOrderedTask",
+                      "taskCompletionTimeString":"7 Questions"
+                  },
+                  {
+                      "taskTitle":"Morning Survey",
+                      "taskID":"am_survey_dd_money_6_month",
+                      "taskFileName":"am_survey_dd_money_6_month",
+                      "taskClassName":"CTFOrderedTask",
+                      "taskCompletionTimeString":"7 Questions"
+                  },
+                  {
+                      "taskTitle":"Morning Survey",
+                      "taskID":"am_survey_dd_time_1_month",
+                      "taskFileName":"am_survey_dd_time_1_month",
+                      "taskClassName":"CTFOrderedTask",
+                      "taskCompletionTimeString":"7 Questions"
+                  },
+                  {
+                      "taskTitle":"Morning Survey",
+                      "taskID":"am_survey_dd_time_6_month",
+                      "taskFileName":"am_survey_dd_time_6_month",
+                      "taskClassName":"CTFOrderedTask",
+                      "taskCompletionTimeString":"7 Questions"
+                  }
                 ]
               }
-
-
-            ]
-        },
-        {
-            "scheduleType":"recurring",
-            "scheduleString":"* * * * *",
-            "scheduleIdentifier":"am_survey",
-            "scheduleGUID":"am_survey-1",
-            "scheduleTitle":"Morning Survey",
-            "activityType":"selectOneByDate",
-            "timeEstimate":"",
-            "trialActivity":false,
-            "tasks":[
-                {
-                    "tasks":[
-                        {
-                            "taskTitle":"Morning Survey",
-                            "taskID":"am_survey_go_no_go_stable"
-                        },
-                        {
-                            "taskTitle":"Morning Survey",
-                            "taskID":"am_survey_go_no_go_variable"
-                        }
-                    ]
-                },
-                {
-                    "tasks":[
-                        {
-                            "taskTitle":"Morning Survey",
-                            "taskID":"am_survey_bart_25_cents"
-                        },
-                        {
-                            "taskTitle":"Morning Survey",
-                            "taskID":"am_survey_bart_250_dollars"
-                        }
-                    ]
-                },
-                {
-                    "tasks":[
-                        {
-                            "taskTitle":"Morning Survey",
-                            "taskID":"am_survey_dd_time_1_month"
-                        },
-                        {
-                            "taskTitle":"Morning Survey",
-                            "taskID":"am_survey_dd_time_6_month"
-                        },
-                        {
-                            "taskTitle":"Morning Survey",
-                            "taskID":"am_survey_dd_money_1_month"
-                        },
-                        {
-                            "taskTitle":"Morning Survey",
-                            "taskID":"am_survey_dd_money_6_month"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -201,50 +149,75 @@
             "tasks":[
                 {
                     "tasks":[
-                        {
-                            "taskTitle":"Evening Survey",
-                            "taskID":"pm_survey_go_no_go_stable"
-                        },
-                        {
-                            "taskTitle":"Evening Survey",
-                            "taskID":"pm_survey_go_no_go_variable"
-                        }
+                      {
+                          "taskTitle":"Evening Survey",
+                          "taskID":"pm_survey_go_no_go_stable",
+                          "taskFileName":"pm_survey_go_no_go_stable",
+                          "taskClassName":"CTFOrderedTask",
+                          "taskCompletionTimeString":"7 Questions"
+                      },
+                      {
+                          "taskTitle":"Evening Survey",
+                          "taskID":"pm_survey_go_no_go_variable",
+                          "taskFileName":"pm_survey_go_no_go_variable",
+                          "taskClassName":"CTFOrderedTask",
+                          "taskCompletionTimeString":"7 Questions"
+                      }
                     ]
                 },
                 {
                     "tasks":[
-                        {
-                            "taskTitle":"Evening Survey",
-                            "taskID":"pm_survey_bart_25_cents"
-                        },
-                        {
-                            "taskTitle":"Evening Survey",
-                            "taskID":"pm_survey_bart_250_dollars"
-                        }
+                      {
+                          "taskTitle":"Evening Survey",
+                          "taskID":"pm_survey_bart_25_cents",
+                          "taskFileName":"pm_survey_bart_25_cents",
+                          "taskClassName":"CTFOrderedTask",
+                          "taskCompletionTimeString":"7 Questions"
+                      },
+                      {
+                          "taskTitle":"Evening Survey",
+                          "taskID":"pm_survey_bart_250_dollars",
+                          "taskFileName":"pm_survey_bart_250_dollars",
+                          "taskClassName":"CTFOrderedTask",
+                          "taskCompletionTimeString":"7 Questions"
+                      }
                     ]
                 },
                 {
                     "tasks":[
-                        {
-                            "taskTitle":"Evening Survey",
-                            "taskID":"pm_survey_dd_time_1_month"
-                        },
-                        {
-                            "taskTitle":"Evening Survey",
-                            "taskID":"pm_survey_dd_time_6_month"
-                        },
-                        {
-                            "taskTitle":"Evening Survey",
-                            "taskID":"pm_survey_dd_money_1_month"
-                        },
-                        {
-                            "taskTitle":"Evening Survey",
-                            "taskID":"pm_survey_dd_money_6_month"
-                        }
+                      {
+                          "taskTitle":"Evening Survey",
+                          "taskID":"pm_survey_dd_money_1_month",
+                          "taskFileName":"pm_survey_dd_money_1_month",
+                          "taskClassName":"CTFOrderedTask",
+                          "taskCompletionTimeString":"7 Questions"
+                      },
+                      {
+                          "taskTitle":"Evening Survey",
+                          "taskID":"pm_survey_dd_money_6_month",
+                          "taskFileName":"pm_survey_dd_money_6_month",
+                          "taskClassName":"CTFOrderedTask",
+                          "taskCompletionTimeString":"7 Questions"
+                      },
+                      {
+                          "taskTitle":"Evening Survey",
+                          "taskID":"pm_survey_dd_time_1_month",
+                          "taskFileName":"pm_survey_dd_time_1_month",
+                          "taskClassName":"CTFOrderedTask",
+                          "taskCompletionTimeString":"7 Questions"
+                      },
+                      {
+                          "taskTitle":"Evening Survey",
+                          "taskID":"pm_survey_dd_time_6_month",
+                          "taskFileName":"pm_survey_dd_time_6_month",
+                          "taskClassName":"CTFOrderedTask",
+                          "taskCompletionTimeString":"7 Questions"
+                      }
                     ]
                 }
             ]
         },
+
         {
             "scheduleType":"recurring",
             "scheduleString":"* * * * *",
@@ -255,10 +228,13 @@
             "timeEstimate":"",
             "trialActivity":true,
             "tasks":[
-                {
-                    "taskTitle":"Go No Go Practice",
-                    "taskID":"Go No Go Practice Task"
-                }
+              {
+                  "taskTitle":"Square Task Practice",
+                  "taskID":"go_no_go_practice_full_task",
+                  "taskFileName":"go_no_go_practice_full_task",
+                  "taskClassName":"CTFOrderedTask",
+                  "taskCompletionTimeString":"7 Questions"
+              }
             ]
         },
         {
@@ -271,10 +247,13 @@
             "timeEstimate":"",
             "trialActivity":true,
             "tasks":[
-                {
-                    "taskTitle":"Go No Go Stable Stimulus",
-                    "taskID":"Go No Go Stable Stimulus Task"
-                }
+              {
+                  "taskTitle":"Square Task #1",
+                  "taskID":"go_no_go_stable_stimulus_full_task",
+                  "taskFileName":"go_no_go_stable_stimulus_full_task",
+                  "taskClassName":"CTFOrderedTask",
+                  "taskCompletionTimeString":"7 Questions"
+              }
             ]
         },
         {
@@ -287,10 +266,13 @@
             "timeEstimate":"",
             "trialActivity":true,
             "tasks":[
-                {
-                    "taskTitle":"Go No Go Stable Stimulus 500",
-                    "taskID":"Go No Go Stable Stimulus Task 500"
-                }
+              {
+                  "taskTitle":"Square Task #1 500",
+                  "taskID":"go_no_go_stable_stimulus_full_task_500",
+                  "taskFileName":"go_no_go_stable_stimulus_full_task_500",
+                  "taskClassName":"CTFOrderedTask",
+                  "taskCompletionTimeString":"7 Questions"
+              }
             ]
         },
         {
@@ -303,10 +285,13 @@
             "timeEstimate":"",
             "trialActivity":true,
             "tasks":[
-                {
-                    "taskTitle":"Go No Go Stable Stimulus 600",
-                    "taskID":"Go No Go Stable Stimulus Task 600"
-                }
+              {
+                  "taskTitle":"Square Task #1 600",
+                  "taskID":"go_no_go_stable_stimulus_full_task_600",
+                  "taskFileName":"go_no_go_stable_stimulus_full_task_600",
+                  "taskClassName":"CTFOrderedTask",
+                  "taskCompletionTimeString":"7 Questions"
+              }
             ]
         },
         {
@@ -319,10 +304,13 @@
             "timeEstimate":"",
             "trialActivity":true,
             "tasks":[
-                {
-                    "taskTitle":"Go No Go Stable Stimulus 700",
-                    "taskID":"Go No Go Stable Stimulus Task 700"
-                }
+              {
+                  "taskTitle":"Square Task #1 700",
+                  "taskID":"go_no_go_stable_stimulus_full_task_700",
+                  "taskFileName":"go_no_go_stable_stimulus_full_task_700",
+                  "taskClassName":"CTFOrderedTask",
+                  "taskCompletionTimeString":"7 Questions"
+              }
             ]
         },
         {
@@ -335,10 +323,13 @@
             "timeEstimate":"",
             "trialActivity":true,
             "tasks":[
-                {
-                    "taskTitle":"Go No Go Variable Stimulus",
-                    "taskID":"Go No Go Variable Stimulus Task"
-                }
+              {
+                  "taskTitle":"Square Task #2",
+                  "taskID":"go_no_go_variable_stimulus_full_task",
+                  "taskFileName":"go_no_go_variable_stimulus_full_task",
+                  "taskClassName":"CTFOrderedTask",
+                  "taskCompletionTimeString":"7 Questions"
+              }
             ]
         },
         {
@@ -351,10 +342,13 @@
             "timeEstimate":"",
             "trialActivity":true,
             "tasks":[
-                {
-                    "taskTitle":"BART $.25",
-                    "taskID":"bart_25_cents_full_task"
-                }
+              {
+                  "taskTitle":"BART $.25",
+                  "taskID":"bart_25_cents_full_task",
+                  "taskFileName":"bart_25_cents_full_task",
+                  "taskClassName":"CTFOrderedTask",
+                  "taskCompletionTimeString":"7 Questions"
+              }
             ]
         },
         {
@@ -367,10 +361,13 @@
             "timeEstimate":"",
             "trialActivity":true,
             "tasks":[
-                {
-                    "taskTitle":"BART $250",
-                    "taskID":"bart_250_dollars_full_task"
-                }
+              {
+                  "taskTitle":"BART $250",
+                  "taskID":"bart_250_dollars_full_task",
+                  "taskFileName":"bart_250_dollars_full_task",
+                  "taskClassName":"CTFOrderedTask",
+                  "taskCompletionTimeString":"7 Questions"
+              }
             ]
         },
         {
@@ -383,10 +380,13 @@
             "timeEstimate":"",
             "trialActivity":true,
             "tasks":[
-                {
-                    "taskTitle":"Delay Discounting Money 1 Month",
-                    "taskID":"delayDiscounting_Money_1Month_full_task"
-                }
+              {
+                  "taskTitle":"Now and Later #1",
+                  "taskID":"dd_money_1_month_full_task",
+                  "taskFileName":"dd_money_1_month_full_task",
+                  "taskClassName":"CTFOrderedTask",
+                  "taskCompletionTimeString":"7 Questions"
+              }
             ]
         },
         {
@@ -399,10 +399,13 @@
             "timeEstimate":"",
             "trialActivity":true,
             "tasks":[
-                {
-                    "taskTitle":"Delay Discounting Money 6 Months",
-                    "taskID":"delayDiscounting_Money_6Month_full_task"
-                }
+              {
+                  "taskTitle":"Now and Later #2",
+                  "taskID":"dd_money_6_month_full_task",
+                  "taskFileName":"dd_money_6_month_full_task",
+                  "taskClassName":"CTFOrderedTask",
+                  "taskCompletionTimeString":"7 Questions"
+              }
             ]
         },
         {
@@ -415,10 +418,13 @@
             "timeEstimate":"",
             "trialActivity":true,
             "tasks":[
-                {
-                    "taskTitle":"Delay Discounting 4",
-                    "taskID":"delayDiscounting_Time_1Month_full_task"
-                }
+              {
+                  "taskTitle":"Now and Later #3",
+                  "taskID":"dd_time_1_month_full_task",
+                  "taskFileName":"dd_time_1_month_full_task",
+                  "taskClassName":"CTFOrderedTask",
+                  "taskCompletionTimeString":"7 Questions"
+              }
             ]
         },
         {
@@ -431,10 +437,13 @@
             "timeEstimate":"",
             "trialActivity":true,
             "tasks":[
-                {
-                    "taskTitle":"Delay Discounting Time 6 Months",
-                    "taskID":"delayDiscounting_Time_6Month_full_task"
-                }
+              {
+                  "taskTitle":"Now and Later #5",
+                  "taskID":"dd_time_6_month_full_task",
+                  "taskFileName":"dd_time_6_month_full_task",
+                  "taskClassName":"CTFOrderedTask",
+                  "taskCompletionTimeString":"7 Questions"
+              }
             ]
         }
     ]

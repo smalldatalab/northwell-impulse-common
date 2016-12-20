@@ -1,0 +1,207 @@
+{
+    "taskIdentifier": "pm_1",
+    "schemaIdentifier": "pm_likert_1",
+    "title": "For each of the following, please select which comes closest to how you feel right now:",
+    "items" : [
+      {
+        "identifier"        : "focusnow_pm",
+        "text"              : "",
+        "type"              : "semanticDifferential",
+        "trackHeight"       : 8,
+        "range"             : {
+          "min"     : 0,
+          "max"      : 10,
+          "default"   : 5,
+          "step": 1,
+          "minValueText": "focused",
+          "maxValueText": "distracted",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
+        }
+      },
+      {
+        "identifier"        : "intentionalnow_pm",
+        "text"              : "",
+        "type"              : "semanticDifferential",
+        "trackHeight"       : 8,
+        "range"             : {
+          "min"     : 0,
+          "max"      : 10,
+          "default"   : 5,
+          "step": 1,
+          "minValueText": "impulsive",
+          "maxValueText": "intentional",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
+        }
+      },
+      {
+        "identifier"        : "borednow_pm",
+        "text"              : "",
+        "type"              : "semanticDifferential",
+        "trackHeight"       : 8,
+        "range"             : {
+          "min"     : 0,
+          "max"      : 10,
+          "default"   : 5,
+          "step": 1,
+          "minValueText": "bored",
+          "maxValueText": "engaged",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
+        }
+      },
+      {
+        "identifier"        : "proudnow_pm",
+        "text"              : "",
+        "type"              : "semanticDifferential",
+        "trackHeight"       : 8,
+        "range"             : {
+          "min"     : 0,
+          "max"      : 10,
+          "default"   : 5,
+          "step": 1,
+          "minValueText": "proud",
+          "maxValueText": "ashamed",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
+        }
+      },
+      {
+        "identifier"        : "energeticnow_pm",
+        "text"              : "",
+        "type"              : "semanticDifferential",
+        "trackHeight"       : 8,
+        "range"             : {
+          "min"     : 0,
+          "max"      : 10,
+          "default"   : 5,
+          "step": 1,
+          "minValueText": "energetic",
+          "maxValueText": "tired",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
+        }
+      },
+      {
+        "identifier"        : "frustratednow_pm",
+        "text"              : "",
+        "type"              : "semanticDifferential",
+        "trackHeight"       : 8,
+        "range"             : {
+          "min"     : 0,
+          "max"      : 10,
+          "default"   : 5,
+          "step": 1,
+          "minValueText": "frustrated",
+          "maxValueText": "content",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
+        }
+      },
+      {
+        "identifier"        : "cautiousnow_pm",
+        "text"              : "",
+        "type"              : "semanticDifferential",
+        "trackHeight"       : 8,
+        "range"             : {
+          "min"     : 0,
+          "max"      : 10,
+          "default"   : 5,
+          "step": 1,
+          "minValueText": "cautious",
+          "maxValueText": "wreckless",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
+        }
+      },
+      {
+        "identifier"        : "lonelynow_pm",
+        "text"              : "",
+        "type"              : "semanticDifferential",
+        "trackHeight"       : 8,
+        "range"             : {
+          "min"     : 0,
+          "max"      : 10,
+          "default"   : 5,
+          "step": 1,
+          "minValueText": "lonely",
+          "maxValueText": "connected",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
+        }
+      },
+      {
+        "identifier"        : "optimisticnow_pm",
+        "text"              : "",
+        "type"              : "semanticDifferential",
+        "trackHeight"       : 8,
+        "range"             : {
+          "min"     : 0,
+          "max"      : 10,
+          "default"   : 5,
+          "step": 1,
+          "minValueText": "optimistic",
+          "maxValueText": "pessimistic",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
+        }
+      },
+      {
+        "identifier"        : "determinednow_pm",
+        "text"              : "",
+        "type"              : "semanticDifferential",
+        "trackHeight"       : 8,
+        "range"             : {
+          "min"     : 0,
+          "max"      : 10,
+          "default"   : 5,
+          "step": 1,
+          "minValueText": "determined",
+          "maxValueText": "aimless",
+          "trackHeight":8,
+          "gradientColors":[
+              "#1B75BB",
+              "#FFFFFF",
+              "#1B75BB"
+          ]
+        }
+      }
+    ]
+}

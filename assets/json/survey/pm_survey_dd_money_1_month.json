@@ -1,0 +1,20 @@
+{
+  "type"    : "elementList",
+  "identifier": "pm_survey_dd_money_1_month",
+  "elements"         : [
+    {
+      "type"        : "CTFSemanticDifferentialForm",
+      "identifier"       : "pm_1",
+      "parameterFileName": "pm_likert_1"
+    },
+    {
+      "identifier"   :   "PAM",
+      "type"            : "PAM"
+    },
+    {
+      "identifier"    : "file_ref",
+      "type"          : "elementFile",
+      "elementFileName" : "dd_money_1_month_short_task"
+    }
+  ]
+}
