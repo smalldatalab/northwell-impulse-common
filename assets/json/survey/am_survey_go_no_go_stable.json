@@ -27,9 +27,9 @@
         "type"            : "PAM"
       },
       {
-        "identifier"    : "go_no_go_variable_stimulus_file_ref",
+        "identifier"    : "go_no_go_stable_stimulus_file_ref",
         "type"          : "elementFile",
-        "elementFileName" : "go_no_go_variable_stimulus_short_task"
+        "elementFileName" : "go_no_go_stable_stimulus_short_task"
       }
     ]
 }
