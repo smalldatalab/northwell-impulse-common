@@ -1,6 +1,6 @@
 {
   "type"      : "elementList",
-  "identifier": "bart_25_cents_full_intro",
+  "identifier": "bart_250_dollars_full_intro",
   "elements"   : [
     {
        "identifier"   : "introduction_1",
@@ -18,7 +18,7 @@
        "identifier"   : "introduction_3",
        "type"         : "instruction",
        "title"        : "",
-       "text"         : "You earn (.25 cents) for each pump, but if the balloon pops, you lose the money you earned on that balloon. The balloon can pop at anytime."
+       "text"         : "You earn (250 dollars) for each pump, but if the balloon pops, you lose the money you earned on that balloon. The balloon can pop at anytime."
      },
      {
        "identifier"   : "introduction_4",
@@ -28,10 +28,10 @@
      },
       {
         "type"        : "CTFBARTActiveStep",
-        "identifier"       : "bart_25_cents_active_task",
+        "identifier"       : "bart_250_dollars_active_task",
         "parameters": {
           "numberOfTrials": 15,
-          "earningsPerPump": 0.25,
+          "earningsPerPump": 250,
           "maxPayingPumpsPerTrial": 10
         }
       },

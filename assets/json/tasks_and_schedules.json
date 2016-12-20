@@ -70,8 +70,8 @@
           "tasks": [
             {
                 "taskTitle":"Morning Survey",
-                "taskID":"am_survey_go_no_go_stable",
-                "taskFileName":"am_survey_go_no_go_stable",
+                "taskID":"test_am_survey",
+                "taskFileName":"am_survey_bart_250_dollars",
                 "taskClassName":"CTFOrderedTask",
                 "taskCompletionTimeString":"7 Questions"
             }
@@ -104,6 +104,29 @@
                       "taskClassName":"CTFOrderedTask",
                       "taskCompletionTimeString":"7 Questions"
                   }
+                ]
+              },
+              {
+                "tasks": [
+                  {
+                      "taskTitle":"Morning Survey",
+                      "taskID":"am_survey_bart_25_cents",
+                      "taskFileName":"am_survey_bart_25_cents",
+                      "taskClassName":"CTFOrderedTask",
+                      "taskCompletionTimeString":"7 Questions"
+                  },
+                  {
+                      "taskTitle":"Morning Survey",
+                      "taskID":"test_am_survey",
+                      "taskFileName":"am_survey_bart_250_dollars",
+                      "taskClassName":"CTFOrderedTask",
+                      "taskCompletionTimeString":"7 Questions"
+                  }
+                ]
+              },
+              {
+                "tasks": [
+                  
                 ]
               }
 
