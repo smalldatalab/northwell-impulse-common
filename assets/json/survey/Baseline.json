@@ -45,7 +45,7 @@
       "identifier": "zip_code",
       "type": "textfield",
       "text": "What is your zip code?",
-      "validationRegex": "[0-9]{5}",
+      "validationRegex": "^[0-9]{5}$",
       "invalidMessage": "Please enter a valid zip code."
     },
     {
