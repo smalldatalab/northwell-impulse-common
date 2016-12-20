@@ -22,76 +22,356 @@
     {
       "scheduleType": "recurring",
       "scheduleString": "* * * * *",
-      "scheduleTitle": "Morning Survey",
-      "scheduleIdentifier": "morning_survey",
-      "scheduleGUID": "morning_survey-1",
+      "scheduleTitle": "Reenrollment",
+      "scheduleIdentifier": "reenrollment",
+      "scheduleGUID": "reenrollment-1",
       "activityType": "sequential",
-      "trialActivity": true,
       "timeEstimate": "",
+      "trialActivity": true,
       "tasks": [
         {
-          "taskTitle": "Morning Survey",
-          "taskID": "morning_survey-1",
-          "taskFileName": "am_survey_go_no_go_variable",
-          "taskClassName": "CTFOrderedTask",
-          "taskCompletionTimeString": ""
-        }
-      ]
-    },
-    {
-      "scheduleType": "recurring",
-      "scheduleString": "* * * * *",
-      "scheduleTitle": "Square Task",
-      "scheduleIdentifier": "square_task",
-      "scheduleGUID": "square_task-1",
-      "activityType": "sequential",
-      "trialActivity": true,
-      "timeEstimate": "",
-      "tasks": [
-        {
-          "taskTitle": "Square Task",
-          "taskID": "go-no-go-variable-1",
-          "taskFileName": "go_no_go_variable_stimulus_full_task_copy",
-          "taskClassName": "CTFOrderedTask",
-          "taskCompletionTimeString": ""
-        }
-      ]
-    },
-    {
-      "scheduleType": "recurring",
-      "scheduleString": "* * * * *",
-      "scheduleTitle": "BART",
-      "scheduleIdentifier": "bart",
-      "scheduleGUID": "bart-1",
-      "activityType": "sequential",
-      "trialActivity": true,
-      "timeEstimate": "",
-      "tasks": [
-        {
-          "taskTitle": "BART",
-          "taskID": "bart-1",
-          "taskFileName": "bart_25_cents_full_task",
-          "taskClassName": "CTFOrderedTask",
-          "taskCompletionTimeString": ""
-        }
-      ]
-    },
-    {
-      "scheduleType": "recurring",
-      "scheduleString": "* * * * *",
-      "scheduleTitle": "LikertSemDifTest",
-      "scheduleIdentifier": "LikertSemDifTest",
-      "scheduleGUID": "LikertSemDifTest-1",
-      "activityType": "sequential",
-      "trialActivity": true,
-      "timeEstimate": "",
-      "tasks": [
-        {
-          "taskTitle": "LikertSemDifTest",
-          "taskID": "d42cd8e9-c1d6-48ac-83c8-c435ee74",
-          "taskFileName": "LikertSemDifTest",
+          "taskTitle": "Reenrollment",
+          "taskID": "Reenrollment",
+          "taskFileName": "Reenrollment",
           "taskClassName": "CTFOrderedTask",
           "taskCompletionTimeString": "7 Questions"
+        }
+      ]
+    },
+
+    {
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
+      "scheduleTitle": "21-Day Assessment",
+      "scheduleIdentifier": "21-day-assessment",
+      "scheduleGUID": "21-day-assessment-1",
+      "activityType": "sequential",
+      "timeEstimate": "",
+      "trialActivity": true,
+      "tasks": [
+        {
+          "taskTitle": "21-Day Assessment",
+          "taskID": "21Day",
+          "taskFileName": "Day_21",
+          "taskClassName": "CTFOrderedTask",
+          "taskCompletionTimeString": "7 Questions"
+        }
+      ]
+    },
+
+{
+
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
+      "scheduleIdentifier": "am_survey",
+      "scheduleGUID": "am_survey-1",
+      "scheduleTitle": "Morning Survey",
+      "activityType": "selectOneByDate",
+      "timeEstimate": "",
+      "trialActivity": false,
+      "tasks": [
+        {
+          "tasks":  [
+            {
+              "taskTitle": "Morning Survey",
+              "taskID": "am_survey_go_no_go_stable"
+            },
+            {
+              "taskTitle": "Morning Survey",
+              "taskID": "am_survey_go_no_go_variable"
+            }
+          ]
+        },
+        {
+          "tasks":  [
+            {
+              "taskTitle": "Morning Survey",
+              "taskID": "am_survey_bart_25_cents"
+            },
+            {
+              "taskTitle": "Morning Survey",
+              "taskID": "am_survey_bart_250_dollars"
+            }
+          ]
+        },
+        {
+          "tasks":  [
+            {
+              "taskTitle": "Morning Survey",
+              "taskID": "am_survey_dd_time_1_month"
+            },
+            {
+              "taskTitle": "Morning Survey",
+              "taskID": "am_survey_dd_time_6_month"
+            },
+            {
+              "taskTitle": "Morning Survey",
+              "taskID": "am_survey_dd_money_1_month"
+            },
+            {
+              "taskTitle": "Morning Survey",
+              "taskID": "am_survey_dd_money_6_month"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
+      "scheduleIdentifier": "pm_survey",
+      "scheduleGUID": "pm_survey-1",
+      "scheduleTitle": "Evening Survey",
+      "activityType": "selectOneByDate",
+      "timeEstimate": "",
+      "trialActivity": false,
+      "tasks": [
+        {
+          "tasks": [
+            {
+              "taskTitle": "Evening Survey",
+              "taskID": "pm_survey_go_no_go_stable"
+            },
+            {
+              "taskTitle": "Evening Survey",
+              "taskID": "pm_survey_go_no_go_variable"
+            }
+          ]
+        },
+        {
+          "tasks": [
+            {
+              "taskTitle": "Evening Survey",
+              "taskID": "pm_survey_bart_25_cents"
+            },
+            {
+              "taskTitle": "Evening Survey",
+              "taskID": "pm_survey_bart_250_dollars"
+            }
+          ]
+        },
+        {
+          "tasks": [
+            {
+              "taskTitle": "Evening Survey",
+              "taskID": "pm_survey_dd_time_1_month",
+            },
+            {
+              "taskTitle": "Evening Survey",
+              "taskID": "pm_survey_dd_time_6_month",
+            },
+            {
+              "taskTitle": "Evening Survey",
+              "taskID": "pm_survey_dd_money_1_month",
+            },
+            {
+              "taskTitle": "Evening Survey",
+              "taskID": "pm_survey_dd_money_6_month"
+            }
+          ]
+        },
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
+      "scheduleTitle": "Square Task Practice",
+      "scheduleIdentifier": "go-no-go-practice",
+      "scheduleGUID": "go-no-go-practice-1",
+      "activityType": "sequential",
+      "timeEstimate": "",
+      "trialActivity": true,
+      "tasks": [
+        {
+          "taskTitle": "Go No Go Practice",
+          "taskID": "Go No Go Practice Task",
+        }
+      ]
+    },
+    {
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
+      "scheduleTitle": "Square Task #1",
+      "scheduleIdentifier": "go-no-go-stable",
+      "scheduleGUID": "go-no-go-stable-1",
+      "activityType": "sequential",
+      "timeEstimate": "",
+      "trialActivity": true,
+      "tasks": [
+        {
+          "taskTitle": "Go No Go Stable Stimulus",
+          "taskID": "Go No Go Stable Stimulus Task"
+        }
+      ]
+    },
+    {
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
+      "scheduleTitle": "Square Task #1 500",
+      "scheduleIdentifier": "go-no-go-stable-500",
+      "scheduleGUID": "go-no-go-stable-500-1",
+      "activityType": "sequential",
+      "timeEstimate": "",
+      "trialActivity": true,
+      "tasks": [
+        {
+          "taskTitle": "Go No Go Stable Stimulus 500",
+          "taskID": "Go No Go Stable Stimulus Task 500"
+        }
+      ]
+    },
+    {
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
+      "scheduleTitle": "Square Task #1 600",
+      "scheduleIdentifier": "go-no-go-stable-600",
+      "scheduleGUID": "go-no-go-stable-600-1",
+      "activityType": "sequential",
+      "timeEstimate": "",
+      "trialActivity": true,
+      "tasks": [
+        {
+          "taskTitle": "Go No Go Stable Stimulus 600",
+          "taskID": "Go No Go Stable Stimulus Task 600"
+        }
+      ]
+    },
+    {
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
+      "scheduleTitle": "Square Task #1 700",
+      "scheduleIdentifier": "go-no-go-stable-700",
+      "scheduleGUID": "go-no-go-stable-700-1",
+      "activityType": "sequential",
+      "timeEstimate": "",
+      "trialActivity": true,
+      "tasks": [
+        {
+          "taskTitle": "Go No Go Stable Stimulus 700",
+          "taskID": "Go No Go Stable Stimulus Task 700"
+        }
+      ]
+    },
+    {
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
+      "scheduleTitle": "Square Task #2",
+      "scheduleIdentifier": "go-no-go-variable",
+      "scheduleGUID": "go-no-go-variable-1",
+      "activityType": "sequential",
+      "timeEstimate": "",
+      "trialActivity": true,
+      "tasks": [
+        {
+          "taskTitle": "Go No Go Variable Stimulus",
+          "taskID": "Go No Go Variable Stimulus Task"
+        }
+      ]
+    },
+    {
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
+      "scheduleTitle": "BART $.25",
+      "scheduleIdentifier": "bart.25",
+      "scheduleGUID": "bart.25-1",
+      "activityType": "sequential",
+      "timeEstimate": "",
+      "trialActivity": true,
+      "tasks": [
+        {
+          "taskTitle": "BART $.25",
+          "taskID": "bart_25_cents_full_task"
+        }
+      ]
+    },
+    {
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
+      "scheduleTitle": "BART$250",
+      "scheduleIdentifier": "bart250",
+      "scheduleGUID": "bart250-1",
+      "activityType": "sequential",
+      "timeEstimate": "",
+      "trialActivity": true,
+      "tasks": [
+        {
+          "taskTitle": "BART $250",
+          "taskID": "bart_250_dollars_full_task"
+        }
+      ]
+    }
+
+    {
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
+      "scheduleTitle": "Now and Later #1",
+      "scheduleIdentifier": "DD_Money_1Month",
+      "scheduleGUID": "DD_Money_1Month-1",
+      "activityType": "sequential",
+      "timeEstimate": "",
+      "trialActivity": true,
+      "tasks": [
+        {
+          "taskTitle": "Delay Discounting Money 1 Month",
+          "taskID": "delayDiscounting_Money_1Month_full_task"
+        }
+      ]
+    },
+    {
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
+      "scheduleTitle": "Now and Later #2",
+      "scheduleIdentifier": "DD_Money_6Months",
+      "scheduleGUID": "DD_Money_6Months-1",
+      "activityType": "sequential",
+      "timeEstimate": "",
+      "trialActivity": true,
+      "tasks": [
+        {
+          "taskTitle": "Delay Discounting Money 6 Months",
+          "taskID": "delayDiscounting_Money_6Month_full_task"
+        }
+      ]
+    },
+    {
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
+      "scheduleTitle": "Now and Later #3",
+      "scheduleIdentifier": "DD_Time_1Month",
+      "scheduleGUID": "DD_Time_1Month-1",
+      "activityType": "sequential",
+      "timeEstimate": "",
+      "trialActivity": true,
+      "tasks": [
+        {
+          "taskTitle": "Delay Discounting 4",
+          "taskID": "delayDiscounting_Time_1Month_full_task"
+        }
+      ]
+    },
+    {
+      "scheduleType": "recurring",
+      "scheduleString": "* * * * *",
+      "scheduleTitle": "Now and Later #4",
+      "scheduleIdentifier": "DD_Time_6Months",
+      "scheduleGUID": "DD_Time_6Months-1",
+      "activityType": "sequential",
+      "timeEstimate": "",
+      "trialActivity": true,
+      "tasks": [
+        {
+          "taskTitle": "Delay Discounting Time 6 Months",
+          "taskID": "delayDiscounting_Time_6Month_full_task"
         }
       ]
     }

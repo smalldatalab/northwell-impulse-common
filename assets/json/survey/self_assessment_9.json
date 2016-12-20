@@ -4,7 +4,7 @@
     "title":"I am generally more:",
     "items":[
         {
-            "identifier":"frustrated_bl",
+            "identifier":"frustrated",
             "text":"",
             "type":"semanticDifferential",
             "range":{
@@ -23,7 +23,7 @@
             }
         },
         {
-            "identifier":"cautious_bl",
+            "identifier":"cautious",
             "text":"",
             "type":"semanticDifferential",
             "trackHeight":8,
@@ -43,7 +43,7 @@
             }
         },
         {
-            "identifier":"sad_bl",
+            "identifier":"sad",
             "text":"",
             "type":"semanticDifferential",
             "trackHeight":8,
@@ -63,7 +63,7 @@
             }
         },
         {
-            "identifier":"lonely_bl",
+            "identifier":"lonely",
             "text":"",
             "type":"semanticDifferential",
             "trackHeight":8,
@@ -83,7 +83,7 @@
             }
         },
         {
-            "identifier":"optimistic_bl",
+            "identifier":"optimistic",
             "text":"",
             "type":"semanticDifferential",
             "trackHeight":8,
@@ -103,7 +103,7 @@
             }
         },
         {
-            "identifier":"determined_bl",
+            "identifier":"determined",
             "text":"",
             "type":"semanticDifferential",
             "trackHeight":8,
@@ -123,7 +123,7 @@
             }
         },
         {
-            "identifier":"stressed_bl",
+            "identifier":"stressed",
             "text":"",
             "type":"semanticDifferential",
             "trackHeight":8,
@@ -143,7 +143,7 @@
             }
         },
         {
-            "identifier":"positive_bl",
+            "identifier":"positive",
             "text":"",
             "type":"semanticDifferential",
             "trackHeight":8,
@@ -163,7 +163,7 @@
             }
         },
         {
-            "identifier":"healthy_bl",
+            "identifier":"healthy",
             "text":"",
             "type":"semanticDifferential",
             "trackHeight":8,
@@ -183,7 +183,7 @@
             }
         },
         {
-            "identifier":"productive_bl",
+            "identifier":"productive",
             "text":"",
             "type":"semanticDifferential",
             "trackHeight":8,

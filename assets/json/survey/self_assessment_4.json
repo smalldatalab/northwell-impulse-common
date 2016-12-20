@@ -4,7 +4,7 @@
     "title":"For the following questions, please think about your experiences over the past year.",
     "items":[
         {
-            "identifier":"taskpers_2_bl",
+            "identifier":"taskpers_2",
             "text":"I have difficulty completing tasks that require me to stay focused for long periods.",
             "type":"likert",
             "range":{
@@ -18,7 +18,7 @@
             }
         },
         {
-            "identifier":"socialtemp_bl",
+            "identifier":"socialtemp",
             "text":"I do things I later regret because I get influenced by other people.",
             "type":"likert",
             "range":{
@@ -32,7 +32,7 @@
             }
         },
         {
-            "identifier":"socialcomp_bl",
+            "identifier":"socialcomp",
             "text":"I feel other people have better lives than I do.",
             "type":"likert",
             "range":{
@@ -46,7 +46,7 @@
             }
         },
         {
-            "identifier":"socialblock_bl",
+            "identifier":"socialblock",
             "text":"When it comes to meeting my goals, I feel blocked by other people and situations beyond my control.",
             "type":"likert",
             "range":{
@@ -60,7 +60,7 @@
             }
         },
         {
-            "identifier":"bored_bl",
+            "identifier":"bored",
             "text":"I get bored easily.",
             "type":"likert",
             "range":{
@@ -74,7 +74,7 @@
             }
         },
         {
-            "identifier":"posoutcome_bl",
+            "identifier":"posoutcome",
             "text":"When starting new experiences, I tend to think things will work out.",
             "type":"likert",
             "range":{
@@ -88,7 +88,7 @@
             }
         },
         {
-            "identifier":"fomo_bl",
+            "identifier":"fomo",
             "text":"I feel like I am missing out on fun activities going on around me.",
             "type":"likert",
             "range":{
@@ -102,7 +102,7 @@
             }
         },
         {
-            "identifier":"taskper_3_bl",
+            "identifier":"taskper_3",
             "text":"I continue towards my goals that I set for myself, even when there are obstacles.",
             "type":"likert",
             "range":{
@@ -116,7 +116,7 @@
             }
         },
         {
-            "identifier":"leisuretime_bl",
+            "identifier":"leisuretime",
             "text":"I have enough time and money for leisure and hobbies that I enjoy.",
             "type":"likert",
             "range":{
@@ -130,7 +130,7 @@
             }
         },
         {
-            "identifier":"jealous_bl",
+            "identifier":"jealous",
             "text":"I have never been jealous of a friend’s success.",
             "type":"likert",
             "range":{
@@ -144,7 +144,7 @@
             }
         },
         {
-            "identifier":"hope_bl",
+            "identifier":"hope",
             "text":"I believe I will be content and satisfied with my life as I grow older.",
             "type":"likert",
             "range":{
@@ -158,7 +158,7 @@
             }
         },
         {
-            "identifier":"grateful_bl",
+            "identifier":"grateful",
             "text":"I am grateful and appreciative about my life and circumstances.",
             "type":"likert",
             "range":{
@@ -172,7 +172,7 @@
             }
         },
         {
-            "identifier":"social_bl",
+            "identifier":"social",
             "text":"Most of the people I spend time with are a positive influence on my health and well-being.",
             "type":"likert",
             "range":{
@@ -186,7 +186,7 @@
             }
         },
         {
-            "identifier":"childsensation_bl",
+            "identifier":"childsensation",
             "text":"As I child, I was a sensation seeker who took risks.",
             "type":"likert",
             "range":{
@@ -200,7 +200,7 @@
             }
         },
         {
-            "identifier":"childadd_bl",
+            "identifier":"childadd",
             "text":"As a child, I had difficulty staying focused  in school.",
             "type":"likert",
             "range":{
@@ -214,7 +214,7 @@
             }
         },
         {
-            "identifier":"childpoor_bl",
+            "identifier":"childpoor",
             "text":"As a child, my family was considered poor.",
             "type":"likert",
             "range":{
@@ -228,7 +228,7 @@
             }
         },
         {
-            "identifier":"poornow_bl",
+            "identifier":"poornow",
             "text":"I have difficulty making ends meet financially.",
             "type":"likert",
             "range":{

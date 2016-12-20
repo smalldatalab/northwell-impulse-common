@@ -1,0 +1,76 @@
+{
+    "type":"elementList",
+    "identifier":"21Day",
+    "elements":[
+        {
+            "identifier":"introduction",
+            "type":"instruction",
+            "title":"21-Day Survey",
+            "text":"Thank you for your participation in the study over the last 21 days. This survey is similar to your first assessment and  will take approximately 15 minutes to complete."
+        },
+        {
+            "type":"CTFLikertForm",
+            "identifier":"self_assessment_3",
+            "parameterFileName":"self_assessment_3"
+        },
+        {
+            "type":"CTFLikertForm",
+            "identifier":"self_assessment_4",
+            "parameterFileName":"self_assessment_4"
+        },
+        {
+            "type":"CTFLikertForm",
+            "identifier":"self_assessment_7",
+            "parameterFileName":"self_assessment_7"
+        },
+        {
+            "type":"CTFSemanticDifferentialForm",
+            "identifier":"self_assessment_8",
+            "parameterFileName":"self_assessment_8"
+        },
+        {
+            "type":"CTFSemanticDifferentialForm",
+            "identifier":"self_assessment_9",
+            "parameterFileName":"self_assessment_9"
+        },
+        {
+            "identifier":"PAMMultipleSelection",
+            "type":"PAMMultipleSelection",
+            "parameterFileName":"PAMMultipleSelection"
+        },
+        {
+            "identifier":"notes_1",
+            "type":"textfield",
+            "text":"What would you change about the game-like tasks you completed?",
+            "optional":true,
+            "multipleLines": true
+        },
+        {
+            "identifier":"notes_2",
+            "type":"textfield",
+            "text":"What would you change about the questions you completed?",
+            "optional":true,
+            "multipleLines": true
+        },
+        {
+            "identifier":"notes_3",
+            "type":"textfield",
+            "text":"What do you recommend we give people feedback on after they complete the assessment?",
+            "optional":true,
+            "multipleLines": true
+        },
+        {
+            "identifier":"notes_4",
+            "type":"textfield",
+            "text":"What would you say to someone who was having trouble resisting the temptation to act in an unhealthy way in the moment?",
+            "optional":true,
+            "multipleLines": true
+        },
+        {
+            "identifier":"results",
+            "type":"instruction",
+            "title":"Thank you",
+            "text":"Please contact us to finalize your participation in the study. Upon hearing from you, we will schedule your payment and discuss your reactions to the study!"
+        }
+    ]
+}

@@ -10,7 +10,7 @@
     "text":"Below is a list of two opposite feelings, thoughts, or behaviors. Use the slider to choose where you generally fall between each pair of opposites. For example, if you are someone who gets distracted or has trouble focusing, you would move the slider closer to the 'distracted' side.",
     "items":[
         {
-            "identifier":"confusion_bl",
+            "identifier":"confusion",
             "text":"",
             "type":"semanticDifferential",
             "range":{
@@ -29,7 +29,7 @@
             }
         },
         {
-            "identifier":"focus_bl",
+            "identifier":"focus",
             "text":"",
             "type":"semanticDifferential",
             "range":{
@@ -48,7 +48,7 @@
             }
         },
         {
-            "identifier":"organized_bl",
+            "identifier":"organized",
             "text":"",
             "type":"semanticDifferential",
             "range":{
@@ -67,7 +67,7 @@
             }
         },
         {
-            "identifier":"intentional_bl",
+            "identifier":"intentional",
             "text":"",
             "type":"semanticDifferential",
             "range":{
@@ -86,7 +86,7 @@
             }
         },
         {
-            "identifier":"bored_bl",
+            "identifier":"bored",
             "text":"",
             "type":"semanticDifferential",
             "range":{
@@ -105,7 +105,7 @@
             }
         },
         {
-            "identifier":"proud_bl",
+            "identifier":"proud",
             "text":"",
             "type":"semanticDifferential",
             "range":{
@@ -124,7 +124,7 @@
             }
         },
         {
-            "identifier":"efficient_bl",
+            "identifier":"efficient",
             "text":"",
             "type":"semanticDifferential",
             "range":{
@@ -143,7 +143,7 @@
             }
         },
         {
-            "identifier":"energetic_bl",
+            "identifier":"energetic",
             "text":"",
             "type":"semanticDifferential",
             "range":{
@@ -162,7 +162,7 @@
             }
         },
         {
-            "identifier":"calm_bl",
+            "identifier":"calm",
             "text":"",
             "type":"semanticDifferential",
             "range":{
@@ -181,7 +181,7 @@
             }
         },
         {
-            "identifier":"conservative_bl",
+            "identifier":"conservative",
             "text":"",
             "type":"semanticDifferential",
             "range":{

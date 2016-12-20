@@ -2,7 +2,7 @@
     "title":"For the following questions, please think about your experiences over the past year.",
     "items":[
         {
-            "identifier":"qol_bl",
+            "identifier":"qol",
             "text":"I am satisfied with the quality of my life as it stands now.",
             "type":"likert",
             "range":{
@@ -16,7 +16,7 @@
             }
         },
         {
-            "identifier":"conf_bl",
+            "identifier":"conf",
             "text":"I am confident I can meet the life goals I set for myself.",
             "type":"likert",
             "range":{
@@ -30,7 +30,7 @@
             }
         },
         {
-            "identifier":"sensation_bl",
+            "identifier":"sensation",
             "text":"I like to engage in experiences that give me an adrenalin rush (e.g. bungee jumping).",
             "type":"likert",
             "range":{
@@ -44,7 +44,7 @@
             }
         },
         {
-            "identifier":"urgexp_bl",
+            "identifier":"urgexp",
             "text":"I do things without thinking too much about them before I do it.",
             "type":"likert",
             "range":{
@@ -58,7 +58,7 @@
             }
         },
         {
-            "identifier":"urgspeech_bl",
+            "identifier":"urgspeech",
             "text":"I say things without thinking too much about them before I do it.",
             "type":"likert",
             "range":{
@@ -72,7 +72,7 @@
             }
         },
         {
-            "identifier":"negurg_bl",
+            "identifier":"negurg",
             "text":"When I am feeling down or frustrated, I do things I end up regretting later.",
             "type":"likert",
             "range":{
@@ -86,7 +86,7 @@
             }
         },
         {
-            "identifier":"posurg_bl",
+            "identifier":"posurg",
             "text":"When I am feeling happy or excited, I do things I end up regretting later.",
             "type":"likert",
             "range":{
@@ -100,7 +100,7 @@
             }
         },
         {
-            "identifier":"taskpers_bl",
+            "identifier":"taskpers",
             "text":"When I have a goal, I get easily distracted by other things.",
             "type":"likert",
             "range":{
@@ -114,7 +114,7 @@
             }
         },
         {
-            "identifier":"mobileurg_bl",
+            "identifier":"mobileurg",
             "text":"I have difficulty controlling how much I check my mobile phone.",
             "type":"likert",
             "range":{
@@ -128,7 +128,7 @@
             }
         },
         {
-            "identifier":"foodurg_bl",
+            "identifier":"foodurg",
             "text":"I have difficulty controlling how much food I eat.",
             "type":"likert",
             "range":{
@@ -142,7 +142,7 @@
             }
         },
         {
-            "identifier":"foodtype_bl",
+            "identifier":"foodtype",
             "text":"When junk food is offered to me, I can resist eating it if I had not planned on doing so.",
             "type":"likert",
             "range":{
@@ -156,7 +156,7 @@
             }
         },
         {
-            "identifier":"premed_bl",
+            "identifier":"premed",
             "text":"I plan and think things over before I do them.",
             "type":"likert",
             "range":{
@@ -170,7 +170,7 @@
             }
         },
         {
-            "identifier":"st_temp_bl",
+            "identifier":"st_temp",
             "text":"I have difficulty controlling my impulses when I am tempted by something that will feel good in the short-term, even if I don’t want to do it.",
             "type":"likert",
             "range":{
