@@ -1,5 +1,6 @@
 {
     "type"    : "elementList",
+    "identifier": "am_go_no_go_variable",
     "elements"         : [
       {
         "type"        : "CTFSemanticDifferentialForm",

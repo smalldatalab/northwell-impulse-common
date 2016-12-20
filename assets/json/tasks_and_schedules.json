@@ -3,6 +3,12 @@
     {
       "scheduleType": "recurring",
       "scheduleString": "* * * * *",
+      "scheduleTitle": "Baseline Assessment",
+      "scheduleIdentifier": "baseline",
+      "scheduleGUID": "baseline-1",
+      "activityType": "sequential",
+      "trialActivity": true,
+      "timeEstimate": "",
       "tasks": [
         {
           "taskTitle": "Baseline",
@@ -16,6 +22,12 @@
     {
       "scheduleType": "recurring",
       "scheduleString": "* * * * *",
+      "scheduleTitle": "Morning Survey",
+      "scheduleIdentifier": "morning_survey",
+      "scheduleGUID": "morning_survey-1",
+      "activityType": "sequential",
+      "trialActivity": true,
+      "timeEstimate": "",
       "tasks": [
         {
           "taskTitle": "Morning Survey",
@@ -29,6 +41,12 @@
     {
       "scheduleType": "recurring",
       "scheduleString": "* * * * *",
+      "scheduleTitle": "Square Task",
+      "scheduleIdentifier": "square_task",
+      "scheduleGUID": "square_task-1",
+      "activityType": "sequential",
+      "trialActivity": true,
+      "timeEstimate": "",
       "tasks": [
         {
           "taskTitle": "Square Task",
@@ -42,6 +60,12 @@
     {
       "scheduleType": "recurring",
       "scheduleString": "* * * * *",
+      "scheduleTitle": "BART",
+      "scheduleIdentifier": "bart",
+      "scheduleGUID": "bart-1",
+      "activityType": "sequential",
+      "trialActivity": true,
+      "timeEstimate": "",
       "tasks": [
         {
           "taskTitle": "BART",
@@ -55,6 +79,12 @@
     {
       "scheduleType": "recurring",
       "scheduleString": "* * * * *",
+      "scheduleTitle": "LikertSemDifTest",
+      "scheduleIdentifier": "LikertSemDifTest",
+      "scheduleGUID": "LikertSemDifTest-1",
+      "activityType": "sequential",
+      "trialActivity": true,
+      "timeEstimate": "",
       "tasks": [
         {
           "taskTitle": "LikertSemDifTest",
