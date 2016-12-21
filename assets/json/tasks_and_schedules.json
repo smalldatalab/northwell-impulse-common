@@ -7,12 +7,12 @@
             "scheduleIdentifier":"baseline",
             "scheduleGUID":"baseline-1",
             "activityType":"sequential",
-            "trialActivity":true,
+            "trialActivity":false,
             "timeEstimate":"",
             "tasks":[
                 {
                     "taskTitle":"Baseline",
-                    "taskID":"d42cd8e9-c1d6-48ac-83c8-c496ce35ee74",
+                    "taskID":"Baseline",
                     "taskFileName":"Baseline",
                     "taskClassName":"CTFOrderedTask",
                     "taskCompletionTimeString":"7 Questions"
@@ -27,7 +27,7 @@
             "scheduleGUID":"reenrollment-1",
             "activityType":"sequential",
             "timeEstimate":"",
-            "trialActivity":true,
+            "trialActivity":false,
             "tasks":[
                 {
                     "taskTitle":"Reenrollment",
@@ -46,7 +46,7 @@
             "scheduleGUID":"21-day-assessment-1",
             "activityType":"sequential",
             "timeEstimate":"",
-            "trialActivity":true,
+            "trialActivity":false,
             "tasks":[
                 {
                     "taskTitle":"21-Day Assessment",
@@ -65,7 +65,7 @@
             "scheduleTitle":"Morning Survey",
             "activityType":"selectOneByDate",
             "timeEstimate":"",
-            "trialActivity":true,
+            "trialActivity":false,
             "tasks":[
               {
                 "tasks": [
@@ -96,7 +96,7 @@
                   },
                   {
                       "taskTitle":"Morning Survey",
-                      "taskID":"test_am_survey",
+                      "taskID":"am_survey_bart_250_dollars",
                       "taskFileName":"am_survey_bart_250_dollars",
                       "taskClassName":"CTFOrderedTask",
                       "taskCompletionTimeString":"7 Questions"
