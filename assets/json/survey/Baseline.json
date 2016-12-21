@@ -449,7 +449,7 @@
     {
       "identifier": "notes",
       "type": "textfield",
-      "text": "Please contact us to finalize your participant in the study. Upon hearing from you, we will schedule your payment and answer any questions.",
+      "text": "Please contact us to finalize your participation in the study. Upon hearing from you, we will schedule your payment and answer any questions.",
       "optional": true,
       "multipleLines": true
     }
