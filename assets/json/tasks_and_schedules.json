@@ -63,77 +63,16 @@
             "scheduleIdentifier":"am_survey",
             "scheduleGUID":"am_survey-1",
             "scheduleTitle":"Morning Survey",
-            "activityType":"selectOneByDate",
+            "activityType":"sequential",
             "timeEstimate":"",
             "trialActivity":false,
             "tasks":[
               {
-                "tasks": [
-                  {
-                      "taskTitle":"Morning Survey",
-                      "taskID":"am_survey_go_no_go_stable",
-                      "taskFileName":"am_survey_go_no_go_stable",
-                      "taskClassName":"CTFOrderedTask",
-                      "taskCompletionTimeString":"7 Questions"
-                  },
-                  {
-                      "taskTitle":"Morning Survey",
-                      "taskID":"am_survey_go_no_go_variable",
-                      "taskFileName":"am_survey_go_no_go_variable",
-                      "taskClassName":"CTFOrderedTask",
-                      "taskCompletionTimeString":"7 Questions"
-                  }
-                ]
-              },
-              {
-                "tasks": [
-                  {
-                      "taskTitle":"Morning Survey",
-                      "taskID":"am_survey_bart_25_cents",
-                      "taskFileName":"am_survey_bart_25_cents",
-                      "taskClassName":"CTFOrderedTask",
-                      "taskCompletionTimeString":"7 Questions"
-                  },
-                  {
-                      "taskTitle":"Morning Survey",
-                      "taskID":"am_survey_bart_250_dollars",
-                      "taskFileName":"am_survey_bart_250_dollars",
-                      "taskClassName":"CTFOrderedTask",
-                      "taskCompletionTimeString":"7 Questions"
-                  }
-                ]
-              },
-              {
-                "tasks": [
-                  {
-                      "taskTitle":"Morning Survey",
-                      "taskID":"am_survey_dd_money_1_month",
-                      "taskFileName":"am_survey_dd_money_1_month",
-                      "taskClassName":"CTFOrderedTask",
-                      "taskCompletionTimeString":"7 Questions"
-                  },
-                  {
-                      "taskTitle":"Morning Survey",
-                      "taskID":"am_survey_dd_money_6_month",
-                      "taskFileName":"am_survey_dd_money_6_month",
-                      "taskClassName":"CTFOrderedTask",
-                      "taskCompletionTimeString":"7 Questions"
-                  },
-                  {
-                      "taskTitle":"Morning Survey",
-                      "taskID":"am_survey_dd_time_1_month",
-                      "taskFileName":"am_survey_dd_time_1_month",
-                      "taskClassName":"CTFOrderedTask",
-                      "taskCompletionTimeString":"7 Questions"
-                  },
-                  {
-                      "taskTitle":"Morning Survey",
-                      "taskID":"am_survey_dd_time_6_month",
-                      "taskFileName":"am_survey_dd_time_6_month",
-                      "taskClassName":"CTFOrderedTask",
-                      "taskCompletionTimeString":"7 Questions"
-                  }
-                ]
+                  "taskTitle":"Morning Survey",
+                  "taskID":"am_survey",
+                  "taskFileName":"am_survey",
+                  "taskClassName":"CTFOrderedTask",
+                  "taskCompletionTimeString":"7 Questions"
               }
             ]
         },
@@ -147,74 +86,13 @@
             "timeEstimate":"",
             "trialActivity":false,
             "tasks":[
-                {
-                    "tasks":[
-                      {
-                          "taskTitle":"Evening Survey",
-                          "taskID":"pm_survey_go_no_go_stable",
-                          "taskFileName":"pm_survey_go_no_go_stable",
-                          "taskClassName":"CTFOrderedTask",
-                          "taskCompletionTimeString":"7 Questions"
-                      },
-                      {
-                          "taskTitle":"Evening Survey",
-                          "taskID":"pm_survey_go_no_go_variable",
-                          "taskFileName":"pm_survey_go_no_go_variable",
-                          "taskClassName":"CTFOrderedTask",
-                          "taskCompletionTimeString":"7 Questions"
-                      }
-                    ]
-                },
-                {
-                    "tasks":[
-                      {
-                          "taskTitle":"Evening Survey",
-                          "taskID":"pm_survey_bart_25_cents",
-                          "taskFileName":"pm_survey_bart_25_cents",
-                          "taskClassName":"CTFOrderedTask",
-                          "taskCompletionTimeString":"7 Questions"
-                      },
-                      {
-                          "taskTitle":"Evening Survey",
-                          "taskID":"pm_survey_bart_250_dollars",
-                          "taskFileName":"pm_survey_bart_250_dollars",
-                          "taskClassName":"CTFOrderedTask",
-                          "taskCompletionTimeString":"7 Questions"
-                      }
-                    ]
-                },
-                {
-                    "tasks":[
-                      {
-                          "taskTitle":"Evening Survey",
-                          "taskID":"pm_survey_dd_money_1_month",
-                          "taskFileName":"pm_survey_dd_money_1_month",
-                          "taskClassName":"CTFOrderedTask",
-                          "taskCompletionTimeString":"7 Questions"
-                      },
-                      {
-                          "taskTitle":"Evening Survey",
-                          "taskID":"pm_survey_dd_money_6_month",
-                          "taskFileName":"pm_survey_dd_money_6_month",
-                          "taskClassName":"CTFOrderedTask",
-                          "taskCompletionTimeString":"7 Questions"
-                      },
-                      {
-                          "taskTitle":"Evening Survey",
-                          "taskID":"pm_survey_dd_time_1_month",
-                          "taskFileName":"pm_survey_dd_time_1_month",
-                          "taskClassName":"CTFOrderedTask",
-                          "taskCompletionTimeString":"7 Questions"
-                      },
-                      {
-                          "taskTitle":"Evening Survey",
-                          "taskID":"pm_survey_dd_time_6_month",
-                          "taskFileName":"pm_survey_dd_time_6_month",
-                          "taskClassName":"CTFOrderedTask",
-                          "taskCompletionTimeString":"7 Questions"
-                      }
-                    ]
-                }
+              {
+                  "taskTitle":"Evening Survey",
+                  "taskID":"pm_survey",
+                  "taskFileName":"pm_survey",
+                  "taskClassName":"CTFOrderedTask",
+                  "taskCompletionTimeString":"7 Questions"
+              }
             ]
         },
 
