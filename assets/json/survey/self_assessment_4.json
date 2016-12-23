@@ -5,7 +5,7 @@
     "items":[
         {
             "identifier":"taskpers_2",
-            "text":"I have difficulty completing tasks that require me to stay focused for long periods.",
+            "text":"I have difficulty completing tasks that require me to stay focused for long periods of time.",
             "type":"likert",
             "range":{
                 "min":0,

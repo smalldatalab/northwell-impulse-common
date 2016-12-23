@@ -4,7 +4,7 @@
     {
       "identifier": "baseline_behaviors_4",
       "type": "multipleChoiceText",
-      "text": "Below is a list of behaviors that people may have trouble controlling. Please select UP TO 4 of the ones that you have the most trouble controlling.",
+      "text": "Below is a list of 16 behaviors that people may have trouble controlling. \nPlease select up to 4 of the behaviors that you have the most trouble controlling, most frequently. Please make sure to review the entire list before choosing.",
       "valueSuffix": "_bl_4",
       "shuffleItems": true,
       "items": [
@@ -77,7 +77,7 @@
     {
       "identifier": "baseline_behaviors_1",
       "type": "singleChoiceText",
-      "text": "Please select the ONE behavior that you feel you have the most difficulty controlling and / or is the most bothersome for you.",
+      "text": "Please select the ONE behavior from the four you chose that you have trouble controlling which is the most bothersome to you.",
       "valueSuffix": "_bl_1",
       "shuffleItems": true,
       "items": [

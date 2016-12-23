@@ -45,7 +45,7 @@
         },
         {
             "identifier":"urgexp",
-            "text":"I do things without thinking too much about them before I do it.",
+            "text":"I do things without thinking too much about them.",
             "type":"likert",
             "range":{
                 "min":0,
@@ -59,7 +59,7 @@
         },
         {
             "identifier":"urgspeech",
-            "text":"I say things without thinking too much about them before I do it.",
+            "text":"I say things without thinking too much about them.",
             "type":"likert",
             "range":{
                 "min":0,
@@ -101,7 +101,7 @@
         },
         {
             "identifier":"taskpers",
-            "text":"When I have a goal, I get easily distracted by other things.",
+            "text":"When I have a goal in place, I get easily distracted by other things.",
             "type":"likert",
             "range":{
                 "min":0,

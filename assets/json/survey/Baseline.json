@@ -54,7 +54,7 @@
       "text": "What is the highest degree or level of school you have completed? (If currently enrolled, mark the highest degree received.)",
       "items": [
         {
-          "prompt": "0-11 grade completed(no high school degree)",
+          "prompt": "0-11 grade completed (no high school degree)",
           "value": "0-11 grade (no high school degree)"
         },
         {
@@ -145,7 +145,7 @@
           "value": "Unemployed"
         },
         {
-          "prompt": "Public assistance / social security",
+          "prompt": "Public assistance/social security",
           "value": "Public assistance"
         },
         {
@@ -272,7 +272,7 @@
     {
       "identifier": "baseline_behaviors_4",
       "type": "multipleChoiceText",
-      "text": "Below is a list of behaviors that people may have trouble controlling. Please select UP TO 4 of the ones that you have the most trouble controlling.",
+      "text": "Below is a list of 16 behaviors that people may have trouble controlling. \nPlease select up to 4 of the behaviors that you have the most trouble controlling, most frequently. Please make sure to review the entire list before choosing.",
       "valueSuffix": "_bl_4",
       "shuffleItems": true,
       "maximumNumberOfItems": 4,
@@ -346,7 +346,7 @@
     {
       "identifier": "baseline_behaviors_1",
       "type": "singleChoiceText",
-      "text": "Please select the ONE behavior that you feel you have the most difficulty controlling and / or is the most bothersome for you.",
+      "text": "Please select the ONE behavior from the four you chose that you have trouble controlling which is the most bothersome to you.",
       "valueSuffix": "_bl_1",
       "shuffleItems": true,
       "items": [
@@ -439,19 +439,25 @@
     {
       "identifier": "morning_notification_time_picker",
       "type": "timePicker",
-      "text": "Please choose a window of time you would like to be reminded to take your morning surveys. Your alert will come anytime within one hour after the time you choose. "
+      "text": "Please choose the window of time that you would like to be reminded to take your morning surveys. Your alert will come anytime within one hour after the time you choose."
     },
     {
       "identifier": "evening_notification_time_picker",
       "type": "timePicker",
-      "text": "Please choose a window of time you would like to be reminded to take your evening surveys. Your alert will come anytime within one hour after the time you choose. "
+      "text": "Please choose the window of time that you would like to be reminded to take your evening surveys. Your alert will come anytime within one hour after the time you choose."
     },
     {
       "identifier": "notes",
       "type": "textfield",
-      "text": "Please contact us to finalize your participation in the study. Upon hearing from you, we will schedule your payment and answer any questions.",
+      "text": "Please add comments or questions about the study, the assessment or anything you think is important for us to know to make this a better study below. You can come to this screen anytime.",
       "optional": true,
       "multipleLines": true
+    }, 
+    {
+        "identifier":"results",
+        "type":"instruction",
+        "title":"Thank you",
+        "text":"Please contact us to finalize your participation in the study. Upon hearing from you, we will schedule your payment and answer any questions or concerns that you may have."
     }
   ]
 }

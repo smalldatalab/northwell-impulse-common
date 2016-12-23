@@ -18,13 +18,13 @@
        "identifier"   : "introduction_3",
        "type"         : "instruction",
        "title"        : "",
-       "text"         : "You earn (.25 cents) for each pump, but if the balloon pops, you lose the money you earned on that balloon. The balloon can pop at anytime."
+       "text"         : "You earn 25 cents for each pump, but if the balloon pops, you lose the money you earned on that balloon. The balloon can pop at anytime."
      },
      {
        "identifier"   : "introduction_4",
        "type"         : "instruction",
        "title"        : "",
-       "text"         : "To keep the money, stop pumping before it pops and press 'Collect'. \n The goal is to earn as much money as possible."
+       "text"         : "To keep the money, stop pumping before it pops and press 'Collect'. \nThe goal is to earn as much money as possible."
      },
       {
         "type"        : "CTFBARTActiveStep",
