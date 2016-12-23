@@ -48,7 +48,7 @@
           0.5,
           0.75
         ],
-        "fillTime": 0.4,
+        "fillTime": 0.6,
         "goCueProbability": 0.5,
         "goCueTargetProbability": 0.7,
         "noGoCueTargetProbability": 0.7

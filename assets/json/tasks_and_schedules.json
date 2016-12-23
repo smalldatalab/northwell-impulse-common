@@ -137,63 +137,6 @@
         {
             "scheduleType":"recurring",
             "scheduleString":"* * * * *",
-            "scheduleTitle":"Square Task #1 500",
-            "scheduleIdentifier":"go-no-go-stable-500",
-            "scheduleGUID":"go-no-go-stable-500-1",
-            "activityType":"sequential",
-            "timeEstimate":"",
-            "trialActivity":true,
-            "tasks":[
-              {
-                  "taskTitle":"Square Task #1 500",
-                  "taskID":"go_no_go_stable_stimulus_full_task_500",
-                  "taskFileName":"go_no_go_stable_stimulus_full_task_500",
-                  "taskClassName":"CTFOrderedTask",
-                  "taskCompletionTimeString":"7 Questions"
-              }
-            ]
-        },
-        {
-            "scheduleType":"recurring",
-            "scheduleString":"* * * * *",
-            "scheduleTitle":"Square Task #1 600",
-            "scheduleIdentifier":"go-no-go-stable-600",
-            "scheduleGUID":"go-no-go-stable-600-1",
-            "activityType":"sequential",
-            "timeEstimate":"",
-            "trialActivity":true,
-            "tasks":[
-              {
-                  "taskTitle":"Square Task #1 600",
-                  "taskID":"go_no_go_stable_stimulus_full_task_600",
-                  "taskFileName":"go_no_go_stable_stimulus_full_task_600",
-                  "taskClassName":"CTFOrderedTask",
-                  "taskCompletionTimeString":"7 Questions"
-              }
-            ]
-        },
-        {
-            "scheduleType":"recurring",
-            "scheduleString":"* * * * *",
-            "scheduleTitle":"Square Task #1 700",
-            "scheduleIdentifier":"go-no-go-stable-700",
-            "scheduleGUID":"go-no-go-stable-700-1",
-            "activityType":"sequential",
-            "timeEstimate":"",
-            "trialActivity":true,
-            "tasks":[
-              {
-                  "taskTitle":"Square Task #1 700",
-                  "taskID":"go_no_go_stable_stimulus_full_task_700",
-                  "taskFileName":"go_no_go_stable_stimulus_full_task_700",
-                  "taskClassName":"CTFOrderedTask",
-                  "taskCompletionTimeString":"7 Questions"
-              }
-            ]
-        },
-        {
-            "scheduleType":"recurring",
-            "scheduleString":"* * * * *",
             "scheduleTitle":"Square Task #2",
             "scheduleIdentifier":"go-no-go-variable",
             "scheduleGUID":"go-no-go-variable-1",
@@ -316,7 +259,7 @@
             "trialActivity":true,
             "tasks":[
               {
-                  "taskTitle":"Now and Later #5",
+                  "taskTitle":"Now and Later #4",
                   "taskID":"dd_time_6_month_full_task",
                   "taskFileName":"dd_time_6_month_full_task",
                   "taskClassName":"CTFOrderedTask",

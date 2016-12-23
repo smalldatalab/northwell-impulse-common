@@ -1,0 +1,77 @@
+{
+  "identifier": "active_task_selector",
+  "type": "elementSelector",
+  "selectorType": "selectOneByDate",
+  "UUIDStorageKey": "ImpulseDailyActiveTaskUUID",
+  "dayOffset": 0,
+  "elements"         : [
+    {
+      "identifier": "go_no_go_selector",
+      "type": "elementSelector",
+      "selectorType": "selectOneByDate",
+      "UUIDStorageKey": "ImpulseGoNoGoActiveTaskUUID",
+      "dayOffset": 1,
+      "elements"         : [
+        {
+          "identifier"    : "file_ref1",
+          "type"          : "elementFile",
+          "elementFileName" : "go_no_go_stable_stimulus_short_task"
+        },
+        {
+          "identifier"    : "file_ref2",
+          "type"          : "elementFile",
+          "elementFileName" : "go_no_go_variable_stimulus_short_task"
+        }
+      ]
+    },
+    {
+      "identifier": "bart_selector",
+      "type": "elementSelector",
+      "selectorType": "selectOneByDate",
+      "UUIDStorageKey": "ImpulseBARTActiveTaskUUID",
+      "dayOffset": 1,
+      "elements"         : [
+        {
+          "identifier"    : "file_ref3",
+          "type"          : "elementFile",
+          "elementFileName" : "bart_25_cents_short_task"
+        },
+        {
+          "identifier"    : "file_ref4",
+          "type"          : "elementFile",
+          "elementFileName" : "bart_250_dollars_short_task"
+        }
+      ]
+    },
+    {
+      "identifier": "dd_selector",
+      "type": "elementSelector",
+      "selectorType": "selectOneByDate",
+      "UUIDStorageKey": "ImpulseDDActiveTaskUUID",
+      "dayOffset": 1,
+      "elements"         : [
+        {
+          "identifier"    : "file_ref5",
+          "type"          : "elementFile",
+          "elementFileName" : "dd_money_1_month_short_task"
+        },
+        {
+          "identifier"    : "file_ref6",
+          "type"          : "elementFile",
+          "elementFileName" : "dd_money_6_month_short_task"
+        },
+        {
+          "identifier"    : "file_ref7",
+          "type"          : "elementFile",
+          "elementFileName" : "dd_time_1_month_short_task"
+        },
+        {
+          "identifier"    : "file_ref8",
+          "type"          : "elementFile",
+          "elementFileName" : "dd_time_6_month_short_task"
+        }
+      ]
+    }
+
+  ]
+}
