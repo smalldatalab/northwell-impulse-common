@@ -31,12 +31,14 @@
       "type": "elementSelector",
       "selectorType": "selectOneByDate",
       "UUIDStorageKey": "ImpulseDailyActiveTaskUUID",
+      "dayOffset": 0,
       "elements"         : [
         {
           "identifier": "go_no_go_selector",
           "type": "elementSelector",
           "selectorType": "selectOneByDate",
           "UUIDStorageKey": "ImpulseGoNoGoActiveTaskUUID",
+          "dayOffset": 1,
           "elements"         : [
             {
               "identifier"    : "file_ref1",
@@ -55,6 +57,7 @@
           "type": "elementSelector",
           "selectorType": "selectOneByDate",
           "UUIDStorageKey": "ImpulseBARTActiveTaskUUID",
+          "dayOffset": 1,
           "elements"         : [
             {
               "identifier"    : "file_ref3",
@@ -73,6 +76,7 @@
           "type": "elementSelector",
           "selectorType": "selectOneByDate",
           "UUIDStorageKey": "ImpulseDDActiveTaskUUID",
+          "dayOffset": 1,
           "elements"         : [
             {
               "identifier"    : "file_ref5",
