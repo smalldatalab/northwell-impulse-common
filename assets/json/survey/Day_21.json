@@ -67,6 +67,11 @@
             "multipleLines": true
         },
         {
+          "type": "elementFile",
+          "identifier": "shuffled_active_tasks_ref",
+          "elementFileName": "shuffled_active_tasks"
+        },
+        {
             "identifier":"results",
             "type":"instruction",
             "title":"Thank you",

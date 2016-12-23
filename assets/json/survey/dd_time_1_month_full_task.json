@@ -4,19 +4,19 @@
   "elements"   : [
 
     {
-      "identifier"   : "introduction_1",
+      "identifier"   : "introduction_1_dd_1_t",
       "type"         : "instruction",
       "title"        : "Welcome to the Now and Later Game",
       "text"         : ""
     },
     {
-      "identifier"   : "introduction_2",
+      "identifier"   : "introduction_2_dd_1_t",
       "type"         : "instruction",
       "title"        : "",
       "text"         : "In this game you will choose between getting different numbers of hours off work/school to do whatever you want  either right now, or in one month."
     },
     {
-      "identifier"   : "introduction_3",
+      "identifier"   : "introduction_3_dd_1_t",
       "type"         : "instruction",
       "title"        : "",
       "text"         : "While you will not receive the actual time-off, please make your decisions as if you were really going to receive the time-off for leisure. 8 hours equals about one day off. There are no correct or incorrect choices."
@@ -34,7 +34,7 @@
         }
       },
       {
-        "identifier"   : "results",
+        "identifier"   : "results_dd_1_t",
         "type"         : "instruction",
         "title"        : "Thank you for completing the task!",
         "text"         : ""

@@ -1,54 +1,48 @@
 {
   "identifier": "active_task_selector",
   "type": "elementList",
-  "shuffled": true,
+  "shuffleElements": true,
   "elements": [
 
     {
       "identifier"    : "file_ref1",
       "type"          : "elementFile",
-      "elementFileName" : "go_no_go_stable_stimulus_short_task"
+      "elementFileName" : "go_no_go_stable_stimulus_full_task"
     },
     {
       "identifier"    : "file_ref2",
       "type"          : "elementFile",
-      "elementFileName" : "go_no_go_variable_stimulus_short_task"
+      "elementFileName" : "go_no_go_variable_stimulus_full_task"
     },
     {
       "identifier"    : "file_ref3",
       "type"          : "elementFile",
-      "elementFileName" : "bart_25_cents_short_task"
+      "elementFileName" : "bart_25_cents_full_task"
     },
     {
       "identifier"    : "file_ref4",
       "type"          : "elementFile",
-      "elementFileName" : "bart_250_dollars_short_task"
+      "elementFileName" : "bart_250_dollars_full_task"
     },
     {
       "identifier"    : "file_ref5",
       "type"          : "elementFile",
-      "elementFileName" : "dd_money_1_month_short_task"
+      "elementFileName" : "dd_money_1_month_full_task"
     },
     {
       "identifier"    : "file_ref6",
       "type"          : "elementFile",
-      "elementFileName" : "dd_money_6_month_short_task"
+      "elementFileName" : "dd_money_6_month_full_task"
     },
     {
       "identifier"    : "file_ref7",
       "type"          : "elementFile",
-      "elementFileName" : "dd_time_1_month_short_task"
+      "elementFileName" : "dd_time_1_month_full_task"
     },
     {
       "identifier"    : "file_ref8",
       "type"          : "elementFile",
-      "elementFileName" : "dd_time_6_month_short_task"
-    },
-    {
-      "type": "elementFile",
-      "identifier": "shuffled_active_tasks_ref",
-      "elementFileName": "shuffled_active_tasks"
+      "elementFileName" : "dd_time_6_month_full_task"
     }
-
   ]
 }

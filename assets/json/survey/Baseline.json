@@ -452,7 +452,12 @@
       "text": "Please add comments or questions about the study, the assessment or anything you think is important for us to know to make this a better study below. You can come to this screen anytime.",
       "optional": true,
       "multipleLines": true
-    }, 
+    },
+    {
+      "type": "elementFile",
+      "identifier": "shuffled_active_tasks_ref",
+      "elementFileName": "shuffled_active_tasks"
+    },
     {
         "identifier":"results",
         "type":"instruction",

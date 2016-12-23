@@ -3,31 +3,31 @@
   "identifier": "go_no_go_practice_full_intro",
   "elements"   : [
     {
-      "identifier"   : "introduction_1",
+      "identifier"   : "introduction_1_gng_p",
       "type"         : "instruction",
       "title"        : "Welcome to the Square Task",
       "text"         : "This game measures how quickly you can make a simple decision, and then either react or withhold your response."
     },
     {
-      "identifier"   : "introduction_2",
+      "identifier"   : "introduction_2_gng_p",
       "type"         : "instruction",
       "title"        : "",
       "text"         : "You will first be presented with a rectangle."
     },
     {
-      "identifier"   : "introduction_3",
+      "identifier"   : "introduction_3_gng_p",
       "type"         : "instruction",
       "title"        : "",
       "text"         : "If the rectangle turns GREEN, tap the screen as quickly as possible."
     },
      {
-      "identifier"   : "introduction_4",
+      "identifier"   : "introduction_4_gng_p",
       "type"         : "instruction",
       "title"        : "",
       "text"         : "If the rectangle turns BLUE, do not tap."
     },
     {
-      "identifier"   : "introduction_5",
+      "identifier"   : "introduction_5_gng_p",
       "type"         : "instruction",
       "title"        : "",
       "text"         : "Between each rectangle you will see a plus (+) sign."
@@ -50,7 +50,7 @@
       }
     },
     {
-      "identifier"   : "results",
+      "identifier"   : "results_gng_p",
       "type"         : "instruction",
       "title"        : "Thanks!",
       "text"         : ""

@@ -4,19 +4,19 @@
   "elements"   : [
 
     {
-       "identifier"   : "introduction_1",
+       "identifier"   : "introduction_1_dd_1_m",
        "type"         : "instruction",
        "title"        : "Welcome to the Now and Later Game",
        "text"         : ""
      },
      {
-       "identifier"   : "introduction_2",
+       "identifier"   : "introduction_2_dd_1_m",
        "type"         : "instruction",
        "title"        : "",
        "text"         : "In this game you will choose between receiving different amounts of money either right now, or in one month."
      },
      {
-       "identifier"   : "introduction_3",
+       "identifier"   : "introduction_3_dd_1_m",
        "type"         : "instruction",
        "title"        : "",
        "text"         : "While you will not receive the actual money, please make your decisions as if you were really going to receive the money. There are no correct or incorrect choices."
@@ -34,7 +34,7 @@
         }
       },
       {
-        "identifier"   : "results",
+        "identifier"   : "results_dd_1_m",
         "type"         : "instruction",
         "title"        : "Thank you for completing the task!",
         "text"         : ""
