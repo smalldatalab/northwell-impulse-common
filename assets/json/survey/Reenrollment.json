@@ -85,17 +85,20 @@
         {
             "identifier":"baseline_completed_date_picker",
             "type":"datePicker",
-            "text":"Please enter the date that you completed your baseline surevey."
+            "text":"Please enter the date that you completed your baseline surevey.",
+            "optional": false
         },
         {
             "identifier":"morning_notification_time_picker",
             "type":"timePicker",
-            "text":"Please choose the window of time that you would like to be reminded to take your morning surveys."
+            "text":"Please choose the window of time that you would like to be reminded to take your morning surveys.",
+            "optional": false
         },
         {
             "identifier":"evening_notification_time_picker",
             "type":"timePicker",
-            "text":"Please choose the window of time that you would like to be reminded to take your evening surveys."
+            "text":"Please choose the window of time that you would like to be reminded to take your evening surveys.",
+            "optional": false
         }
     ]
 }
