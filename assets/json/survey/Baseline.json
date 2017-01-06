@@ -439,18 +439,19 @@
     {
       "identifier": "morning_notification_time_picker",
       "type": "timePicker",
-      "text": "Please choose the window of time that you would like to be reminded to take your morning surveys. Your alert will come anytime within one hour after the time you choose."
+      "text": "Please choose the window of time that you would like to be reminded to take your morning surveys. Your alert will come anytime within one hour after the time you choose.",
+      "optional": false
     },
     {
       "identifier": "evening_notification_time_picker",
       "type": "timePicker",
-      "text": "Please choose the window of time that you would like to be reminded to take your evening surveys. Your alert will come anytime within one hour after the time you choose."
+      "text": "Please choose the window of time that you would like to be reminded to take your evening surveys. Your alert will come anytime within one hour after the time you choose.",
+      "optional": false
     },
     {
       "identifier": "notes",
       "type": "textfield",
       "text": "Please add comments or questions about the study, the assessment or anything you think is important for us to know to make this a better study below. You can come to this screen anytime.",
-      "optional": true,
       "multipleLines": true
     },
     {
