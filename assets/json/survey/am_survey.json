@@ -8,7 +8,7 @@
       "parameterFileName": "am_likert_1"
     },
     {
-      "type"        : "CTFSemanticDifferentialForm",
+      "type"        : "CTFLikertForm",
       "identifier"       : "am_1a",
       "parameterFileName": "am_likert_1a"
     },
