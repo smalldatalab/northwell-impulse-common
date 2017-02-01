@@ -13,7 +13,7 @@
       "identifier"   : "introduction_2_dd_6_t",
       "type"         : "instruction",
       "title"        : "",
-      "text"         : "In this game you will choose between getting different numbers of hours off work/school to do whatever you want  either right now, or in six months."
+      "text"         : "In this game you will choose between getting different numbers of hours off work/school to do whatever you want either RIGHT NOW, or in SIX MONTHS."
     },
     {
       "identifier"   : "introduction_3_dd_6_t",
@@ -30,7 +30,7 @@
           "nowDescription": "Now",
           "laterDescription": "In 6 Months",
           "formatString":"%.02f hours off",
-          "prompt": "Please choose which amounts of time you would like off either right NOW or in SIX MONTHS."
+          "prompt": "Please choose which amounts of time you would like off either RIGHT NOW or in SIX MONTHS."
         }
       },
       {

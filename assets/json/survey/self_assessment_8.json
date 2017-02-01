@@ -6,8 +6,8 @@
         "#FFFFFF",
         "#1B75BB"
     ],
-    "title":"I am generally more:",
-    "text":"Below is a list of two opposite feelings, thoughts, or behaviors. Use the slider to choose where you generally fall between each pair of opposites. For example, if you are someone who gets distracted or has trouble focusing, you would move the slider closer to the 'distracted' side.",
+    "title":"Generally, I am more:",
+    "text":"Please use the slider to indicate how you generally think, act or feel.",
     "items":[
         {
             "identifier":"confusion",

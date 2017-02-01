@@ -1,7 +1,7 @@
 {
     "taskIdentifier": "am_3",
     "schemaIdentifier": "am_likert_3",
-    "title": "For each of the following, please select which comes closest to how you feel right now:",
+    "title": "For each of the following, please select which comes closest to how you feel RIGHT NOW:",
     "items" : [
       {
         "identifier"        : "focusnow_am",
@@ -127,7 +127,7 @@
           "default"   : 5,
           "step": 1,
           "minValueText": "cautious",
-          "maxValueText": "wreckless",
+          "maxValueText": "thrill seeking",
           "trackHeight":8,
           "gradientColors":[
               "#1B75BB",

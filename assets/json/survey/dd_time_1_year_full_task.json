@@ -1,6 +1,6 @@
 {
   "type"      : "elementList",
-  "identifier": "dd_time_1_month_full_intro",
+  "identifier": "dd_time_1_year_full_intro",
   "elements"   : [
 
     {
@@ -13,7 +13,7 @@
       "identifier"   : "introduction_2_dd_1_t",
       "type"         : "instruction",
       "title"        : "",
-      "text"         : "In this game you will choose between getting different numbers of hours off work/school to do whatever you want  either right now, or in one month."
+      "text"         : "In this game you will choose between getting different numbers of hours off work/school to do whatever you want either RIGHT NOW, or in ONE YEAR."
     },
     {
       "identifier"   : "introduction_3_dd_1_t",
@@ -23,14 +23,14 @@
     },
       {
         "type"        : "CTFDelayedDiscountingActiveStep",
-        "identifier"       : "dd_time_1_month",
+        "identifier"       : "dd_time_1_year",
         "parameters": {
           "maxAmount": 100.0,
           "numQuestions": 6,
           "nowDescription": "Now",
-          "laterDescription": "In 1 Month",
+          "laterDescription": "In 1 Year",
           "formatString":"%.02f hours off",
-          "prompt": "Please choose which amounts of time you would like off either right NOW or in ONE MONTH."
+          "prompt": "Please choose which amounts of time you would like off either RIGHT NOW or in ONE YEAR."
         }
       },
       {

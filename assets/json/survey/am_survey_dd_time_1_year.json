@@ -1,7 +1,7 @@
 {
 
   "type"    : "elementList",
-  "identifier": "am_survey_dd_time_1_month",
+  "identifier": "am_survey_dd_time_1_year",
   "elements"         : [
     {
       "type"        : "CTFSemanticDifferentialForm",
@@ -30,7 +30,7 @@
     {
       "identifier"    : "file_ref",
       "type"          : "elementFile",
-      "elementFileName" : "dd_time_1_month_short_task"
+      "elementFileName" : "dd_time_1_year_short_task"
     }
   ]
 }

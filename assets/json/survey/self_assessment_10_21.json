@@ -13,7 +13,7 @@
                  "default"   : 5,
                  "step": 1,
                  "minValueText": "0-not at all",
-                 "midValueText": "moderate",
+                 "midValueText": "moderately",
                  "maxValueText": "10-extremely"
                }
                },
@@ -27,7 +27,7 @@
                  "default"   : 5,
                  "step": 1,
                  "minValueText": "0-not at all",
-                 "midValueText": "moderate",
+                 "midValueText": "moderately",
                  "maxValueText": "10-extremely"
                }
                },
@@ -41,7 +41,7 @@
                  "default"   : 5,
                  "step": 1,
                  "minValueText": "0-not at all",
-                 "midValueText": "moderate",
+                 "midValueText": "moderately",
                  "maxValueText": "10-extremely"
                }
                }

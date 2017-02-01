@@ -233,16 +233,16 @@
             "scheduleType":"recurring",
             "scheduleString":"* * * * *",
             "scheduleTitle":"Now and Later #3",
-            "scheduleIdentifier":"DD_Time_1Month",
-            "scheduleGUID":"DD_Time_1Month-1",
+            "scheduleIdentifier":"DD_Time_1Year",
+            "scheduleGUID":"DD_Time_1Year-1",
             "activityType":"sequential",
             "timeEstimate":"",
             "trialActivity":true,
             "tasks":[
               {
                   "taskTitle":"Now and Later #3",
-                  "taskID":"dd_time_1_month_full_task",
-                  "taskFileName":"dd_time_1_month_full_task",
+                  "taskID":"dd_time_1_year_full_task",
+                  "taskFileName":"dd_time_1_year_full_task",
                   "taskClassName":"CTFOrderedTask",
                   "taskCompletionTimeString":"7 Questions"
               }
