@@ -286,6 +286,7 @@
       "text": "Below is a list of 16 behaviors that people may have trouble controlling. \nPlease select up to 4 of the behaviors that you have the most trouble controlling, most frequently. Please make sure to review the entire list before choosing.",
       "valueSuffix": "_bl_4",
       "shuffleItems": true,
+      "optional": false,
       "maximumNumberOfItems": 4,
       "items": [
         {
@@ -359,6 +360,7 @@
       "type": "singleChoiceText",
       "text": "Please select the ONE behavior from the four you chose that you have trouble controlling which is the most bothersome to you.",
       "valueSuffix": "_bl_1",
+      "optional": false,
       "shuffleItems": true,
       "items": [
         {
@@ -450,13 +452,13 @@
     {
       "identifier": "morning_notification_time_picker",
       "type": "timePicker",
-      "optional": false
+      "optional": false,
       "text": "For your MORNING survey, please choose a time within 2 hours of waking up that you would like to take your morning survey. Your alert will come anytime within one hour after the time you choose."
     },
     {
       "identifier": "evening_notification_time_picker",
       "type": "timePicker",
-      "optional": false
+      "optional": false,
       "text": "For your EVENING survey, please choose any time after 6pm (and at least 8 hours after your morning survey time). Your alert will come anytime within one hour after the time you choose."
     },
     {
@@ -468,8 +470,8 @@
     {
       "identifier":"instruction",
       "type":"instruction",
-      "title":"Thank you for completing the surveys. Now you will complete some games. For the baseline, you will complete them all at once. Then you will only do one in the morning and one in the evening.",
-      "text": "BART = This game takes 2-4 minutes to complete. \nGNG =  This game takes 3-4 minutes to complete. \nDD =  This game takes 1 minute to complete." 
+      "title":"Thank you for completing the surveys.",
+      "text": "Now you will complete some games. For the baseline, you will complete them all at once. Then you will only do one in the morning and one in the evening.\n\nBART = This game takes 2-4 minutes to complete. \nGNG =  This game takes 3-4 minutes to complete. \nDD =  This game takes 1 minute to complete."
     },
     {
       "type": "elementFile",
@@ -480,7 +482,7 @@
         "identifier":"results",
         "type":"instruction",
         "title":"Thank you",
-        "text": "Thank you for participating! Please write in the space below so we can contact you to arrange payment and answer any questions. Then click 'Done' to start getting your morning and evening surveys!"    
+        "text": "Thank you for participating! Please write in the space below so we can contact you to arrange payment and answer any questions. Then click 'Done' to start getting your morning and evening surveys!"
     }
   ]
 }

@@ -15,6 +15,7 @@
             "valueSuffix":"_bl_4",
             "shuffleItems":true,
             "maximumNumberOfItems":4,
+            "optional": false,
             "items":[
                 {
                     "prompt":"Eating unhealthy food",

@@ -17,9 +17,9 @@
         "crossTime": 0.25,
         "blankTime": 0.25,
         "cueTimes": [
-          0.25
+          0.5
         ],
-        "fillTime": 0.6,
+        "fillTime": 0.75,
         "goCueProbability": 0.5,
         "goCueTargetProbability": 0.7,
         "noGoCueTargetProbability": 0.7

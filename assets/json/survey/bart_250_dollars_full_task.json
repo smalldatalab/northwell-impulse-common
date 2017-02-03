@@ -32,7 +32,8 @@
         "parameters": {
           "numberOfTrials": 15,
           "earningsPerPump": 250.0,
-          "maxPayingPumpsPerTrial": 10
+          "maxPayingPumpsPerTrial": 10,
+          "canExplodeOnFirstPump": false
         }
       },
       {
