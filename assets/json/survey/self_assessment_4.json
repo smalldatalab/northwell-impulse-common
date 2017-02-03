@@ -13,7 +13,7 @@
                 "default":5,
                 "step":1,
                 "minValueText":"0-not at all",
-                "midValueText":"moderate",
+                "midValueText":"moderately",
                 "maxValueText":"10-extremely"
             }
         },
@@ -27,7 +27,7 @@
                 "default":5,
                 "step":1,
                 "minValueText":"0-not at all",
-                "midValueText":"moderate",
+                "midValueText":"moderately",
                 "maxValueText":"10-extremely"
             }
         },
@@ -41,7 +41,7 @@
                 "default":5,
                 "step":1,
                 "minValueText":"0-not at all",
-                "midValueText":"moderate",
+                "midValueText":"moderately",
                 "maxValueText":"10-extremely"
             }
         },
@@ -55,7 +55,7 @@
                 "default":5,
                 "step":1,
                 "minValueText":"0-not at all",
-                "midValueText":"moderate",
+                "midValueText":"moderately",
                 "maxValueText":"10-extremely"
             }
         },
@@ -69,7 +69,7 @@
                 "default":5,
                 "step":1,
                 "minValueText":"0-not at all",
-                "midValueText":"moderate",
+                "midValueText":"moderately",
                 "maxValueText":"10-extremely"
             }
         },
@@ -83,7 +83,7 @@
                 "default":5,
                 "step":1,
                 "minValueText":"0-not at all",
-                "midValueText":"moderate",
+                "midValueText":"moderately",
                 "maxValueText":"10-extremely"
             }
         },
@@ -97,7 +97,7 @@
                 "default":5,
                 "step":1,
                 "minValueText":"0-not at all",
-                "midValueText":"moderate",
+                "midValueText":"moderately",
                 "maxValueText":"10-extremely"
             }
         },
@@ -111,7 +111,7 @@
                 "default":5,
                 "step":1,
                 "minValueText":"0-not at all",
-                "midValueText":"moderate",
+                "midValueText":"moderately",
                 "maxValueText":"10-extremely"
             }
         },
@@ -125,13 +125,13 @@
                 "default":5,
                 "step":1,
                 "minValueText":"0-not at all",
-                "midValueText":"moderate",
+                "midValueText":"moderately",
                 "maxValueText":"10-extremely"
             }
         },
         {
             "identifier":"jealous",
-            "text":"I have never been jealous of a friend’s success.",
+            "text":"I have been a little jealous of a friends success in the past.",
             "type":"likert",
             "range":{
                 "min":0,
@@ -139,7 +139,7 @@
                 "default":5,
                 "step":1,
                 "minValueText":"0-not at all",
-                "midValueText":"moderate",
+                "midValueText":"moderately",
                 "maxValueText":"10-extremely"
             }
         },
@@ -153,7 +153,7 @@
                 "default":5,
                 "step":1,
                 "minValueText":"0-not at all",
-                "midValueText":"moderate",
+                "midValueText":"moderately",
                 "maxValueText":"10-extremely"
             }
         },
@@ -167,7 +167,7 @@
                 "default":5,
                 "step":1,
                 "minValueText":"0-not at all",
-                "midValueText":"moderate",
+                "midValueText":"moderately",
                 "maxValueText":"10-extremely"
             }
         },
@@ -181,49 +181,7 @@
                 "default":5,
                 "step":1,
                 "minValueText":"0-not at all",
-                "midValueText":"moderate",
-                "maxValueText":"10-extremely"
-            }
-        },
-        {
-            "identifier":"childsensation",
-            "text":"As I child, I was a sensation seeker who took risks.",
-            "type":"likert",
-            "range":{
-                "min":0,
-                "max":10,
-                "default":5,
-                "step":1,
-                "minValueText":"0-not at all",
-                "midValueText":"moderate",
-                "maxValueText":"10-extremely"
-            }
-        },
-        {
-            "identifier":"childadd",
-            "text":"As a child, I had difficulty staying focused  in school.",
-            "type":"likert",
-            "range":{
-                "min":0,
-                "max":10,
-                "default":5,
-                "step":1,
-                "minValueText":"0-not at all",
-                "midValueText":"moderate",
-                "maxValueText":"10-extremely"
-            }
-        },
-        {
-            "identifier":"childpoor",
-            "text":"As a child, my family was considered poor.",
-            "type":"likert",
-            "range":{
-                "min":0,
-                "max":10,
-                "default":5,
-                "step":1,
-                "minValueText":"0-not at all",
-                "midValueText":"moderate",
+                "midValueText":"moderately",
                 "maxValueText":"10-extremely"
             }
         },
@@ -237,7 +195,7 @@
                 "default":5,
                 "step":1,
                 "minValueText":"0-not at all",
-                "midValueText":"moderate",
+                "midValueText":"moderately",
                 "maxValueText":"10-extremely"
             }
         }

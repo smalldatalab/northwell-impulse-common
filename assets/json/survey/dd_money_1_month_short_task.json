@@ -7,7 +7,7 @@
       "identifier"   : "introduction",
       "type"         : "instruction",
       "title"        : "Welcome to the Now and Later Game",
-      "text"         : "In this game you will choose between receiving different amounts of money either right now, or in one month. While you will not receive the actual money, please make your decisions as if you were really going to receive the money. There are no correct or incorrect choices."
+      "text"         : "In this game you will choose between receiving different amounts of money either RIGHT NOW, or in ONE MONTH. While you will not receive the actual money, please make your decisions as if you were really going to receive the money. There are no correct or incorrect choices."
     },
       {
         "type"        : "CTFDelayedDiscountingActiveStep",
@@ -18,7 +18,7 @@
           "nowDescription": "Now",
           "laterDescription": "In 1 Month",
           "formatString":"$%.02f",
-          "prompt": "Please choose which amounts of money you would like either right NOW or in ONE MONTH."
+          "prompt": "Please choose which amounts of money you would like either RIGHT NOW or in ONE MONTH."
         }
       },
       {

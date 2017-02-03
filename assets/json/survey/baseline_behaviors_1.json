@@ -1,7 +1,7 @@
 {
     "taskIdentifier":"baseline_behaviors_1",
     "schemaIdentifier":"behaviors",
-    "text":"Please select the ONE behavior from the four you chose  that you have trouble controlling which is the most bothersome to you.",
+    "text":"Please select the ONE behavior from the four you chose that you have trouble controlling which is the most bothersome to you.",
     "valueSuffix":"_bl_1",
     "shuffleOrder": true,
     "options":{

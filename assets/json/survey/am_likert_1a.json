@@ -1,7 +1,7 @@
 {
     "taskIdentifier": "am_1a",
     "schemaIdentifier": "am_likert_1a",
-    "title": "Think about yesterday as whole. Yesterday, I generally felt:",
+    "title": "Think about yesterday as whole.",
     "items" : [
       {
         "identifier"        : "regret_am",
@@ -13,7 +13,7 @@
           "default"   : 5,
           "step": 1,
           "minValueText": "0-not at all",
-          "midValueText": "moderate",
+          "midValueText": "moderately",
           "maxValueText": "10-extremely"
         }
       },
@@ -27,13 +27,13 @@
           "default"   : 5,
           "step": 1,
           "minValueText": "0-not at all",
-          "midValueText": "moderate",
+          "midValueText": "moderately",
           "maxValueText": "10-extremely"
         }
       },
       {
         "identifier"        : "exer_am",
-        "text"              : "Yesterday, I engaged in strenuous physical activity (e.g., exercise, hard labor, etc.)",
+        "text"              : "Yesterday, I engaged in strenuous physical activity (e.g., exercise, hard labor, etc.).",
         "type"              : "likert",
         "range"             : {
           "min"     : 0,
@@ -41,7 +41,49 @@
           "default"   : 5,
           "step": 1,
           "minValueText": "0-not at all",
-          "midValueText": "moderate",
+          "midValueText": "moderately",
+          "maxValueText": "10-extremely"
+        }
+      },
+      {
+        "identifier"        : "saidnoth_am",
+        "text"              : "Yesterday, I said things without thinking.",
+        "type"              : "likert",
+        "range"             : {
+          "min"     : 0,
+          "max"      : 10,
+          "default"   : 5,
+          "step": 1,
+          "minValueText": "0-not at all",
+          "midValueText": "moderately",
+          "maxValueText": "10-extremely"
+        }
+      },
+      {
+        "identifier"        : "didnoth_am",
+        "text"              : "Yesterday, I did things without thinking.",
+        "type"              : "likert",
+        "range"             : {
+          "min"     : 0,
+          "max"      : 10,
+          "default"   : 5,
+          "step": 1,
+          "minValueText": "0-not at all",
+          "midValueText": "moderately",
+          "maxValueText": "10-extremely"
+        }
+      },
+      {
+        "identifier"        : "impat_am",
+        "text"              : "Yesterday, I felt impatient.",
+        "type"              : "likert",
+        "range"             : {
+          "min"     : 0,
+          "max"      : 10,
+          "default"   : 5,
+          "step": 1,
+          "minValueText": "0-not at all",
+          "midValueText": "moderately",
           "maxValueText": "10-extremely"
         }
       }

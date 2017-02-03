@@ -1,7 +1,7 @@
 {
     "taskIdentifier": "am_1",
     "schemaIdentifier": "am_likert_1",
-    "title": "Think about yesterday as a whole. Yesterday, I generally felt:",
+    "title": "Think about yesterday as whole.",
     "items" : [
       {
         "identifier"        : "positive_am",

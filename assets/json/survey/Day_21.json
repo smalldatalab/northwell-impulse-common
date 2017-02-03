@@ -67,6 +67,12 @@
             "multipleLines": true
         },
         {
+          "identifier":"instruction",
+          "type":"instruction",
+          "title":"Thank you for completing the surveys. Now you will complete some games. For the baseline, you will complete them all at once.",
+          "text": "BART = This game takes 2-4 minutes to complete. \nGNG =  This game takes 3-4 minutes to complete. \nDD =  This game takes 1 minute to complete." 
+        },
+        {
           "type": "elementFile",
           "identifier": "shuffled_active_tasks_ref",
           "elementFileName": "shuffled_active_tasks"
