@@ -69,8 +69,8 @@
         {
           "identifier":"instruction",
           "type":"instruction",
-          "title":"Thank you for completing the surveys. Now you will complete some games. For the baseline, you will complete them all at once.",
-          "text": "BART = This game takes 2-4 minutes to complete. \nGNG =  This game takes 3-4 minutes to complete. \nDD =  This game takes 1 minute to complete." 
+          "title":"Thank you for completing the different games for the last 21 days.",
+          "text": "Please complete all the games one after the other, like during your baseline assessment. When you finish with all the games, you will be asked a couple more questions about your experience before you finish." 
         },
         {
           "type": "elementFile",

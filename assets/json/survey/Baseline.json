@@ -471,7 +471,7 @@
       "identifier":"instruction",
       "type":"instruction",
       "title":"Thank you for completing the surveys.",
-      "text": "Now you will complete some games. For the baseline, you will complete them all at once. Then you will only do one in the morning and one in the evening.\n\nBART = This game takes 2-4 minutes to complete. \nGNG =  This game takes 3-4 minutes to complete. \nDD =  This game takes 1 minute to complete."
+      "text": "Now you will complete some games. For the baseline, you will complete them all at once. Then you will only do one in the morning and one in the evening. The games take between about one to three minutes to complete."
     },
     {
       "type": "elementFile",
