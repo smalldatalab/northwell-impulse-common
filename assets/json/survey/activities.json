@@ -5,6 +5,17 @@
   "guid": "impusivity-activities-123",
   "items": [
     {
+        "type":"recurring",
+        "title":"Baseline Assessment",
+        "identifier":"baseline",
+        "guid":"baseline-1",
+        "activity": {
+          "type": "elementFile",
+          "identifier": "baseline",
+          "elementFileName": "Baseline"
+        }
+    },
+    {
       "type": "recurring",
       "identifier": "go-no-go-stable",
       "title": "Square Task #1",
