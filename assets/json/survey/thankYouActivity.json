@@ -1,0 +1,16 @@
+{
+  "type": "activities",
+  "identifier": "thankYouActivities",
+  "title": "Thank You Activities",
+  "guid": "impusivity-thank-you-123",
+  "items": [
+    {
+        "type":"recurring",
+        "title":"Thank you for today's input!",
+        "identifier":"thank_you",
+        "guid":"thank_you-1",
+        "activity": {
+        }
+    }
+  ]
+}
