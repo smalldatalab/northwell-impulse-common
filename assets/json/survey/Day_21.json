@@ -34,6 +34,11 @@
             "parameterFileName":"self_assessment_9"
         },
         {
+            "type":"CTFSemanticDifferentialForm",
+            "identifier":"self_assessment_10_21",
+            "parameterFileName":"self_assessment_10_21"
+        },
+        {
             "identifier":"PAMMultipleSelection",
             "type":"PAMMultipleSelection",
             "parameterFileName":"PAMMultipleSelection"
@@ -70,7 +75,7 @@
           "identifier":"instruction",
           "type":"instruction",
           "title":"Thank you for completing the different games for the last 21 days.",
-          "text": "Please complete all the games one after the other, like during your baseline assessment. When you finish with all the games, you will be asked a couple more questions about your experience before you finish." 
+          "text": "Please complete all the games one after the other, like during your baseline assessment. When you finish with all the games, you will be asked a couple more questions about your experience before you finish."
         },
         {
           "type": "elementFile",
