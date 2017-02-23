@@ -1,0 +1,46 @@
+{
+  "type": "settings",
+  "identifier": "settings",
+  "title": "Sctivities",
+  "guid": "impusivity-settings-123",
+  "items": [
+    {
+        "type":"recurring",
+        "title":"Set Morning Survey Time",
+        "identifier":"set_morning_survey",
+        "guid":"set_morning_survey-1",
+        "activity": {
+            "identifier":"morning_notification_time_picker",
+            "type":"timePicker",
+            "text":"Please choose the window of time that you would like to be reminded to take your morning surveys.",
+            "optional": false
+        }
+    },
+    {
+        "type":"recurring",
+        "title":"Set Evening Survey Time",
+        "identifier":"set_evening_survey",
+        "guid":"set_evening_survey-1",
+        "activity": {
+            "identifier":"evening_notification_time_picker",
+            "type":"timePicker",
+            "text":"Please choose the window of time that you would like to be reminded to take your evening surveys.",
+            "optional": false
+        }
+    },
+    {
+        "type":"recurring",
+        "title":"Comments?",
+        "identifier":"comments",
+        "guid":"comments-1",
+        "activity": {
+          "identifier": "notes",
+          "type": "textfield",
+          "title": "Comments?",
+          "text": "We're constantly trying to improve and your feedback is greatly appreciated!",
+          "multipleLines": true,
+          "optional": false
+        }
+    }
+  ]
+}
