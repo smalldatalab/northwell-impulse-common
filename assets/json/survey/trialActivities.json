@@ -128,14 +128,14 @@
       "guid": "DD_Time_1Month-1",
       "activity": {
         "type": "elementFile",
-        "identifier": "dd_time_1_month_short_task",
-        "elementFileName": "dd_time_1_month_short_task"
+        "identifier": "dd_time_1_year_short_task",
+        "elementFileName": "dd_time_1_year_short_task"
       },
       "resultTransforms": [
         {
           "transform": "DelayDiscountingRaw",
           "inputMapping": [
-            {"stepIdentifier":"dd_time_1_month", "parameter":"DelayDiscountingResult"}
+            {"stepIdentifier":"dd_time_1_year", "parameter":"DelayDiscountingResult"}
           ]
         }
       ]

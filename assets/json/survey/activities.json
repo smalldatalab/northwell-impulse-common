@@ -12,8 +12,23 @@
         "activity": {
           "type": "elementFile",
           "identifier": "baseline",
-          "elementFileName": "Baseline"
-        }
+          "elementFileName": "demographics"
+        },
+        "resultTransforms": [
+          {
+            "transform": "Demographics",
+            "inputMapping": [
+              {"stepIdentifier":"gender", "parameter":"gender"},
+              {"stepIdentifier":"age", "parameter":"age"},
+              {"stepIdentifier":"zip_code", "parameter":"zip_code"},
+              {"stepIdentifier":"education", "parameter":"education"},
+              {"stepIdentifier":"employment_income", "parameter":"employment_income"},
+              {"stepIdentifier":"ethnicity", "parameter":"ethnicity"},
+              {"stepIdentifier":"race", "parameter":"race"},
+              {"stepIdentifier":"religion", "parameter":"religion"},
+            ]
+          }
+        ]
     },
     {
         "type":"recurring",
@@ -102,17 +117,17 @@
       "type": "recurring",
       "identifier": "DD_Time_1Month",
       "title": "Now and Later #3",
-      "guid": "DD_Time_1Month-1",
+      "guid": "DD_Time_1Year-1",
       "activity": {
         "type": "elementFile",
-        "identifier": "dd_time_1_month_short_task",
-        "elementFileName": "dd_time_1_month_short_task"
+        "identifier": "dd_time_1_year_short_task",
+        "elementFileName": "dd_time_1_year_short_task"
       },
       "resultTransforms": [
         {
           "transform": "DelayDiscountingRaw",
           "inputMapping": [
-            {"stepIdentifier":"dd_time_1_month", "parameter":"DelayDiscountingResult"}
+            {"stepIdentifier":"dd_time_1_year", "parameter":"DelayDiscountingResult"}
           ]
         }
       ]
