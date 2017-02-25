@@ -12,7 +12,7 @@
         "activity": {
           "type": "elementFile",
           "identifier": "baseline",
-          "elementFileName": "demographics"
+          "elementFileName": "Baseline"
         },
         "resultTransforms": [
           {
