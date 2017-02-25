@@ -5,7 +5,7 @@
     {
       "type"        : "CTFSemanticDifferentialForm",
       "identifier"       : "pm_1",
-      "parameterFileName": "pm_likert_1"
+      "parameterFileName": "daily_sem_diff"
     },
     {
       "identifier"   :   "PAM",

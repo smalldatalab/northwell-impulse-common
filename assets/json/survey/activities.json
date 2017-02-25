@@ -27,6 +27,12 @@
               {"stepIdentifier":"race", "parameter":"race"},
               {"stepIdentifier":"religion", "parameter":"religion"},
             ]
+          },
+          {
+            "transform": "CTFScaleFormResult",
+            "inputMapping": [
+              {"stepIdentifier":"self_assessment_3", "parameter":"result"},
+            ]
           }
         ]
     },
@@ -62,7 +68,17 @@
           "type": "elementFile",
           "identifier": "am_survey",
           "elementFileName": "am_survey"
-        }
+        },
+        "resultTransforms": [
+          {
+            "transform": "CTFScaleFormResult",
+            "inputMapping": [
+              {"stepIdentifier":"am_1", "parameter":"result"},
+              {"parameter": "schemaID", "constant":"daily_sem_diff"},
+              {"parameter": "identifierSuffix", "constant":"_am"},
+            ]
+          }
+        ]
     },
     {
         "type":"recurring",
@@ -73,7 +89,15 @@
           "type": "elementFile",
           "identifier": "pm_survey",
           "elementFileName": "pm_survey"
-        }
+        },
+        "resultTransforms": [
+          {
+            "transform": "CTFScaleFormResult",
+            "inputMapping": [
+              {"stepIdentifier":"pm_1", "parameter":"result"},
+            ]
+          }
+        ]
     }
   ]
 }

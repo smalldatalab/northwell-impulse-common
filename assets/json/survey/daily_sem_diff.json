@@ -1,13 +1,10 @@
 {
-    "taskIdentifier": "pm_1",
-    "schemaIdentifier": "pm_likert_1",
     "title": "For each of the following, please select which comes closest to how you feel RIGHT NOW:",
     "items" : [
       {
-        "identifier"        : "focusnow_pm",
+        "identifier"        : "focusnow",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
@@ -24,10 +21,9 @@
         }
       },
       {
-        "identifier"        : "intentionalnow_pm",
+        "identifier"        : "intentionalnow",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
@@ -44,10 +40,9 @@
         }
       },
       {
-        "identifier"        : "borednow_pm",
+        "identifier"        : "borednow",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
@@ -64,10 +59,9 @@
         }
       },
       {
-        "identifier"        : "proudnow_pm",
+        "identifier"        : "proudnow",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
@@ -84,10 +78,9 @@
         }
       },
       {
-        "identifier"        : "energeticnow_pm",
+        "identifier"        : "energeticnow",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
@@ -104,10 +97,9 @@
         }
       },
       {
-        "identifier"        : "frustratednow_pm",
+        "identifier"        : "frustratednow",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
@@ -124,10 +116,9 @@
         }
       },
       {
-        "identifier"        : "cautiousnow_pm",
+        "identifier"        : "cautiousnow",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
@@ -144,10 +135,9 @@
         }
       },
       {
-        "identifier"        : "lonelynow_pm",
+        "identifier"        : "lonelynow",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
@@ -164,10 +154,9 @@
         }
       },
       {
-        "identifier"        : "optimisticnow_pm",
+        "identifier"        : "optimisticnow",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,
@@ -184,10 +173,9 @@
         }
       },
       {
-        "identifier"        : "determinednow_pm",
+        "identifier"        : "determinednow",
         "text"              : "",
         "type"              : "semanticDifferential",
-        "trackHeight"       : 8,
         "range"             : {
           "min"     : 0,
           "max"      : 10,

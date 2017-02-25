@@ -20,7 +20,7 @@
     {
       "type"        : "CTFSemanticDifferentialForm",
       "identifier"       : "am_3",
-      "parameterFileName": "am_likert_3"
+      "parameterFileName": "daily_sem_diff"
     },
     {
       "identifier"   :   "PAM",
