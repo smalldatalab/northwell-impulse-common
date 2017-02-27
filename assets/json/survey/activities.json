@@ -33,6 +33,12 @@
             "inputMapping": [
               {"stepIdentifier":"self_assessment_3", "parameter":"result"},
             ]
+          },
+          {
+            "transform": "PAMMultipleRaw",
+            "inputMapping": [
+              {"stepIdentifier":"PAMMultipleSelection", "parameter":"result"},
+            ]
           }
         ]
     },
@@ -73,9 +79,16 @@
           {
             "transform": "CTFScaleFormResult",
             "inputMapping": [
-              {"stepIdentifier":"am_1", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"daily_sem_diff"},
+              {"stepIdentifier":"am_3", "parameter":"result"},
+              {"parameter": "schemaID", "constant":"morning_sem_diff"},
+              {"parameter": "schemaVersion", "constant":1},
               {"parameter": "identifierSuffix", "constant":"_am"},
+            ]
+          },
+          {
+            "transform": "PAMRaw",
+            "inputMapping": [
+              {"stepIdentifier":"PAM", "parameter":"result"},
             ]
           }
         ]
@@ -95,6 +108,9 @@
             "transform": "CTFScaleFormResult",
             "inputMapping": [
               {"stepIdentifier":"pm_1", "parameter":"result"},
+              {"parameter": "schemaID", "constant":"evening_sem_diff"},
+              {"parameter": "schemaVersion", "constant":2},
+              {"parameter": "identifierSuffix", "constant":"_pm"},
             ]
           }
         ]
