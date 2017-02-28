@@ -4,7 +4,7 @@
     "title": "Think about yesterday as whole.",
     "items" : [
       {
-        "identifier"        : "positive_am",
+        "identifier"        : "positive",
         "text"              : "",
         "type"              : "semanticDifferential",
         "range"             : {
@@ -23,7 +23,7 @@
         }
       },
       {
-        "identifier"        : "intentional_am",
+        "identifier"        : "intentional",
         "text"              : "",
         "type"              : "semanticDifferential",
         "range"             : {
@@ -42,7 +42,7 @@
         }
       },
       {
-        "identifier"        : "productive_am",
+        "identifier"        : "productive",
         "text"              : "",
         "type"              : "semanticDifferential",
         "range"             : {
@@ -61,7 +61,7 @@
         }
       },
       {
-        "identifier"        : "stressed_am",
+        "identifier"        : "stressed",
         "text"              : "",
         "type"              : "semanticDifferential",
         "range"             : {
@@ -80,7 +80,7 @@
         }
       },
       {
-        "identifier"        : "healthy_am",
+        "identifier"        : "healthy",
         "text"              : "",
         "type"              : "semanticDifferential",
         "range"             : {

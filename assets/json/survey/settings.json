@@ -14,7 +14,18 @@
             "type":"timePicker",
             "text":"Please choose the window of time that you would like to be reminded to take your morning surveys.",
             "optional": false
-        }
+        },
+        "resultTransforms": [
+          {
+            "transform": "CTFTimeOfDayResult",
+            "inputMapping": [
+              {"stepIdentifier":"morning_notification_time_picker", "parameter":"result"},
+              {"parameter": "schemaID", "constant":"morning_notification_time"},
+              {"parameter": "schemaVersion", "constant":3},
+              {"parameter": "key", "constant":"notification_time"},
+            ]
+          }
+        ]
     },
     {
         "type":"recurring",
@@ -26,7 +37,18 @@
             "type":"timePicker",
             "text":"Please choose the window of time that you would like to be reminded to take your evening surveys.",
             "optional": false
-        }
+        },
+        "resultTransforms": [
+          {
+            "transform": "CTFTimeOfDayResult",
+            "inputMapping": [
+              {"stepIdentifier":"evening_notification_time_picker", "parameter":"result"},
+              {"parameter": "schemaID", "constant":"evening_notification_time"},
+              {"parameter": "schemaVersion", "constant":2},
+              {"parameter": "key", "constant":"notification_time"},
+            ]
+          }
+        ]
     },
     {
         "type":"recurring",
@@ -40,7 +62,17 @@
           "text": "We're constantly trying to improve and your feedback is greatly appreciated!",
           "multipleLines": true,
           "optional": false
-        }
+        },
+        "resultTransforms": [
+          {
+            "transform": "CTFTextResult",
+            "inputMapping": [
+              {"stepIdentifier":"notes", "parameter":"result"},
+              {"parameter": "schemaID", "constant":"comments"},
+              {"parameter": "schemaVersion", "constant":2},
+            ]
+          }
+        ]
     }
   ]
 }

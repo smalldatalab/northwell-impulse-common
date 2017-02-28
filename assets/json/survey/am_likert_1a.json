@@ -4,7 +4,7 @@
     "title": "Think about yesterday as whole.",
     "items" : [
       {
-        "identifier"        : "regret_am",
+        "identifier"        : "regret",
         "text"              : "Yesterday, I did or said things that I later regretted.",
         "type"              : "likert",
         "range"             : {
@@ -18,7 +18,7 @@
         }
       },
       {
-        "identifier"        : "goal_am",
+        "identifier"        : "goal",
         "text"              : "Yesterday, I tried to improve my life and well-being.",
         "type"              : "likert",
         "range"             : {
@@ -32,7 +32,7 @@
         }
       },
       {
-        "identifier"        : "exer_am",
+        "identifier"        : "exer",
         "text"              : "Yesterday, I engaged in strenuous physical activity (e.g., exercise, hard labor, etc.).",
         "type"              : "likert",
         "range"             : {
@@ -46,7 +46,7 @@
         }
       },
       {
-        "identifier"        : "saidnoth_am",
+        "identifier"        : "saidnoth",
         "text"              : "Yesterday, I said things without thinking.",
         "type"              : "likert",
         "range"             : {
@@ -60,7 +60,7 @@
         }
       },
       {
-        "identifier"        : "didnoth_am",
+        "identifier"        : "didnoth",
         "text"              : "Yesterday, I did things without thinking.",
         "type"              : "likert",
         "range"             : {
@@ -74,7 +74,7 @@
         }
       },
       {
-        "identifier"        : "impat_am",
+        "identifier"        : "impat",
         "text"              : "Yesterday, I felt impatient.",
         "type"              : "likert",
         "range"             : {
