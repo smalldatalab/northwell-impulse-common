@@ -113,7 +113,55 @@
               {"parameter": "schemaID", "constant":"comments"},
               {"parameter": "schemaVersion", "constant":2},
             ]
+          },
+          {
+            "transform": "GoNoGoSummary",
+            "inputMapping": [
+              {"stepIdentifier":"go_no_go_stable_stimulus_active_task", "parameter":"GoNoGoResult"}
+            ]
+          },
+          {
+            "transform": "GoNoGoSummary",
+            "inputMapping": [
+              {"stepIdentifier":"go_no_go_variable_stimulus_active_task", "parameter":"GoNoGoResult"}
+            ]
+          },
+          {
+            "transform": "BARTSummary",
+            "inputMapping": [
+              {"stepIdentifier":"bart_25_cents_active_task", "parameter":"BARTResult"}
+            ]
+          },
+          {
+            "transform": "BARTSummary",
+            "inputMapping": [
+              {"stepIdentifier":"bart_250_dollars_active_task", "parameter":"BARTResult"}
+            ]
+          },
+          {
+            "transform": "DelayDiscountingRaw",
+            "inputMapping": [
+              {"stepIdentifier":"dd_money_1_month", "parameter":"DelayDiscountingResult"}
+            ]
+          },
+          {
+            "transform": "DelayDiscountingRaw",
+            "inputMapping": [
+              {"stepIdentifier":"dd_money_6_month", "parameter":"DelayDiscountingResult"}
+            ]
+          },
+          {
+            "transform": "DelayDiscountingRaw",
+            "inputMapping": [
+              {"stepIdentifier":"dd_time_1_year", "parameter":"DelayDiscountingResult"}
+            ]
+          },{
+            "transform": "DelayDiscountingRaw",
+            "inputMapping": [
+              {"stepIdentifier":"dd_time_6_month", "parameter":"DelayDiscountingResult"}
+            ]
           }
+
         ]
     },
     {
@@ -212,7 +260,55 @@
               {"parameter": "schemaID", "constant":"comments_21"},
               {"parameter": "schemaVersion", "constant":2},
             ]
+          },
+          {
+            "transform": "GoNoGoSummary",
+            "inputMapping": [
+              {"stepIdentifier":"go_no_go_stable_stimulus_active_task", "parameter":"GoNoGoResult"}
+            ]
+          },
+          {
+            "transform": "GoNoGoSummary",
+            "inputMapping": [
+              {"stepIdentifier":"go_no_go_variable_stimulus_active_task", "parameter":"GoNoGoResult"}
+            ]
+          },
+          {
+            "transform": "BARTSummary",
+            "inputMapping": [
+              {"stepIdentifier":"bart_25_cents_active_task", "parameter":"BARTResult"}
+            ]
+          },
+          {
+            "transform": "BARTSummary",
+            "inputMapping": [
+              {"stepIdentifier":"bart_250_dollars_active_task", "parameter":"BARTResult"}
+            ]
+          },
+          {
+            "transform": "DelayDiscountingRaw",
+            "inputMapping": [
+              {"stepIdentifier":"dd_money_1_month", "parameter":"DelayDiscountingResult"}
+            ]
+          },
+          {
+            "transform": "DelayDiscountingRaw",
+            "inputMapping": [
+              {"stepIdentifier":"dd_money_6_month", "parameter":"DelayDiscountingResult"}
+            ]
+          },
+          {
+            "transform": "DelayDiscountingRaw",
+            "inputMapping": [
+              {"stepIdentifier":"dd_time_1_year", "parameter":"DelayDiscountingResult"}
+            ]
+          },{
+            "transform": "DelayDiscountingRaw",
+            "inputMapping": [
+              {"stepIdentifier":"dd_time_6_month", "parameter":"DelayDiscountingResult"}
+            ]
           }
+
         ]
     },
     {
@@ -266,6 +362,53 @@
             "inputMapping": [
               {"stepIdentifier":"PAM", "parameter":"result"},
             ]
+          },
+          {
+            "transform": "GoNoGoSummary",
+            "inputMapping": [
+              {"stepIdentifier":"go_no_go_stable_stimulus_active_task", "parameter":"GoNoGoResult"}
+            ]
+          },
+          {
+            "transform": "GoNoGoSummary",
+            "inputMapping": [
+              {"stepIdentifier":"go_no_go_variable_stimulus_active_task", "parameter":"GoNoGoResult"}
+            ]
+          },
+          {
+            "transform": "BARTSummary",
+            "inputMapping": [
+              {"stepIdentifier":"bart_25_cents_active_task", "parameter":"BARTResult"}
+            ]
+          },
+          {
+            "transform": "BARTSummary",
+            "inputMapping": [
+              {"stepIdentifier":"bart_250_dollars_active_task", "parameter":"BARTResult"}
+            ]
+          },
+          {
+            "transform": "DelayDiscountingRaw",
+            "inputMapping": [
+              {"stepIdentifier":"dd_money_1_month", "parameter":"DelayDiscountingResult"}
+            ]
+          },
+          {
+            "transform": "DelayDiscountingRaw",
+            "inputMapping": [
+              {"stepIdentifier":"dd_money_6_month", "parameter":"DelayDiscountingResult"}
+            ]
+          },
+          {
+            "transform": "DelayDiscountingRaw",
+            "inputMapping": [
+              {"stepIdentifier":"dd_time_1_year", "parameter":"DelayDiscountingResult"}
+            ]
+          },{
+            "transform": "DelayDiscountingRaw",
+            "inputMapping": [
+              {"stepIdentifier":"dd_time_6_month", "parameter":"DelayDiscountingResult"}
+            ]
           }
         ]
     },
@@ -293,6 +436,53 @@
             "transform": "PAMRaw",
             "inputMapping": [
               {"stepIdentifier":"PAM", "parameter":"result"},
+            ]
+          },
+          {
+            "transform": "GoNoGoSummary",
+            "inputMapping": [
+              {"stepIdentifier":"go_no_go_stable_stimulus_active_task", "parameter":"GoNoGoResult"}
+            ]
+          },
+          {
+            "transform": "GoNoGoSummary",
+            "inputMapping": [
+              {"stepIdentifier":"go_no_go_variable_stimulus_active_task", "parameter":"GoNoGoResult"}
+            ]
+          },
+          {
+            "transform": "BARTSummary",
+            "inputMapping": [
+              {"stepIdentifier":"bart_25_cents_active_task", "parameter":"BARTResult"}
+            ]
+          },
+          {
+            "transform": "BARTSummary",
+            "inputMapping": [
+              {"stepIdentifier":"bart_250_dollars_active_task", "parameter":"BARTResult"}
+            ]
+          },
+          {
+            "transform": "DelayDiscountingRaw",
+            "inputMapping": [
+              {"stepIdentifier":"dd_money_1_month", "parameter":"DelayDiscountingResult"}
+            ]
+          },
+          {
+            "transform": "DelayDiscountingRaw",
+            "inputMapping": [
+              {"stepIdentifier":"dd_money_6_month", "parameter":"DelayDiscountingResult"}
+            ]
+          },
+          {
+            "transform": "DelayDiscountingRaw",
+            "inputMapping": [
+              {"stepIdentifier":"dd_time_1_year", "parameter":"DelayDiscountingResult"}
+            ]
+          },{
+            "transform": "DelayDiscountingRaw",
+            "inputMapping": [
+              {"stepIdentifier":"dd_time_6_month", "parameter":"DelayDiscountingResult"}
             ]
           }
         ]
