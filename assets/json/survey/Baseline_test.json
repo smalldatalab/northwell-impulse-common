@@ -1,0 +1,12 @@
+{
+  "type": "elementList",
+  "identifier": "Baseline Survey",
+  "elements": [
+    {
+      "identifier": "notes",
+      "type": "textfield",
+      "text": "Please add comments or questions about the study, the assessment or anything you think is important for us to know to make this a better study below. You can come to this screen anytime.",
+      "multipleLines": true
+    }
+  ]
+}
