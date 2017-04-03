@@ -1,0 +1,213 @@
+{
+  "type": "elementList",
+  "identifier": "Baseline Survey",
+  "elements": [
+    {
+      "identifier": "notes",
+      "type": "textfield",
+      "text": "Please add comments or questions about the study, the assessment or anything you think is important for us to know to make this a better study below. You can come to this screen anytime.",
+      "multipleLines": true
+    },
+    {
+      "identifier": "introduction",
+      "type": "instruction",
+      "title": "Baseline Survey",
+      "text": "In order to help us gain a better understanding of your thoughts, feelings and experiences, please complete the following questions. It will take approximately 12 minutes to complete today’s portion and about 4-6 minutes per day (2-3 minutes in the morning and 2-3 minutes in the evening) for the next 21 days.In order to help us gain a better understanding of your thoughts, feelings and experiences, please complete the following questions. It will take approximately 12 minutes to complete today’s portion and about 4-6 minutes per day (2-3 minutes in the morning and 2-3 minutes in the evening) for the next 21 days."
+    },
+    {
+      "type": "elementFile",
+      "identifier": "demographics_file",
+      "elementFileName": "demographics"
+    },
+    {
+      "identifier":"likert_intro",
+      "type":"instruction",
+      "title":"",
+      "text":"The next set of questions use sliders for your responses. You can either slide the circle to the left or right OR simple tap the line to move the slider directly to your answer without sliding."
+    },
+    {
+      "type": "CTFLikertForm",
+      "identifier": "self_assessment_3",
+      "parameterFileName": "self_assessment_3"
+    },
+    {
+      "type": "CTFLikertForm",
+      "identifier": "self_assessment_4",
+      "parameterFileName": "self_assessment_4"
+    },
+    {
+      "type": "CTFLikertForm",
+      "identifier": "self_assessment_5",
+      "parameterFileName": "self_assessment_5"
+    },
+    {
+      "identifier": "baseline_behaviors_4",
+      "type": "multipleChoiceText",
+      "text": "Below is a list of 16 behaviors that people may have trouble controlling. \nPlease select up to 4 of the behaviors that you have the most trouble controlling, most frequently. Please make sure to review the entire list before choosing.",
+      "valueSuffix": "_bl_4",
+      "shuffleItems": true,
+      "optional": false,
+      "maximumNumberOfItems": 4,
+      "items": [
+        {
+          "prompt": "Eating unhealthy food",
+          "value": "junkfood"
+        },
+        {
+          "prompt": "Gambling",
+          "value": "gambling"
+        },
+        {
+          "prompt": "Smoking / Vaping",
+          "value": "smoke"
+        },
+        {
+          "prompt": "Mobile phone",
+          "value": "mobile"
+        },
+        {
+          "prompt": "Overeating (general)",
+          "value": "overeat"
+        },
+        {
+          "prompt": "Masturbation",
+          "value": "mast"
+        },
+        {
+          "prompt": "Cutting",
+          "value": "cut"
+        },
+        {
+          "prompt": "Social media",
+          "value": "smedia"
+        },
+        {
+          "prompt": "Alcohol",
+          "value": "alcohol"
+        },
+        {
+          "prompt": "Pornography",
+          "value": "porn"
+        },
+        {
+          "prompt": "Hair pulling / skin picking",
+          "value": "hair"
+        },
+        {
+          "prompt": "Gaming",
+          "value": "gaming"
+        },
+        {
+          "prompt": "Low movement/ activity",
+          "value": "sitting"
+        },
+        {
+          "prompt": "Spending / Shopping",
+          "value": "spend"
+        },
+        {
+          "prompt": "Temper",
+          "value": "temper"
+        },
+        {
+          "prompt": "Other",
+          "value": "othermore"
+        }
+      ]
+    },
+    {
+      "identifier": "baseline_behaviors_1",
+      "type": "singleChoiceText",
+      "text": "Please select the ONE behavior from the four you chose that you have trouble controlling which is the most bothersome to you.",
+      "valueSuffix": "_bl_1",
+      "optional": false,
+      "shuffleItems": true,
+      "items": [
+        {
+          "prompt": "Eating unhealthy food",
+          "value": "junkfood_one"
+        },
+        {
+          "prompt": "Gambling",
+          "value": "gambling_one"
+        },
+        {
+          "prompt": "Smoking / Vaping",
+          "value": "smoke_one"
+        },
+        {
+          "prompt": "Mobile phone",
+          "value": "mobile_one"
+        },
+        {
+          "prompt": "Overeating (general)",
+          "value": "overeat_one"
+        },
+        {
+          "prompt": "Masturbation",
+          "value": "mast_one"
+        },
+        {
+          "prompt": "Cutting",
+          "value": "cut_one"
+        },
+        {
+          "prompt": "Social media",
+          "value": "smedia_one"
+        },
+        {
+          "prompt": "Alcohol",
+          "value": "alcohol_one"
+        },
+        {
+          "prompt": "Pornography",
+          "value": "porn_one"
+        },
+        {
+          "prompt": "Hair pulling / skin picking",
+          "value": "hair_one"
+        },
+        {
+          "prompt": "Gaming",
+          "value": "gaming_one"
+        },
+        {
+          "prompt": "Low movement/ activity",
+          "value": "sitting_one"
+        },
+        {
+          "prompt": "Spending / Shopping",
+          "value": "spend_one"
+        },
+        {
+          "prompt": "Temper",
+          "value": "temper_one"
+        },
+        {
+          "prompt": "Other",
+          "value": "othermore_one"
+        }
+      ]
+    },
+    {
+      "type": "CTFLikertForm",
+      "identifier": "self_assessment_7",
+      "parameterFileName": "self_assessment_7"
+    },
+    {
+      "type": "CTFSemanticDifferentialForm",
+      "identifier": "self_assessment_8",
+      "parameterFileName": "self_assessment_8"
+    },
+    {
+      "type": "CTFSemanticDifferentialForm",
+      "identifier": "self_assessment_9",
+      "parameterFileName": "self_assessment_9"
+    },
+    {
+      "identifier": "PAMMultipleSelection",
+      "type": "PAMMultipleSelection",
+      "parameterFileName": "PAMMultipleSelection"
+    }
+  ]
+}
