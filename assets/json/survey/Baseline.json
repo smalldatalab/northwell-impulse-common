@@ -9,6 +9,12 @@
       "text": "In order to help us gain a better understanding of your thoughts, feelings and experiences, please complete the following questions. It will take approximately 12 minutes to complete today’s portion and about 4-6 minutes per day (2-3 minutes in the morning and 2-3 minutes in the evening) for the next 21 days.In order to help us gain a better understanding of your thoughts, feelings and experiences, please complete the following questions. It will take approximately 12 minutes to complete today’s portion and about 4-6 minutes per day (2-3 minutes in the morning and 2-3 minutes in the evening) for the next 21 days."
     },
     {
+      "identifier": "group_label",
+      "type": "textfield",
+      "title": "Group Label",
+      "text": "Enter your group label below"
+    },
+    {
       "type": "elementFile",
       "identifier": "demographics_file",
       "elementFileName": "demographics"
