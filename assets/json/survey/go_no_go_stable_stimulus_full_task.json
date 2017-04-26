@@ -52,7 +52,7 @@
     {
       "identifier"   : "results_gng_s",
       "type"         : "instruction",
-      "title"        : "Thanks!",
+      "title"        : "Thank you for completing the task!",
       "text"         : ""
     }
   ]

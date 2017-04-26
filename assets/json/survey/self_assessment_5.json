@@ -19,7 +19,7 @@
         },
         {
             "identifier":"childadd",
-            "text":"As a child, I had difficulty staying focused  in school.",
+            "text":"As a child, I had difficulty staying focused in school.",
             "type":"likert",
             "range":{
                 "min":0,

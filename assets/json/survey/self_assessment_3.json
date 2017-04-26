@@ -31,7 +31,7 @@
         },
         {
             "identifier":"sensation",
-            "text":"I like to engage in experiences that give me an adrenalin rush (e.g. bungee jumping).",
+            "text":"I like to engage in experiences that give me an adrenaline rush (e.g., bungee jumping).",
             "type":"likert",
             "range":{
                 "min":0,

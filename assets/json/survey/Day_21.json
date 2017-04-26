@@ -85,7 +85,7 @@
         {
             "identifier":"results",
             "type":"instruction",
-            "title":"Thank you",
+            "title":"Thank you for completing all the tasks!",
             "text":"Please contact us to finalize your participation in the study. Upon hearing from you, we will schedule your payment and answer any questions or concerns that you may have."
         }
     ]

@@ -28,7 +28,7 @@
     {
       "identifier"   : "results",
       "type"         : "instruction",
-      "title"        : "Thanks!",
+      "title"        : "Thank you for completing the task!",
       "text"         : ""
     }
   ]

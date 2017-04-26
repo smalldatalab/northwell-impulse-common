@@ -131,7 +131,7 @@
         },
         {
             "identifier":"jealous",
-            "text":"I have been a little jealous of a friends success in the past.",
+            "text":"I have been a little jealous of a friend's success in the past.",
             "type":"likert",
             "range":{
                 "min":0,

@@ -4,8 +4,8 @@
         "prompt":"When you think about yourself and how you generally feel, which comes closest to how you feel on most days? Please select all that apply.",
         "summary":{
             "identifier":"PAM Summary Identifier",
-            "title":"Thanks",
-            "text":"Thank you for participating in PAM"
+            "title":"Thank you for participating in PAM!",
+            "text":""
         },
         "affects":[
             {
