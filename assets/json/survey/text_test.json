@@ -3,16 +3,16 @@
   "identifier": "Baseline Survey",
   "elements": [
     {
+      "identifier": "notes",
+      "type": "textfield",
+      "text": "Please add comments or questions about the study, the assessment or anything you think is important for us to know to make this a better study below. You can come to this screen anytime.",
+      "multipleLines": true
+    },
+    {
       "identifier": "introduction",
       "type": "instruction",
       "title": "Baseline Survey",
-      "text": "In order to help us gain a better understanding of your thoughts, feelings and experiences, please complete the following questions. It will take approximately 12 minutes to complete today’s portion and about 4-6 minutes per day (2-3 minutes in the morning and 2-3 minutes in the evening) for the next 21 days."
-    },
-    {
-      "identifier": "group_label",
-      "type": "textfield",
-      "title": "Group Label",
-      "text": "Enter your group label below"
+      "text": "In order to help us gain a better understanding of your thoughts, feelings and experiences, please complete the following questions. It will take approximately 12 minutes to complete today’s portion and about 4-6 minutes per day (2-3 minutes in the morning and 2-3 minutes in the evening) for the next 21 days.In order to help us gain a better understanding of your thoughts, feelings and experiences, please complete the following questions. It will take approximately 12 minutes to complete today’s portion and about 4-6 minutes per day (2-3 minutes in the morning and 2-3 minutes in the evening) for the next 21 days."
     },
     {
       "type": "elementFile",
@@ -23,7 +23,7 @@
       "identifier":"likert_intro",
       "type":"instruction",
       "title":"",
-      "text":"For the next set of questions, you will use sliders to enter your responses. You can either slide the circle to the left or right OR simply tap the line to move the slider directly to your answers without sliding."
+      "text":"The next set of questions use sliders for your responses. You can either slide the circle to the left or right OR simple tap the line to move the slider directly to your answer without sliding."
     },
     {
       "type": "CTFLikertForm",
@@ -208,42 +208,6 @@
       "identifier": "PAMMultipleSelection",
       "type": "PAMMultipleSelection",
       "parameterFileName": "PAMMultipleSelection"
-    },
-    {
-      "identifier": "morning_notification_time_picker",
-      "type": "timePicker",
-      "optional": false,
-      "text": "For your MORNING survey, please choose a time within 2 hours of waking up that you would like to take your morning survey. Your alert will come any time within one hour after the time you choose."
-    },
-    {
-      "identifier": "evening_notification_time_picker",
-      "type": "timePicker",
-      "optional": false,
-      "text": "For your EVENING survey, please choose any time after 6pm (and at least 8 hours after your morning survey time). Your alert will come any time within one hour after the time you choose."
-    },
-    {
-      "identifier": "notes",
-      "type": "textfield",
-      "text": "Please leave any comments or questions about the assessment, the study, or anything you think is important for us to know in order to better the study. You can come to this screen at any time to make changes.",
-      "multipleLines": true
-    },
-    {
-      "identifier":"instruction",
-      "type":"instruction",
-      "title":"Thank you for completing the surveys!",
-      "text": "Now you will complete some games. For the baseline, you will complete them all at once. Then you will only do one in the morning and one in the evening. The games take between about one to three minutes to complete."
-    },
-    {
-      "type": "elementFile",
-      "identifier": "shuffled_active_tasks_ref",
-      "elementFileName": "shuffled_active_tasks"
-    },
-    {
-      "identifier": "results",
-      "type": "textfield",
-      "title":"Thank you for participating!",
-      "text": "Please write in the space below so we can contact you to arrange payment and answer any questions. Then click 'Done' to start receiving your morning and evening surveys.",
-      "multipleLines": true
     }
   ]
 }

@@ -9,6 +9,12 @@
             "text":"Since you've already taken the baseline survey, we just need to know when you took it, as well as when you would like to take your morning and evening surveys."
         },
         {
+          "identifier": "group_label",
+          "type": "textfield",
+          "title": "Group Label",
+          "text": "Enter your group label below"
+        },
+        {
             "identifier":"baseline_behaviors_4",
             "type":"multipleChoiceText",
             "text":"Below is a list of 16 behaviors that people may have trouble controlling. \nPlease select up to 4 of the behaviors that you have the most trouble controlling, most frequently. Please make sure to review the entire list before choosing.",
