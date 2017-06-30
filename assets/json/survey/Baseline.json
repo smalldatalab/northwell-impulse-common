@@ -240,10 +240,9 @@
     },
     {
       "identifier": "results",
-      "type": "textfield",
+      "type": "instruction",
       "title":"Thank you for participating!",
-      "text": "Please write in the space below so we can contact you to arrange payment and answer any questions. Then click 'Done' to start receiving your morning and evening surveys.",
-      "multipleLines": true
+      "text": "Click 'Done' to start receiving your morning and evening surveys."
     }
   ]
 }
