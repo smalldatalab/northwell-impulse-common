@@ -4,7 +4,7 @@
   "elements"   : [
 
     {
-      "identifier"   : "introduction",
+      "identifier"   : "introduction_pd_constant_probability",
       "type"         : "instruction",
       "title"        : "Probability Discounting",
       "text"         : "In this game you will choose between receiving a certain amount of money for sure or a chance (percentage) of receiving a certain amount of money.\n\nWhile you will not receive the actual money, please make your decisions as if you were really going to receive the money at real levels of change. There are no correct or incorrect answers."
@@ -12,15 +12,15 @@
       {
         "type"        : "CTFDiscountingActiveStep",
         "identifier"       : "pd_constant_probability",
-        "text": "Which would you prefer?",
+        "text": "Which would you prefer?\n\nThe money for sure (e.g. $50) or a percentage chance of a larger amount of money (e.g. 50% chance of $120)?",
         "constantAmount" : 120.0,
         "initialVariableAmount": 50.0,
         "numQuestions": 6,
-        "constantFormatString": "For Sure\n$%.02f",
-        "variableFormatString": "50%% Chance\n$%.02f"
+        "constantFormatString": "50%% Chance\n$%.02f",
+        "variableFormatString": "For Sure\n$%.02f"
       },
       {
-        "identifier"   : "results",
+        "identifier"   : "thanks_pd_constant_probability",
         "type"         : "instruction",
         "title"        : "Thank you for completing the task!",
         "text"         : ""

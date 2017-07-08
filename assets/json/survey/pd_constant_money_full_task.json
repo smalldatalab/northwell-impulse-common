@@ -1,13 +1,19 @@
 {
   "type"      : "elementList",
-  "identifier": "pd_constant_money_short_intro",
+  "identifier": "pd_constant_money_full_intro",
   "elements"   : [
 
     {
-      "identifier"   : "introduction_pd_constant_money",
+      "identifier"   : "introduction_pd_constant_money_1",
       "type"         : "instruction",
       "title"        : "Probability Discounting",
-      "text"         : "In this game you will choose between receiving a certain amount of money for sure or a chance (percentage) of receiving a certain amount of money.\n\nWhile you will not receive the actual money, please make your decisions as if you were really going to receive the money at real levels of change. There are no correct or incorrect answers."
+      "text"         : "In this game you will choose between receiving a certain amount of money for sure or a chance (percentage) of receiving a certain amount of money."
+    },
+    {
+      "identifier"   : "introduction_pd_constant_money_2",
+      "type"         : "instruction",
+      "title"        : "Probability Discounting",
+      "text"         : "While you will not receive the actual money, please make your decisions as if you were really going to receive the money at real levels of change. There are no correct or incorrect answers."
     },
       {
         "type"        : "CTFDiscountingActiveStep",
