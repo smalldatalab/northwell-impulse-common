@@ -16,7 +16,7 @@
       "value": "gambling"
     },
     {
-      "prompt": "Smoking / Vaping",
+      "prompt": "Smoking/vaping",
       "value": "smoke"
     },
     {
@@ -48,7 +48,7 @@
       "value": "porn"
     },
     {
-      "prompt": "Hair pulling / skin picking",
+      "prompt": "Hair pulling/skin picking",
       "value": "hair"
     },
     {
@@ -56,11 +56,11 @@
       "value": "gaming"
     },
     {
-      "prompt": "Low movement/ activity",
+      "prompt": "Low movement/activity",
       "value": "sitting"
     },
     {
-      "prompt": "Spending / Shopping",
+      "prompt": "Spending/shopping",
       "value": "spend"
     },
     {

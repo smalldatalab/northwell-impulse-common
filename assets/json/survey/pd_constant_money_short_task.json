@@ -6,7 +6,7 @@
     {
       "identifier"   : "introduction",
       "type"         : "instruction",
-      "title"        : "Probability Discounting",
+      "title"        : "Ratio Game",
       "text"         : "In this game you will choose between receiving a certain amount of money for sure or a chance (percentage) of receiving a certain amount of money.\n\nWhile you will not receive the actual money, please make your decisions as if you were really going to receive the money at real levels of change. There are no correct or incorrect answers."
     },
       {

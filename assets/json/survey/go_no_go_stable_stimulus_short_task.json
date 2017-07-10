@@ -5,7 +5,7 @@
     {
       "identifier"   : "introduction_1",
       "type"         : "instruction",
-      "title"        : "Welcome to the Square Task",
+      "title"        : "Welcome to the Square Game",
       "text"         : "This game measures how quickly you can make a simple decision, and then either react or withhold your response. You will first be presented with a rectangle. If the rectangle turns GREEN, tap the screen as quickly as possible. If the rectangle turns BLUE, do not tap. Between each rectangle you will see a plus (+) sign."
     },
     {

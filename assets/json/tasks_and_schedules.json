@@ -99,7 +99,7 @@
         {
             "scheduleType":"recurring",
             "scheduleString":"* * * * *",
-            "scheduleTitle":"Square Task Practice",
+            "scheduleTitle":"Square Game Practice",
             "scheduleIdentifier":"go-no-go-practice",
             "scheduleGUID":"go-no-go-practice-1",
             "activityType":"sequential",
@@ -107,7 +107,7 @@
             "trialActivity":true,
             "tasks":[
               {
-                  "taskTitle":"Square Task Practice",
+                  "taskTitle":"Square Game Practice",
                   "taskID":"go_no_go_practice_full_task",
                   "taskFileName":"go_no_go_practice_full_task",
                   "taskClassName":"CTFOrderedTask",
@@ -118,7 +118,7 @@
         {
             "scheduleType":"recurring",
             "scheduleString":"* * * * *",
-            "scheduleTitle":"Square Task #1",
+            "scheduleTitle":"Square Game #1",
             "scheduleIdentifier":"go-no-go-stable",
             "scheduleGUID":"go-no-go-stable-1",
             "activityType":"sequential",
@@ -126,7 +126,7 @@
             "trialActivity":true,
             "tasks":[
               {
-                  "taskTitle":"Square Task #1",
+                  "taskTitle":"Square Game #1",
                   "taskID":"go_no_go_stable_stimulus_full_task",
                   "taskFileName":"go_no_go_stable_stimulus_full_task",
                   "taskClassName":"CTFOrderedTask",
@@ -137,7 +137,7 @@
         {
             "scheduleType":"recurring",
             "scheduleString":"* * * * *",
-            "scheduleTitle":"Square Task #2",
+            "scheduleTitle":"Square Game #2",
             "scheduleIdentifier":"go-no-go-variable",
             "scheduleGUID":"go-no-go-variable-1",
             "activityType":"sequential",
@@ -145,7 +145,7 @@
             "trialActivity":true,
             "tasks":[
               {
-                  "taskTitle":"Square Task #2",
+                  "taskTitle":"Square Game #2",
                   "taskID":"go_no_go_variable_stimulus_full_task",
                   "taskFileName":"go_no_go_variable_stimulus_full_task",
                   "taskClassName":"CTFOrderedTask",

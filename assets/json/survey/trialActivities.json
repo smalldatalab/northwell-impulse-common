@@ -7,7 +7,7 @@
     {
       "type": "recurring",
       "identifier": "go-no-go-stable",
-      "title": "Square Task #1",
+      "title": "Square Game #1",
       "guid": "go-no-go-stable-1",
       "activity": {
         "type": "elementFile",
@@ -28,7 +28,7 @@
     {
       "type": "recurring",
       "identifier": "go-no-go-variable",
-      "title": "Square Task #2",
+      "title": "Square Game #2",
       "guid": "go-no-go-variable-1",
       "activity": {
         "type": "elementFile",

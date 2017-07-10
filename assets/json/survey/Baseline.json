@@ -6,7 +6,7 @@
       "identifier": "introduction",
       "type": "instruction",
       "title": "Baseline Survey",
-      "text": "In order to help us gain a better understanding of your thoughts, feelings and experiences, please complete the following questions. It will take approximately 12 minutes to complete today’s portion and about 4-6 minutes per day (2-3 minutes in the morning and 2-3 minutes in the evening) for the next 21 days."
+      "text": "In order to help us gain a better understanding of your thoughts, feelings and experiences, please complete the following questions. It will take approximately 15 minutes to complete today’s portion and about 4-10 minutes per day (2-5 minutes in the morning and 2-5 minutes in the evening) for the next 21 days."
     },
     {
       "identifier": "group_label",
@@ -58,7 +58,7 @@
           "value": "gambling"
         },
         {
-          "prompt": "Smoking / Vaping",
+          "prompt": "Smoking/vaping",
           "value": "smoke"
         },
         {
@@ -90,7 +90,7 @@
           "value": "porn"
         },
         {
-          "prompt": "Hair pulling / skin picking",
+          "prompt": "Hair pulling/skin picking",
           "value": "hair"
         },
         {
@@ -98,11 +98,11 @@
           "value": "gaming"
         },
         {
-          "prompt": "Low movement/ activity",
+          "prompt": "Low movement/activity",
           "value": "sitting"
         },
         {
-          "prompt": "Spending / Shopping",
+          "prompt": "Spending/shopping",
           "value": "spend"
         },
         {
@@ -118,7 +118,7 @@
     {
       "identifier": "baseline_behaviors_1",
       "type": "singleChoiceText",
-      "text": "Please select the ONE behavior from the four you chose that you have trouble controlling which is the most bothersome to you.",
+      "text": "Please select the ONE behavior from the 4 you chose that you have trouble controlling which is the most bothersome to you.",
       "valueSuffix": "_bl_1",
       "optional": false,
       "shuffleItems": true,
@@ -132,7 +132,7 @@
           "value": "gambling_one"
         },
         {
-          "prompt": "Smoking / Vaping",
+          "prompt": "Smoking/vaping",
           "value": "smoke_one"
         },
         {
@@ -164,7 +164,7 @@
           "value": "porn_one"
         },
         {
-          "prompt": "Hair pulling / skin picking",
+          "prompt": "Hair pulling/skin picking",
           "value": "hair_one"
         },
         {
@@ -172,11 +172,11 @@
           "value": "gaming_one"
         },
         {
-          "prompt": "Low movement/ activity",
+          "prompt": "Low movement/activity",
           "value": "sitting_one"
         },
         {
-          "prompt": "Spending / Shopping",
+          "prompt": "Spending/shopping",
           "value": "spend_one"
         },
         {
@@ -193,6 +193,12 @@
       "type": "CTFLikertForm",
       "identifier": "self_assessment_7",
       "parameterFileName": "self_assessment_7"
+    },
+    {
+      "identifier": "semantic_differential_instruction",
+      "type": "instruction",
+      "title":"",
+      "text": "The next couple of pages consist of a list of two opposite feelings, thoughts, or behaviors. Use the slider to choose where you generally fall between each pair of opposites. For example, if you are someone who gets distracted or has trouble focusing, you would move the slider closer to the “distracted” side."
     },
     {
       "type": "CTFSemanticDifferentialForm",
@@ -231,7 +237,7 @@
       "identifier":"instruction",
       "type":"instruction",
       "title":"Thank you for completing the surveys!",
-      "text": "Now you will complete some games. For the baseline, you will complete them all at once. Then you will only do one in the morning and one in the evening. The games take between about one to three minutes to complete."
+      "text": "Now you will play some games. For the baseline, you will complete full-length versions all at once. Some of the games may repeat. Then, you will only do one in the morning and one in the evening for the next 21 days. The games will take between 1-3 minutes to complete."
     },
     {
       "type": "elementFile",

@@ -125,7 +125,7 @@
           "default"   : 5,
           "step": 1,
           "minValueText": "cautious",
-          "maxValueText": "thrill seeking",
+          "maxValueText": "thrill-seeking",
           "trackHeight":8,
           "gradientColors":[
               "#1B75BB",
