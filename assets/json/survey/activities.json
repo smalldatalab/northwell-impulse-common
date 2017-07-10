@@ -318,14 +318,6 @@
           {
             "transform": "DelayDiscountingRaw",
             "inputMapping": [
-              {"stepIdentifier":"dd_money_1_month", "parameter":"DelayDiscountingResult"},
-              {"parameter": "schemaID", "constant":"delay_discounting_raw"},
-              {"parameter": "schemaVersion", "constant":6}
-            ]
-          },
-          {
-            "transform": "DelayDiscountingRaw",
-            "inputMapping": [
               {"stepIdentifier":"dd_money_6_month", "parameter":"DelayDiscountingResult"},
               {"parameter": "schemaID", "constant":"delay_discounting_raw"},
               {"parameter": "schemaVersion", "constant":6}
@@ -338,15 +330,23 @@
               {"parameter": "schemaID", "constant":"delay_discounting_raw"},
               {"parameter": "schemaVersion", "constant":6}
             ]
-          },{
-            "transform": "DelayDiscountingRaw",
+          },
+          {
+            "transform": "DiscountingRaw",
             "inputMapping": [
-              {"stepIdentifier":"dd_time_6_month", "parameter":"DelayDiscountingResult"},
-              {"parameter": "schemaID", "constant":"delay_discounting_raw"},
-              {"parameter": "schemaVersion", "constant":6}
+              {"stepIdentifier":"pd_constant_money", "parameter":"result"},
+              {"parameter": "schemaID", "constant":"discounting_raw"},
+              {"parameter": "schemaVersion", "constant":2}
+            ]
+          },
+          {
+            "transform": "DiscountingRaw",
+            "inputMapping": [
+              {"stepIdentifier":"pd_constant_probability", "parameter":"result"},
+              {"parameter": "schemaID", "constant":"discounting_raw"},
+              {"parameter": "schemaVersion", "constant":2}
             ]
           }
-
         ]
     },
     {
