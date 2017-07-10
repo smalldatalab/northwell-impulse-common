@@ -89,33 +89,10 @@
         }
       ]
     },
-
-
-    {
-      "type": "recurring",
-      "identifier": "DD_Money_1Month",
-      "title": "Now and Later #1",
-      "guid": "DD_Money_1Month-1",
-      "activity": {
-        "type": "elementFile",
-        "identifier": "dd_money_1_month_short_task",
-        "elementFileName": "dd_money_1_month_short_task"
-      },
-      "resultTransforms": [
-        {
-          "transform": "DelayDiscountingRaw",
-          "inputMapping": [
-            {"stepIdentifier":"dd_money_1_month", "parameter":"DelayDiscountingResult"},
-            {"parameter": "schemaID", "constant":"delay_discounting_raw"},
-            {"parameter": "schemaVersion", "constant":6}
-          ]
-        }
-      ]
-    },
     {
       "type": "recurring",
       "identifier": "DD_Money_6Month",
-      "title": "Now and Later #2",
+      "title": "Now and Later #1",
       "guid": "DD_Money_6Month-1",
       "activity": {
         "type": "elementFile",
@@ -136,7 +113,7 @@
     {
       "type": "recurring",
       "identifier": "DD_Time_1Month",
-      "title": "Now and Later #3",
+      "title": "Now and Later #2",
       "guid": "DD_Time_1Month-1",
       "activity": {
         "type": "elementFile",
@@ -156,29 +133,8 @@
     },
     {
       "type": "recurring",
-      "identifier": "DD_Time_6Month",
-      "title": "Now and Later #4",
-      "guid": "DD_Time_6Month-1",
-      "activity": {
-        "type": "elementFile",
-        "identifier": "dd_time_6_month_short_task",
-        "elementFileName": "dd_time_6_month_short_task"
-      },
-      "resultTransforms": [
-        {
-          "transform": "DelayDiscountingRaw",
-          "inputMapping": [
-            {"stepIdentifier":"dd_time_6_month", "parameter":"DelayDiscountingResult"},
-            {"parameter": "schemaID", "constant":"delay_discounting_raw"},
-            {"parameter": "schemaVersion", "constant":6}
-          ]
-        }
-      ]
-    },
-    {
-      "type": "recurring",
       "identifier": "PD_Constant_Probability",
-      "title": "Now and Later #5",
+      "title": "Now and Later #3",
       "guid": "PD_Constant_Probability-1",
       "activity": {
         "type": "elementFile",
@@ -199,7 +155,7 @@
     {
       "type": "recurring",
       "identifier": "PD_Constant_Money",
-      "title": "Now and Later #6",
+      "title": "Now and Later #4",
       "guid": "PD_Constant_Money-1",
       "activity": {
         "type": "elementFile",

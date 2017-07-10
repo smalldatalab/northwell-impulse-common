@@ -53,7 +53,7 @@
         {
           "identifier"    : "file_ref5",
           "type"          : "elementFile",
-          "elementFileName" : "dd_money_1_month_short_task"
+          "elementFileName" : "pd_constant_probability_short_task"
         },
         {
           "identifier"    : "file_ref6",
@@ -68,7 +68,7 @@
         {
           "identifier"    : "file_ref8",
           "type"          : "elementFile",
-          "elementFileName" : "dd_time_6_month_short_task"
+          "elementFileName" : "pd_constant_money_short_task"
         }
       ]
     }
