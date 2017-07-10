@@ -134,7 +134,7 @@
     {
       "type": "recurring",
       "identifier": "PD_Constant_Probability",
-      "title": "Now and Later #3",
+      "title": "Ratio Game #1",
       "guid": "PD_Constant_Probability-1",
       "activity": {
         "type": "elementFile",
@@ -155,7 +155,7 @@
     {
       "type": "recurring",
       "identifier": "PD_Constant_Money",
-      "title": "Now and Later #4",
+      "title": "Ratio Game #2",
       "guid": "PD_Constant_Money-1",
       "activity": {
         "type": "elementFile",
