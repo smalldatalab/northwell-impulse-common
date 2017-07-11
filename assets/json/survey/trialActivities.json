@@ -50,7 +50,7 @@
     {
       "type": "recurring",
       "identifier": "bart.25",
-      "title": "BART $.25",
+      "title": "Balloon Game $.25",
       "guid": "bart.25-1",
       "activity": {
         "type": "elementFile",
@@ -71,7 +71,7 @@
     {
       "type": "recurring",
       "identifier": "bart250",
-      "title": "BART $250",
+      "title": "Balloon Game $250",
       "guid": "bart250-1",
       "activity": {
         "type": "elementFile",
