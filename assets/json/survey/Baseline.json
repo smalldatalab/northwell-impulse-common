@@ -43,7 +43,9 @@
     {
       "identifier": "baseline_behaviors_4",
       "type": "enhancedMultipleChoiceText",
-      "text": "Below is a list of 16 behaviors that people may have trouble controlling. \nPlease select up to 4 of the behaviors that you have the most trouble controlling, most frequently. Please make sure to review the entire list before choosing.",
+      "formattedText": {
+        "template": "###### Below is a list of 16 behaviors that people may have trouble controlling. \n###### Please select **up to 4** of the behaviors that you have the **most trouble controlling**, **most frequently**. Please make sure to review the entire list before choosing."
+      },
       "valueSuffix": "_bl_4",
       "shuffleItems": true,
       "optional": false,
@@ -118,74 +120,76 @@
     {
       "identifier": "baseline_behaviors_1",
       "type": "enhancedSingleChoiceText",
-      "text": "Please select the ONE behavior from the 4 you chose that you have trouble controlling which is the most bothersome to you.",
+      "formattedText": {
+        "template": "###### Please select the ONE behavior from the **4** you chose that you have trouble controlling which is the most bothersome to you."
+      },
       "valueSuffix": "_bl_1",
       "optional": false,
       "shuffleItems": true,
       "items": [
         {
           "prompt": "Eating unhealthy food",
-          "value": "junkfood_one"
+          "value": "junkfood"
         },
         {
           "prompt": "Gambling",
-          "value": "gambling_one"
+          "value": "gambling"
         },
         {
           "prompt": "Smoking/vaping",
-          "value": "smoke_one"
+          "value": "smoke"
         },
         {
           "prompt": "Mobile phone",
-          "value": "mobile_one"
+          "value": "mobile"
         },
         {
           "prompt": "Overeating (general)",
-          "value": "overeat_one"
+          "value": "overeat"
         },
         {
           "prompt": "Masturbation",
-          "value": "mast_one"
+          "value": "mast"
         },
         {
           "prompt": "Cutting",
-          "value": "cut_one"
+          "value": "cut"
         },
         {
           "prompt": "Social media",
-          "value": "smedia_one"
+          "value": "smedia"
         },
         {
           "prompt": "Alcohol",
-          "value": "alcohol_one"
+          "value": "alcohol"
         },
         {
           "prompt": "Pornography",
-          "value": "porn_one"
+          "value": "porn"
         },
         {
           "prompt": "Hair pulling/skin picking",
-          "value": "hair_one"
+          "value": "hair"
         },
         {
           "prompt": "Gaming",
-          "value": "gaming_one"
+          "value": "gaming"
         },
         {
           "prompt": "Low movement/activity",
-          "value": "sitting_one"
+          "value": "sitting"
         },
         {
           "prompt": "Spending/shopping",
-          "value": "spend_one"
+          "value": "spend"
         },
         {
           "prompt": "Temper",
-          "value": "temper_one"
+          "value": "temper"
         },
         {
           "prompt": "Other",
-          "value": "othermore_one"
+          "value": "othermore"
         }
       ]
     },
