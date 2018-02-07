@@ -22,12 +22,10 @@
               {"stepIdentifier":"age", "parameter":"age"},
               {"stepIdentifier":"zip_code", "parameter":"zip_code"},
               {"stepIdentifier":"education", "parameter":"education"},
-              {"stepIdentifier":"employment_income", "parameter":"employment_income"},
               {"stepIdentifier":"ethnicity", "parameter":"ethnicity"},
               {"stepIdentifier":"race", "parameter":"race"},
-              {"stepIdentifier":"religion", "parameter":"religion"},
               {"parameter": "schemaID", "constant":"demographics"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaVersion", "constant":3}
             ]
           },
           {

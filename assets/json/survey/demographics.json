@@ -98,57 +98,6 @@
       ]
     },
     {
-      "identifier": "employment_income",
-      "type": "enhancedMultipleChoiceText",
-      "text": "Which best describes your current employment status? Check all that apply.",
-      "items": [
-        {
-          "prompt": "Part-time",
-          "value": "Part-time"
-        },
-        {
-          "prompt": "Full-time",
-          "value": "Full-time"
-        },
-        {
-          "prompt": "Contracted/consultant",
-          "value": "Contracted_consultant"
-        },
-        {
-          "prompt": "Homemaker",
-          "value": "Homemaker"
-        },
-        {
-          "prompt": "Self-employed",
-          "value": "Self-employed"
-        },
-        {
-          "prompt": "Student",
-          "value": "Student"
-        },
-        {
-          "prompt": "Military",
-          "value": "Military"
-        },
-        {
-          "prompt": "Retired",
-          "value": "Retired"
-        },
-        {
-          "prompt": "Unemployed",
-          "value": "Unemployed"
-        },
-        {
-          "prompt": "Public assistance/social security",
-          "value": "Public assistance"
-        },
-        {
-          "prompt": "Other",
-          "value": "Other"
-        }
-      ]
-    },
-    {
       "identifier": "ethnicity",
       "type": "enhancedSingleChoiceText",
       "text": "Please specify your ethnicity.",
@@ -203,49 +152,6 @@
         {
           "prompt": "Unknown",
           "value": "Unknown"
-        },
-        {
-          "prompt": "Prefer not to disclose",
-          "value": "Prefer not to disclose"
-        }
-      ]
-    },
-    {
-      "identifier": "religion",
-      "type": "enhancedMultipleChoiceText",
-      "text": "Please specify your religious beliefs. Check all that apply.",
-      "items": [
-        {
-          "prompt": "Atheist",
-          "value": "Atheist"
-        },
-        {
-          "prompt": "Agnostic",
-          "value": "Agnostic"
-        },
-        {
-          "prompt": "Humanistic",
-          "value": "Humanistic"
-        },
-        {
-          "prompt": "Religious (no services)",
-          "value": "Religious (no services)"
-        },
-        {
-          "prompt": "Religious (holiday services)",
-          "value": "Religious (holiday services)"
-        },
-        {
-          "prompt": "Religious (weekly services)",
-          "value": "Religious (weekly services)"
-        },
-        {
-          "prompt": "Spiritual",
-          "value": "Spiritual"
-        },
-        {
-          "prompt": "Other",
-          "value": "Other"
         },
         {
           "prompt": "Prefer not to disclose",
