@@ -68,7 +68,7 @@
             "inputMapping": [
               {"stepIdentifier":"self_assessment_7", "parameter":"result"},
               {"parameter": "schemaID", "constant":"behavior_likert_bl"},
-              {"parameter": "schemaVersion", "constant":2},
+              {"parameter": "schemaVersion", "constant":3},
               {"parameter": "identifierSuffix", "constant":"_bl"}
             ]
           },
@@ -248,7 +248,7 @@
             "inputMapping": [
               {"stepIdentifier":"self_assessment_7", "parameter":"result"},
               {"parameter": "schemaID", "constant":"behavior_likert_21"},
-              {"parameter": "schemaVersion", "constant":2},
+              {"parameter": "schemaVersion", "constant":3},
               {"parameter": "identifierSuffix", "constant":"_21"}
             ]
           },

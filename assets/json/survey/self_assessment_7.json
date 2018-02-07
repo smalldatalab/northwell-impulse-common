@@ -18,34 +18,6 @@
             }
         },
         {
-            "identifier":"PBcrave",
-            "text":"How much effort does it take to resist engaging in the behavior when you have an urge or craving to do so?",
-            "type":"likert",
-            "range":{
-                "min":0,
-                "max":10,
-                "default":5,
-                "step":1,
-                "minValueText":"0-not at all",
-                "midValueText":"moderately",
-                "maxValueText":"10-extremely"
-            }
-        },
-        {
-            "identifier":"PBblock",
-            "text":"When you have an urge to engage in the behavior, how anxious do you become when you are blocked from doing so?",
-            "type":"likert",
-            "range":{
-                "min":0,
-                "max":10,
-                "default":5,
-                "step":1,
-                "minValueText":"0-not at all",
-                "midValueText":"moderately",
-                "maxValueText":"10-extremely"
-            }
-        },
-        {
             "identifier":"PBsocialtemp",
             "text":"How much effort does it take to resist engaging in the behavior when you don’t want to do it, but someone is encouraging you to do so?",
             "type":"likert",
