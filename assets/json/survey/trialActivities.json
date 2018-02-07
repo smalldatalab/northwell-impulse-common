@@ -10,9 +10,25 @@
       "identifier":"dev",
       "guid":"baseline-1",
       "activity": {
-        "type": "elementFile",
-        "identifier": "test",
-        "elementFileName": "demographics"
+        "type": "elementList",
+        "identifier": "test_list",
+        "elements": [
+          {
+            "type": "CTFLikertForm",
+            "identifier": "self_assessment_3",
+            "parameterFileName": "self_assessment_3"
+          },
+          {
+            "type": "CTFLikertForm",
+            "identifier": "self_assessment_4",
+            "parameterFileName": "self_assessment_4"
+          },
+          {
+            "type": "elementFile",
+            "identifier": "test",
+            "elementFileName": "demographics"
+          }
+        ]
       },
       "resultTransforms": []
     },

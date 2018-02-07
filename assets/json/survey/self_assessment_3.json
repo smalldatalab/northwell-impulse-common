@@ -100,20 +100,6 @@
             }
         },
         {
-            "identifier":"taskpers",
-            "text":"When I have a goal in place, I get easily distracted by other things.",
-            "type":"likert",
-            "range":{
-                "min":0,
-                "max":10,
-                "default":5,
-                "step":1,
-                "minValueText":"0-not at all",
-                "midValueText":"moderately",
-                "maxValueText":"10-extremely"
-            }
-        },
-        {
             "identifier":"mobileurg",
             "text":"I have difficulty controlling how much I check my mobile phone.",
             "type":"likert",
@@ -130,48 +116,6 @@
         {
             "identifier":"foodurg",
             "text":"I have difficulty controlling how much food I eat.",
-            "type":"likert",
-            "range":{
-                "min":0,
-                "max":10,
-                "default":5,
-                "step":1,
-                "minValueText":"0-not at all",
-                "midValueText":"moderately",
-                "maxValueText":"10-extremely"
-            }
-        },
-        {
-            "identifier":"foodtype",
-            "text":"When junk food I like to eat is offered to me, I can resist eating it if I had not planned on doing so.",
-            "type":"likert",
-            "range":{
-                "min":0,
-                "max":10,
-                "default":5,
-                "step":1,
-                "minValueText":"0-not at all",
-                "midValueText":"moderately",
-                "maxValueText":"10-extremely"
-            }
-        },
-        {
-            "identifier":"premed",
-            "text":"I plan and think things over before I do them.",
-            "type":"likert",
-            "range":{
-                "min":0,
-                "max":10,
-                "default":5,
-                "step":1,
-                "minValueText":"0-not at all",
-                "midValueText":"moderately",
-                "maxValueText":"10-extremely"
-            }
-        },
-        {
-            "identifier":"st_temp",
-            "text":"I have difficulty controlling my impulses when I am tempted by something that will feel good in the short-term, even if I don’t want to do it.",
             "type":"likert",
             "range":{
                 "min":0,
