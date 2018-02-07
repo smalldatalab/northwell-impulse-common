@@ -15,8 +15,8 @@
         "elements": [
           {
             "type": "CTFLikertForm",
-            "identifier": "self_assessment_3",
-            "parameterFileName": "self_assessment_3"
+            "identifier": "self_assessment_5",
+            "parameterFileName": "self_assessment_5"
           },
           {
             "type": "CTFLikertForm",
