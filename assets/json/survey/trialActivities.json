@@ -5,6 +5,18 @@
   "guid": "impusivity-activities-123",
   "items": [
     {
+      "type":"recurring",
+      "title":"DEV",
+      "identifier":"dev",
+      "guid":"baseline-1",
+      "activity": {
+        "type": "elementFile",
+        "identifier": "test",
+        "elementFileName": "demographics"
+      },
+      "resultTransforms": []
+    },
+    {
       "type": "recurring",
       "identifier": "go-no-go-stable",
       "title": "Square Game #1",
