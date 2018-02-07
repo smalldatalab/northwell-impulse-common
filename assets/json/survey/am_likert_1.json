@@ -4,25 +4,6 @@
     "title": "Think about yesterday as whole.",
     "items" : [
       {
-        "identifier"        : "positive",
-        "text"              : "",
-        "type"              : "semanticDifferential",
-        "range"             : {
-          "min"     : 0,
-          "max"      : 10,
-          "default"   : 5,
-          "step": 1,
-          "minValueText": "positive",
-          "maxValueText": "negative",
-          "trackHeight":8,
-          "gradientColors":[
-              "#1B75BB",
-              "#FFFFFF",
-              "#1B75BB"
-          ]
-        }
-      },
-      {
         "identifier"        : "intentional",
         "text"              : "",
         "type"              : "semanticDifferential",
@@ -33,25 +14,6 @@
           "step": 1,
           "minValueText": "impulsive",
           "maxValueText": "intentional",
-          "trackHeight":8,
-          "gradientColors":[
-              "#1B75BB",
-              "#FFFFFF",
-              "#1B75BB"
-          ]
-        }
-      },
-      {
-        "identifier"        : "productive",
-        "text"              : "",
-        "type"              : "semanticDifferential",
-        "range"             : {
-          "min"     : 0,
-          "max"      : 10,
-          "default"   : 5,
-          "step": 1,
-          "minValueText": "productive",
-          "maxValueText": "unproductive",
           "trackHeight":8,
           "gradientColors":[
               "#1B75BB",

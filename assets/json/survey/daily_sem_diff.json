@@ -40,44 +40,6 @@
         }
       },
       {
-        "identifier"        : "borednow",
-        "text"              : "",
-        "type"              : "semanticDifferential",
-        "range"             : {
-          "min"     : 0,
-          "max"      : 10,
-          "default"   : 5,
-          "step": 1,
-          "minValueText": "bored",
-          "maxValueText": "engaged",
-          "trackHeight":8,
-          "gradientColors":[
-              "#1B75BB",
-              "#FFFFFF",
-              "#1B75BB"
-          ]
-        }
-      },
-      {
-        "identifier"        : "proudnow",
-        "text"              : "",
-        "type"              : "semanticDifferential",
-        "range"             : {
-          "min"     : 0,
-          "max"      : 10,
-          "default"   : 5,
-          "step": 1,
-          "minValueText": "proud",
-          "maxValueText": "ashamed",
-          "trackHeight":8,
-          "gradientColors":[
-              "#1B75BB",
-              "#FFFFFF",
-              "#1B75BB"
-          ]
-        }
-      },
-      {
         "identifier"        : "energeticnow",
         "text"              : "",
         "type"              : "semanticDifferential",
@@ -88,25 +50,6 @@
           "step": 1,
           "minValueText": "energetic",
           "maxValueText": "tired",
-          "trackHeight":8,
-          "gradientColors":[
-              "#1B75BB",
-              "#FFFFFF",
-              "#1B75BB"
-          ]
-        }
-      },
-      {
-        "identifier"        : "frustratednow",
-        "text"              : "",
-        "type"              : "semanticDifferential",
-        "range"             : {
-          "min"     : 0,
-          "max"      : 10,
-          "default"   : 5,
-          "step": 1,
-          "minValueText": "frustrated",
-          "maxValueText": "content",
           "trackHeight":8,
           "gradientColors":[
               "#1B75BB",
@@ -164,25 +107,6 @@
           "step": 1,
           "minValueText": "optimistic",
           "maxValueText": "pessimistic",
-          "trackHeight":8,
-          "gradientColors":[
-              "#1B75BB",
-              "#FFFFFF",
-              "#1B75BB"
-          ]
-        }
-      },
-      {
-        "identifier"        : "determinednow",
-        "text"              : "",
-        "type"              : "semanticDifferential",
-        "range"             : {
-          "min"     : 0,
-          "max"      : 10,
-          "default"   : 5,
-          "step": 1,
-          "minValueText": "determined",
-          "maxValueText": "aimless",
           "trackHeight":8,
           "gradientColors":[
               "#1B75BB",

@@ -30,62 +30,6 @@
           "midValueText": "moderately",
           "maxValueText": "10-extremely"
         }
-      },
-      {
-        "identifier"        : "exer",
-        "text"              : "Yesterday, I engaged in strenuous physical activity (e.g., exercise, hard labor, etc.).",
-        "type"              : "likert",
-        "range"             : {
-          "min"     : 0,
-          "max"      : 10,
-          "default"   : 5,
-          "step": 1,
-          "minValueText": "0-not at all",
-          "midValueText": "moderately",
-          "maxValueText": "10-extremely"
-        }
-      },
-      {
-        "identifier"        : "saidnoth",
-        "text"              : "Yesterday, I said things without thinking.",
-        "type"              : "likert",
-        "range"             : {
-          "min"     : 0,
-          "max"      : 10,
-          "default"   : 5,
-          "step": 1,
-          "minValueText": "0-not at all",
-          "midValueText": "moderately",
-          "maxValueText": "10-extremely"
-        }
-      },
-      {
-        "identifier"        : "didnoth",
-        "text"              : "Yesterday, I did things without thinking.",
-        "type"              : "likert",
-        "range"             : {
-          "min"     : 0,
-          "max"      : 10,
-          "default"   : 5,
-          "step": 1,
-          "minValueText": "0-not at all",
-          "midValueText": "moderately",
-          "maxValueText": "10-extremely"
-        }
-      },
-      {
-        "identifier"        : "impat",
-        "text"              : "Yesterday, I felt impatient.",
-        "type"              : "likert",
-        "range"             : {
-          "min"     : 0,
-          "max"      : 10,
-          "default"   : 5,
-          "step": 1,
-          "minValueText": "0-not at all",
-          "midValueText": "moderately",
-          "maxValueText": "10-extremely"
-        }
       }
     ]
 }

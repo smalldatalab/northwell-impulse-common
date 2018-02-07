@@ -1,6 +1,9 @@
 {
   "identifier": "am_behaviors",
   "type": "enhancedMultipleChoiceText",
+  "formattedText": {
+    "template": "###### Which of the following behaviors did you engage in **more than you intended to** yesterday?"
+  },
   "text": "Which of the following behaviors did you engage in more than you intended to yesterday?",
   "valueSuffix": "_am",
   "shuffleItems": true,

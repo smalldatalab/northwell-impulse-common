@@ -363,7 +363,7 @@
             "inputMapping": [
               {"stepIdentifier":"am_1", "parameter":"result_1"},
               {"parameter": "schemaID", "constant":"morning_yesterday_sem_diff"},
-              {"parameter": "schemaVersion", "constant":2},
+              {"parameter": "schemaVersion", "constant":3},
               {"parameter": "identifierSuffix", "constant":"_am"}
             ]
           },
@@ -389,7 +389,7 @@
             "inputMapping": [
               {"stepIdentifier":"am_3", "parameter":"result_3"},
               {"parameter": "schemaID", "constant":"morning_sem_diff"},
-              {"parameter": "schemaVersion", "constant":2},
+              {"parameter": "schemaVersion", "constant":3},
               {"parameter": "identifierSuffix", "constant":"_am"}
             ]
           },
