@@ -4,45 +4,6 @@
     "title":"Generally, I am more:",
     "items":[
         {
-            "identifier":"frustrated",
-            "text":"",
-            "type":"semanticDifferential",
-            "range":{
-                "min":0,
-                "max":10,
-                "default":5,
-                "step":1,
-                "minValueText":"frustrated",
-                "maxValueText":"content",
-                "trackHeight":8,
-                "gradientColors":[
-                    "#1B75BB",
-                    "#FFFFFF",
-                    "#1B75BB"
-                ]
-            }
-        },
-        {
-            "identifier":"cautious",
-            "text":"",
-            "type":"semanticDifferential",
-            "trackHeight":8,
-            "range":{
-                "min":0,
-                "max":10,
-                "default":5,
-                "step":1,
-                "minValueText":"cautious",
-                "maxValueText":"thrill-seeking",
-                "trackHeight":8,
-                "gradientColors":[
-                    "#1B75BB",
-                    "#FFFFFF",
-                    "#1B75BB"
-                ]
-            }
-        },
-        {
             "identifier":"sad",
             "text":"",
             "type":"semanticDifferential",
@@ -103,26 +64,6 @@
             }
         },
         {
-            "identifier":"determined",
-            "text":"",
-            "type":"semanticDifferential",
-            "trackHeight":8,
-            "range":{
-                "min":0,
-                "max":10,
-                "default":5,
-                "step":1,
-                "minValueText":"determined",
-                "maxValueText":"aimless",
-                "trackHeight":8,
-                "gradientColors":[
-                    "#1B75BB",
-                    "#FFFFFF",
-                    "#1B75BB"
-                ]
-            }
-        },
-        {
             "identifier":"stressed",
             "text":"",
             "type":"semanticDifferential",
@@ -143,26 +84,6 @@
             }
         },
         {
-            "identifier":"positive",
-            "text":"",
-            "type":"semanticDifferential",
-            "trackHeight":8,
-            "range":{
-                "min":0,
-                "max":10,
-                "default":5,
-                "step":1,
-                "minValueText":"positive",
-                "maxValueText":"negative",
-                "trackHeight":8,
-                "gradientColors":[
-                    "#1B75BB",
-                    "#FFFFFF",
-                    "#1B75BB"
-                ]
-            }
-        },
-        {
             "identifier":"healthy",
             "text":"",
             "type":"semanticDifferential",
@@ -174,26 +95,6 @@
                 "step":1,
                 "minValueText":"healthy",
                 "maxValueText":"unhealthy",
-                "trackHeight":8,
-                "gradientColors":[
-                    "#1B75BB",
-                    "#FFFFFF",
-                    "#1B75BB"
-                ]
-            }
-        },
-        {
-            "identifier":"productive",
-            "text":"",
-            "type":"semanticDifferential",
-            "trackHeight":8,
-            "range":{
-                "min":0,
-                "max":10,
-                "default":5,
-                "step":1,
-                "minValueText":"productive",
-                "maxValueText":"unproductive",
                 "trackHeight":8,
                 "gradientColors":[
                     "#1B75BB",

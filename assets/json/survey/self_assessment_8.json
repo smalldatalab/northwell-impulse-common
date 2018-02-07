@@ -10,25 +10,6 @@
     "text":"",
     "items":[
         {
-            "identifier":"confusion",
-            "text":"",
-            "type":"semanticDifferential",
-            "range":{
-                "min":0,
-                "max":10,
-                "default":5,
-                "step":1,
-                "minValueText":"clear headed",
-                "maxValueText":"confused",
-                "trackHeight":8,
-                "gradientColors":[
-                    "#1B75BB",
-                    "#FFFFFF",
-                    "#1B75BB"
-                ]
-            }
-        },
-        {
             "identifier":"focus",
             "text":"",
             "type":"semanticDifferential",
@@ -86,63 +67,6 @@
             }
         },
         {
-            "identifier":"bored",
-            "text":"",
-            "type":"semanticDifferential",
-            "range":{
-                "min":0,
-                "max":10,
-                "default":5,
-                "step":1,
-                "minValueText":"bored",
-                "maxValueText":"engaged",
-                "trackHeight":8,
-                "gradientColors":[
-                    "#1B75BB",
-                    "#FFFFFF",
-                    "#1B75BB"
-                ]
-            }
-        },
-        {
-            "identifier":"proud",
-            "text":"",
-            "type":"semanticDifferential",
-            "range":{
-                "min":0,
-                "max":10,
-                "default":5,
-                "step":1,
-                "minValueText":"proud",
-                "maxValueText":"ashamed",
-                "trackHeight":8,
-                "gradientColors":[
-                    "#1B75BB",
-                    "#FFFFFF",
-                    "#1B75BB"
-                ]
-            }
-        },
-        {
-            "identifier":"efficient",
-            "text":"",
-            "type":"semanticDifferential",
-            "range":{
-                "min":0,
-                "max":10,
-                "default":5,
-                "step":1,
-                "minValueText":"efficient",
-                "maxValueText":"inefficient",
-                "trackHeight":8,
-                "gradientColors":[
-                    "#1B75BB",
-                    "#FFFFFF",
-                    "#1B75BB"
-                ]
-            }
-        },
-        {
             "identifier":"energetic",
             "text":"",
             "type":"semanticDifferential",
@@ -181,16 +105,17 @@
             }
         },
         {
-            "identifier":"conservative",
+            "identifier":"cautious",
             "text":"",
             "type":"semanticDifferential",
+            "trackHeight":8,
             "range":{
                 "min":0,
                 "max":10,
                 "default":5,
                 "step":1,
-                "minValueText":"conservative",
-                "maxValueText":"progressive",
+                "minValueText":"cautious",
+                "maxValueText":"thrill-seeking",
                 "trackHeight":8,
                 "gradientColors":[
                     "#1B75BB",
