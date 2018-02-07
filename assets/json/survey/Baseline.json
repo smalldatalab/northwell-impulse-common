@@ -223,25 +223,25 @@
       "identifier": "morning_notification_time_picker",
       "type": "timePicker",
       "optional": false,
-      "text": "For your MORNING survey, please choose a time within 2 hours of waking up that you would like to take your morning survey. Your alert will come any time within one hour after the time you choose."
+      "text": "For your MORNING survey, please choose a time within 2 hours of waking up that you would like to take your morning survey. Your alert will come any time within one hour after the time you choose. This can be modified at any point in Settings."
     },
     {
       "identifier": "evening_notification_time_picker",
       "type": "timePicker",
       "optional": false,
-      "text": "For your EVENING survey, please choose any time after 6pm (and at least 8 hours after your morning survey time). Your alert will come any time within one hour after the time you choose."
+      "text": "For your EVENING survey, please choose any time after 6pm (and at least 8 hours after your morning survey time). Your alert will come any time within one hour after the time you choose. This can be modified at any point in Settings."
     },
     {
       "identifier": "notes",
       "type": "textfield",
-      "text": "Please leave any comments or questions about the assessment, the study, or anything you think is important for us to know in order to better the study. You can come to this screen at any time to make changes.",
+      "text": "Please add comments or questions about your experience answering these questions and using the app. You can come to this screen at any time.",
       "multipleLines": true
     },
     {
       "identifier":"instruction",
       "type":"instruction",
       "title":"Thank you for completing the surveys!",
-      "text": "Now you will play some games. For the baseline, you will complete full-length versions all at once. Some of the games may repeat. Then, you will only do one in the morning and one in the evening for the next 21 days. The games will take between 1-3 minutes to complete."
+      "text": "Now, you will play some games. For baseline, you will complete full-length versions all at once. Some of the games may repeat. Then, you will only do one in the morning and one in the evening for the next 7 days. The games will take between 1-3 minutes to complete."
     },
     {
       "type": "elementFile",
