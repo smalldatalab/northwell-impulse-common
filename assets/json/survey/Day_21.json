@@ -6,7 +6,7 @@
             "identifier":"introduction",
             "type":"instruction",
             "title":"21-Day Survey",
-            "text":"Thank you for your participation in the study over the last 21 days. This survey is similar to your first assessment and  will take approximately 15 minutes to complete."
+            "text":"Thank you for your participation over the last 7 days. This survey is similar to the first one and will take approximately 15 minutes to complete."
         },
         {
             "type":"CTFLikertForm",
@@ -47,29 +47,35 @@
             "identifier":"notes_1",
             "type":"textfield",
             "text":"What would you change about the game-like tasks you completed?",
-            "optional":true,
+            "optional":false,
             "multipleLines": true
         },
         {
             "identifier":"notes_2",
             "type":"textfield",
             "text":"What would you change about the questions you completed?",
-            "optional":true,
+            "optional":false,
             "multipleLines": true
         },
         {
             "identifier":"notes_3",
             "type":"textfield",
-            "text":"What do you recommend we give people feedback on after they complete the assessment?",
-            "optional":true,
+            "text":"What do you recommend we give people feedback on after they complete the 7-day period?",
+            "optional":false,
             "multipleLines": true
         },
         {
             "identifier":"notes_4",
             "type":"textfield",
             "text":"What would you say to someone who was having trouble resisting the temptation to act in an unhealthy way in the moment?",
-            "optional":true,
+            "optional":false,
             "multipleLines": true
+        },
+        {
+            "identifier":"would_use",
+            "type":"boolean",
+            "text":"Would you continue to use this app if it gave you feedback on your behavior?",
+            "optional":false
         },
         {
           "identifier":"instruction",
