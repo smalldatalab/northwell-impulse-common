@@ -18,7 +18,7 @@
        "identifier"   : "introduction_3_bart_250",
        "type"         : "instruction",
        "title"        : "",
-       "text"         : "You earn (250 dollars) for each pump, but if the balloon pops, you lose the money you earned on that balloon. The balloon can pop at any time."
+       "text"         : "You earn 250 dollars for each pump, but if the balloon pops, you lose the money you earned on that balloon. The balloon can pop at any time."
      },
      {
        "identifier"   : "introduction_4_bart_250",

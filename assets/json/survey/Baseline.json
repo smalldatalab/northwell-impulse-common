@@ -36,18 +36,13 @@
       "parameterFileName": "self_assessment_4"
     },
     {
-      "type": "CTFLikertForm",
-      "identifier": "self_assessment_5",
-      "parameterFileName": "self_assessment_5"
-    },
-    {
       "identifier": "baseline_behaviors_4",
       "type": "enhancedMultipleChoiceText",
       "formattedText": {
         "template": "###### Below is a list of 16 behaviors that people may have trouble controlling. \n###### Please select **up to 4** of the behaviors that you have the **most trouble controlling**, **most frequently**. Please make sure to review the entire list before choosing."
       },
       "valueSuffix": "_bl_4",
-      "shuffleItems": true,
+      "shuffleItems": false,
       "optional": false,
       "maximumNumberOfItems": 4,
       "items": [
@@ -125,7 +120,7 @@
       },
       "valueSuffix": "_bl_1",
       "optional": false,
-      "shuffleItems": true,
+      "shuffleItems": false,
       "items": [
         {
           "prompt": "Eating unhealthy food",
@@ -239,9 +234,11 @@
     },
     {
       "identifier":"instruction",
-      "type":"instruction",
+      "type":"RSEnhancedInstructionStep",
       "title":"Thank you for completing the surveys!",
-      "text": "Now, you will play some games. For baseline, you will complete full-length versions all at once. Some of the games may repeat. Then, you will only do one in the morning and one in the evening for the next 7 days. The games will take between 1-3 minutes to complete."
+      "formattedText": {
+        "template": "###### Now, you will play some games. For baseline, you will complete full-length versions all at once. \n\n###### **Some of the games may repeat.** \n\n###### Then, you will only do one in the morning and one in the evening for the next 7 days. The games will take between 1-3 minutes to complete."
+      }
     },
     {
       "type": "elementFile",
@@ -250,9 +247,11 @@
     },
     {
       "identifier": "results",
-      "type": "instruction",
+      "type": "RSEnhancedInstructionStep",
       "title":"Thank you for participating!",
-      "text": "Click 'Done' to start receiving your morning and evening surveys."
-    }
+      "formattedText": {
+        "template": "###### You will begin to receive notifications for your morning and evening surveys **starting tomorrow**. Once you begin to receive the notifications, refer to the “Pending Activities” list. Click “Done” to exit."
+      }
+    },
   ]
 }

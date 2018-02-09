@@ -39,15 +39,6 @@
             ]
           },
           {
-            "transform": "CTFScaleFormResult",
-            "inputMapping": [
-              {"stepIdentifier":"self_assessment_5", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"as_a_child_likert_bl"},
-              {"parameter": "schemaVersion", "constant":3},
-              {"parameter": "identifierSuffix", "constant":"_bl"}
-            ]
-          },
-          {
             "transform": "CTFMultipleChoiceResult",
             "inputMapping": [
               {"stepIdentifier":"baseline_behaviors_4", "parameter":"result"},

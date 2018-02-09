@@ -100,6 +100,20 @@
                 "midValueText":"moderately",
                 "maxValueText":"10-extremely"
             }
+        },
+        {
+            "identifier":"childrules",
+            "text":"As a child, my parents set clear boundaries and guidelines.",
+            "type":"likert",
+            "range":{
+                "min":0,
+                "max":10,
+                "default":5,
+                "step":1,
+                "minValueText":"0-not at all",
+                "midValueText":"moderately",
+                "maxValueText":"10-extremely"
+            }
         }
     ]
 }

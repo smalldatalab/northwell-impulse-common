@@ -6,7 +6,7 @@
   },
   "text": "Which of the following behaviors did you engage in more than you intended to yesterday?",
   "valueSuffix": "_am",
-  "shuffleItems": true,
+  "shuffleItems": false,
   "filterItemsByValueInListKeyedBy": "BaselineBehaviorResults",
   "maximumNumberOfItems": 4,
   "items": [

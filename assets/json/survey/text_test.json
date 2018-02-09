@@ -36,11 +36,6 @@
       "parameterFileName": "self_assessment_4"
     },
     {
-      "type": "CTFLikertForm",
-      "identifier": "self_assessment_5",
-      "parameterFileName": "self_assessment_5"
-    },
-    {
       "identifier": "baseline_behaviors_4",
       "type": "enhancedMultipleChoiceText",
       "text": "Below is a list of 16 behaviors that people may have trouble controlling. \nPlease select up to 4 of the behaviors that you have the most trouble controlling, most frequently. Please make sure to review the entire list before choosing.",
