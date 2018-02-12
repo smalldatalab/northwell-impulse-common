@@ -5,7 +5,7 @@
         {
             "identifier":"introduction",
             "type":"instruction",
-            "title":"21-Day Survey",
+            "title":"Day 7 Survey",
             "text":"Thank you for your participation over the last 7 days. This survey is similar to the first one and will take approximately 15 minutes to complete."
         },
         {
@@ -88,10 +88,15 @@
           "elementFileName": "shuffled_active_tasks"
         },
         {
-            "identifier":"results",
-            "type":"instruction",
-            "title":"Thank you for completing all the tasks!",
-            "text":"Please contact us to finalize your participation in the study. Upon hearing from you, we will schedule your payment and answer any questions or concerns that you may have."
+          "type" : "emailStep",
+          "identifier" : "thank_you_email",
+          "formattedText": {
+            "template": "### Thank you for helping us with our beta-test!\n\n\n###### Please tap here to send us a blank email, allowing us to know that you have completed the 7-day test. You will be compensated $25 via Amazon gift card **within one week**."
+          },
+          "buttonText": "Launch Email",
+          "recipientAddreses": ["rachelpvitale@gmail.com"],
+          "messageSubject": "Hey, I just completed DMT",
+          "errorMessage": "We're unable to compose the email. Please notify rachelpvitale@gmail.com"
         }
     ]
 }

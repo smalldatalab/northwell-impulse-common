@@ -41,7 +41,7 @@
         {
             "scheduleType":"recurring",
             "scheduleString":"* * * * *",
-            "scheduleTitle":"21-Day Assessment",
+            "scheduleTitle":"Day 7 Assessment",
             "scheduleIdentifier":"21-day-assessment",
             "scheduleGUID":"21-day-assessment-1",
             "activityType":"sequential",
@@ -49,7 +49,7 @@
             "trialActivity":false,
             "tasks":[
                 {
-                    "taskTitle":"21-Day Assessment",
+                    "taskTitle":"Day 7 Assessment",
                     "taskID":"21Day",
                     "taskFileName":"Day_21",
                     "taskClassName":"CTFOrderedTask",

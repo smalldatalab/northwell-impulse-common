@@ -215,7 +215,7 @@
 
     {
         "type":"recurring",
-        "title":"21-Day Assessment",
+        "title":"Day 7 Assessment",
         "identifier":"21-day-assessment",
         "guid":"21-day-assessment-1",
         "activity": {
