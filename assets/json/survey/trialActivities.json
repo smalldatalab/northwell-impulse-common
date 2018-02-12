@@ -14,19 +14,121 @@
         "identifier": "test_list",
         "elements": [
           {
-            "type": "CTFLikertForm",
-            "identifier": "self_assessment_5",
-            "parameterFileName": "self_assessment_5"
+            "identifier": "education",
+            "type": "enhancedSingleChoiceText",
+            "text": "What is the highest degree or level of school you have completed? (If currently enrolled, mark the highest degree received.)",
+            "items": [
+              {
+                "prompt": "0-11 grade completed (no high school degree)",
+                "value": "0-11 grade (no high school degree)"
+              },
+              {
+                "prompt": "High school diploma",
+                "value": "High school diploma"
+              },
+              {
+                "prompt": "GED",
+                "value": "GED"
+              },
+              {
+                "prompt": "Vocational certificate without high school diploma",
+                "value": "Vocational certificate without high school diploma"
+              },
+              {
+                "prompt": "Vocational certificate with high school diploma",
+                "value": "Vocational certificate with high school diploma"
+              },
+              {
+                "prompt": "Some college",
+                "value": "Some college"
+              },
+              {
+                "prompt": "Associate degree",
+                "value": "Associate degree"
+              },
+              {
+                "prompt": "Bachelor's degree",
+                "value": "Bachelor's degree"
+              },
+              {
+                "prompt": "Master's degree",
+                "value": "Master's degree"
+              },
+              {
+                "prompt": "Some graduate school",
+                "value": "Some graduate school"
+              },
+              {
+                "prompt": "Graduate degree",
+                "value": "Graduate degree"
+              },
+              {
+                "prompt": "Prefer not to disclose",
+                "value": "Prefer not to disclose"
+              }
+            ]
           },
           {
-            "type": "CTFLikertForm",
-            "identifier": "self_assessment_4",
-            "parameterFileName": "self_assessment_4"
+            "identifier": "ethnicity",
+            "type": "enhancedSingleChoiceText",
+            "text": "Please specify your ethnicity.",
+            "items": [
+              {
+                "prompt": "American Indian or Alaska Native",
+                "value": "American Indian or Alaska Native"
+              },
+              {
+                "prompt": "Asian",
+                "value": "Asian"
+              },
+              {
+                "prompt": "Black or African American",
+                "value": "Black or African American"
+              },
+              {
+                "prompt": "Native Hawaiian or Pacific Islander",
+                "value": "Native Hawaiian or Pacific Islander"
+              },
+              {
+                "prompt": "White",
+                "value": "White"
+              },
+              {
+                "prompt": "Two or more",
+                "value": "Two or more"
+              },
+              {
+                "prompt": "Unknown",
+                "value": "Unknown"
+              },
+              {
+                "prompt": "Prefer not to disclose",
+                "value": "Prefer not to disclose"
+              }
+            ]
           },
           {
-            "type": "elementFile",
-            "identifier": "test",
-            "elementFileName": "demographics"
+            "identifier": "race",
+            "type": "enhancedSingleChoiceText",
+            "text": "Please specify your race.",
+            "items": [
+              {
+                "prompt": "Hispanic or Latino",
+                "value": "Hispanic or Latino"
+              },
+              {
+                "prompt": "Not Hispanic or Latino",
+                "value": "Not Hispanic or Latino"
+              },
+              {
+                "prompt": "Unknown",
+                "value": "Unknown"
+              },
+              {
+                "prompt": "Prefer not to disclose",
+                "value": "Prefer not to disclose"
+              }
+            ]
           }
         ]
       },
