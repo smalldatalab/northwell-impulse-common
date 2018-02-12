@@ -5,136 +5,6 @@
   "guid": "impusivity-activities-123",
   "items": [
     {
-      "type":"recurring",
-      "title":"DEV",
-      "identifier":"dev",
-      "guid":"baseline-1",
-      "activity": {
-        "type": "elementList",
-        "identifier": "test_list",
-        "elements": [
-          {
-            "identifier": "education",
-            "type": "enhancedSingleChoiceText",
-            "text": "What is the highest degree or level of school you have completed? (If currently enrolled, mark the highest degree received.)",
-            "items": [
-              {
-                "prompt": "0-11 grade completed (no high school degree)",
-                "value": "0-11 grade (no high school degree)"
-              },
-              {
-                "prompt": "High school diploma",
-                "value": "High school diploma"
-              },
-              {
-                "prompt": "GED",
-                "value": "GED"
-              },
-              {
-                "prompt": "Vocational certificate without high school diploma",
-                "value": "Vocational certificate without high school diploma"
-              },
-              {
-                "prompt": "Vocational certificate with high school diploma",
-                "value": "Vocational certificate with high school diploma"
-              },
-              {
-                "prompt": "Some college",
-                "value": "Some college"
-              },
-              {
-                "prompt": "Associate degree",
-                "value": "Associate degree"
-              },
-              {
-                "prompt": "Bachelor's degree",
-                "value": "Bachelor's degree"
-              },
-              {
-                "prompt": "Master's degree",
-                "value": "Master's degree"
-              },
-              {
-                "prompt": "Some graduate school",
-                "value": "Some graduate school"
-              },
-              {
-                "prompt": "Graduate degree",
-                "value": "Graduate degree"
-              },
-              {
-                "prompt": "Prefer not to disclose",
-                "value": "Prefer not to disclose"
-              }
-            ]
-          },
-          {
-            "identifier": "ethnicity",
-            "type": "enhancedSingleChoiceText",
-            "text": "Please specify your ethnicity.",
-            "items": [
-              {
-                "prompt": "American Indian or Alaska Native",
-                "value": "American Indian or Alaska Native"
-              },
-              {
-                "prompt": "Asian",
-                "value": "Asian"
-              },
-              {
-                "prompt": "Black or African American",
-                "value": "Black or African American"
-              },
-              {
-                "prompt": "Native Hawaiian or Pacific Islander",
-                "value": "Native Hawaiian or Pacific Islander"
-              },
-              {
-                "prompt": "White",
-                "value": "White"
-              },
-              {
-                "prompt": "Two or more",
-                "value": "Two or more"
-              },
-              {
-                "prompt": "Unknown",
-                "value": "Unknown"
-              },
-              {
-                "prompt": "Prefer not to disclose",
-                "value": "Prefer not to disclose"
-              }
-            ]
-          },
-          {
-            "identifier": "race",
-            "type": "enhancedSingleChoiceText",
-            "text": "Please specify your race.",
-            "items": [
-              {
-                "prompt": "Hispanic or Latino",
-                "value": "Hispanic or Latino"
-              },
-              {
-                "prompt": "Not Hispanic or Latino",
-                "value": "Not Hispanic or Latino"
-              },
-              {
-                "prompt": "Unknown",
-                "value": "Unknown"
-              },
-              {
-                "prompt": "Prefer not to disclose",
-                "value": "Prefer not to disclose"
-              }
-            ]
-          }
-        ]
-      },
-      "resultTransforms": []
-    },
-    {
       "type": "recurring",
       "identifier": "go-no-go-stable",
       "title": "Square Game #1",
@@ -149,27 +19,6 @@
           "transform": "GoNoGoSummary",
           "inputMapping": [
             {"stepIdentifier":"go_no_go_stable_stimulus_active_task", "parameter":"GoNoGoResult"},
-            {"parameter": "schemaID", "constant":"goNoGo"},
-            {"parameter": "schemaVersion", "constant":2}
-          ]
-        }
-      ]
-    },
-    {
-      "type": "recurring",
-      "identifier": "go-no-go-variable",
-      "title": "Square Game #2",
-      "guid": "go-no-go-variable-1",
-      "activity": {
-        "type": "elementFile",
-        "identifier": "go_no_go_variable_stimulus_short_task",
-        "elementFileName": "go_no_go_variable_stimulus_short_task"
-      },
-      "resultTransforms": [
-        {
-          "transform": "GoNoGoSummary",
-          "inputMapping": [
-            {"stepIdentifier":"go_no_go_variable_stimulus_active_task", "parameter":"GoNoGoResult"},
             {"parameter": "schemaID", "constant":"goNoGo"},
             {"parameter": "schemaVersion", "constant":2}
           ]
@@ -200,27 +49,6 @@
     },
     {
       "type": "recurring",
-      "identifier": "bart250",
-      "title": "Balloon Game $250",
-      "guid": "bart250-1",
-      "activity": {
-        "type": "elementFile",
-        "identifier": "bart_250_dollars_short_task",
-        "elementFileName": "bart_250_dollars_short_task"
-      },
-      "resultTransforms": [
-        {
-          "transform": "BARTSummary",
-          "inputMapping": [
-            {"stepIdentifier":"bart_250_dollars_active_task", "parameter":"BARTResult"},
-            {"parameter": "schemaID", "constant":"bart"},
-            {"parameter": "schemaVersion", "constant":4}
-          ]
-        }
-      ]
-    },
-    {
-      "type": "recurring",
       "identifier": "DD_Money_6Month",
       "title": "Now and Later #1",
       "guid": "DD_Money_6Month-1",
@@ -236,48 +64,6 @@
             {"stepIdentifier":"dd_money_6_month", "parameter":"DelayDiscountingResult"},
             {"parameter": "schemaID", "constant":"delay_discounting_raw"},
             {"parameter": "schemaVersion", "constant":6}
-          ]
-        }
-      ]
-    },
-    {
-      "type": "recurring",
-      "identifier": "DD_Time_1Month",
-      "title": "Now and Later #2",
-      "guid": "DD_Time_1Month-1",
-      "activity": {
-        "type": "elementFile",
-        "identifier": "dd_time_1_year_short_task",
-        "elementFileName": "dd_time_1_year_short_task"
-      },
-      "resultTransforms": [
-        {
-          "transform": "DelayDiscountingRaw",
-          "inputMapping": [
-            {"stepIdentifier":"dd_time_1_year", "parameter":"DelayDiscountingResult"},
-            {"parameter": "schemaID", "constant":"delay_discounting_raw"},
-            {"parameter": "schemaVersion", "constant":6}
-          ]
-        }
-      ]
-    },
-    {
-      "type": "recurring",
-      "identifier": "PD_Constant_Probability",
-      "title": "Ratio Game #1",
-      "guid": "PD_Constant_Probability-1",
-      "activity": {
-        "type": "elementFile",
-        "identifier": "pd_constant_probability_short_task",
-        "elementFileName": "pd_constant_probability_short_task"
-      },
-      "resultTransforms": [
-        {
-          "transform": "DiscountingRaw",
-          "inputMapping": [
-            {"stepIdentifier":"pd_constant_probability", "parameter":"result"},
-            {"parameter": "schemaID", "constant":"discounting_raw"},
-            {"parameter": "schemaVersion", "constant":2}
           ]
         }
       ]
