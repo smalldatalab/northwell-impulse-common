@@ -18,8 +18,8 @@
         "type"        : "CTFDiscountingActiveStep",
         "identifier"       : "pd_constant_probability",
         "text": "Which would you prefer?\n\nThe money for sure (e.g. $50) or a percentage chance of a larger amount of money (e.g. 50% chance of $120)?",
-        "constantAmount" : 120.0,
-        "initialVariableAmount": 50.0,
+        "constantAmount" : 50.0,
+        "initialVariableAmount": 120.0,
         "numQuestions": 6,
         "constantFormatString": "For Sure\n$%.02f",
         "variableFormatString": "50%% Chance\n$%.02f"

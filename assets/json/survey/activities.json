@@ -286,7 +286,7 @@
             "inputMapping": [
               {"stepIdentifier":"would_use", "parameter":"result"},
               {"parameter": "schemaID", "constant":"would_use_21"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaVersion", "constant":3}
             ]
           },
           {
@@ -491,7 +491,7 @@
             "inputMapping": [
               {"stepIdentifier":"pm_1", "parameter":"result"},
               {"parameter": "schemaID", "constant":"evening_sem_diff"},
-              {"parameter": "schemaVersion", "constant":2},
+              {"parameter": "schemaVersion", "constant":3},
               {"parameter": "identifierSuffix", "constant":"_pm"}
             ]
           },
