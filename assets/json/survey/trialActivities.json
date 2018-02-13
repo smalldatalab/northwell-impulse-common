@@ -19,8 +19,8 @@
           "transform": "GoNoGoSummary",
           "inputMapping": [
             {"stepIdentifier":"go_no_go_stable_stimulus_active_task", "parameter":"GoNoGoResult"},
-            {"parameter": "schemaID", "constant":"goNoGo"},
-            {"parameter": "schemaVersion", "constant":2}
+            {"parameter": "schemaID", "constant":"goNoGo_v2"},
+            {"parameter": "schemaVersion", "constant":1}
           ]
         }
       ]
@@ -41,8 +41,8 @@
           "transform": "BARTSummary",
           "inputMapping": [
             {"stepIdentifier":"bart_25_cents_active_task", "parameter":"BARTResult"},
-            {"parameter": "schemaID", "constant":"bart"},
-            {"parameter": "schemaVersion", "constant":4}
+            {"parameter": "schemaID", "constant":"bart_v2"},
+            {"parameter": "schemaVersion", "constant":1}
           ]
         }
       ]
@@ -62,8 +62,8 @@
           "transform": "DelayDiscountingRaw",
           "inputMapping": [
             {"stepIdentifier":"dd_money_6_month", "parameter":"DelayDiscountingResult"},
-            {"parameter": "schemaID", "constant":"delay_discounting_raw"},
-            {"parameter": "schemaVersion", "constant":6}
+            {"parameter": "schemaID", "constant":"delay_discounting_raw_v2"},
+            {"parameter": "schemaVersion", "constant":1}
           ]
         }
       ]
@@ -83,8 +83,8 @@
           "transform": "DiscountingRaw",
           "inputMapping": [
             {"stepIdentifier":"pd_constant_money", "parameter":"result"},
-            {"parameter": "schemaID", "constant":"discounting_raw"},
-            {"parameter": "schemaVersion", "constant":2}
+            {"parameter": "schemaID", "constant":"discounting_raw_v2"},
+            {"parameter": "schemaVersion", "constant":1}
           ]
         }
       ]

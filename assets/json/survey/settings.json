@@ -20,8 +20,8 @@
             "transform": "CTFTimeOfDayResult",
             "inputMapping": [
               {"stepIdentifier":"morning_notification_time_picker", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"morning_notification_time"},
-              {"parameter": "schemaVersion", "constant":3},
+              {"parameter": "schemaID", "constant":"morning_notification_time_v2"},
+              {"parameter": "schemaVersion", "constant":1},
               {"parameter": "key", "constant":"notification_time"},
             ]
           }
@@ -43,8 +43,8 @@
             "transform": "CTFTimeOfDayResult",
             "inputMapping": [
               {"stepIdentifier":"evening_notification_time_picker", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"evening_notification_time"},
-              {"parameter": "schemaVersion", "constant":2},
+              {"parameter": "schemaID", "constant":"evening_notification_time_v2"},
+              {"parameter": "schemaVersion", "constant":1},
               {"parameter": "key", "constant":"notification_time"},
             ]
           }
@@ -68,8 +68,8 @@
             "transform": "CTFTextResult",
             "inputMapping": [
               {"stepIdentifier":"notes", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"comments"},
-              {"parameter": "schemaVersion", "constant":2},
+              {"parameter": "schemaID", "constant":"comments_v2"},
+              {"parameter": "schemaVersion", "constant":1},
             ]
           }
         ]

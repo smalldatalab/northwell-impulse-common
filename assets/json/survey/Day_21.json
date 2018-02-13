@@ -24,6 +24,12 @@
             "parameterFileName":"self_assessment_7"
         },
         {
+          "identifier": "semantic_differential_instruction",
+          "type": "instruction",
+          "title":"",
+          "text": "The next couple of pages consist of a list of two opposite feelings, thoughts, or behaviors. Use the slider to choose where you generally fall between each pair of opposites. For example, if you are someone who gets distracted or has trouble focusing, you would move the slider closer to the “distracted” side."
+        },
+        {
             "type":"CTFSemanticDifferentialForm",
             "identifier":"self_assessment_8",
             "parameterFileName":"self_assessment_8"

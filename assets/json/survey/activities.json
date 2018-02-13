@@ -24,8 +24,8 @@
               {"stepIdentifier":"education", "parameter":"education"},
               {"stepIdentifier":"ethnicity", "parameter":"ethnicity"},
               {"stepIdentifier":"race", "parameter":"race"},
-              {"parameter": "schemaID", "constant":"demographics"},
-              {"parameter": "schemaVersion", "constant":3}
+              {"parameter": "schemaID", "constant":"demographics_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
@@ -33,8 +33,8 @@
             "inputMapping": [
               {"stepIdentifier":"self_assessment_3", "parameter":"result_1"},
               {"stepIdentifier":"self_assessment_4", "parameter":"result_2"},
-              {"parameter": "schemaID", "constant":"past_year_likert_bl"},
-              {"parameter": "schemaVersion", "constant":4},
+              {"parameter": "schemaID", "constant":"past_year_likert_bl_v2"},
+              {"parameter": "schemaVersion", "constant":1},
               {"parameter": "identifierSuffix", "constant":"_bl"}
             ]
           },
@@ -42,15 +42,15 @@
             "transform": "CTFMultipleChoiceResult",
             "inputMapping": [
               {"stepIdentifier":"baseline_behaviors_4", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"behavior_choices_4_bl"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"behavior_choices_4_bl_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "CTFMultipleChoiceResult",
             "inputMapping": [
               {"stepIdentifier":"baseline_behaviors_1", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"behavior_choices_1_bl"},
+              {"parameter": "schemaID", "constant":"behavior_choices_1_bl_v2"},
               {"parameter": "schemaVersion", "constant":1}
             ]
           },
@@ -58,8 +58,8 @@
             "transform": "CTFScaleFormResult",
             "inputMapping": [
               {"stepIdentifier":"self_assessment_7", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"behavior_likert_bl"},
-              {"parameter": "schemaVersion", "constant":3},
+              {"parameter": "schemaID", "constant":"behavior_likert_bl_v2"},
+              {"parameter": "schemaVersion", "constant":1},
               {"parameter": "identifierSuffix", "constant":"_bl"}
             ]
           },
@@ -68,8 +68,8 @@
             "inputMapping": [
               {"stepIdentifier":"self_assessment_8", "parameter":"result_1"},
               {"stepIdentifier":"self_assessment_9", "parameter":"result_2"},
-              {"parameter": "schemaID", "constant":"generally_sem_diff_bl"},
-              {"parameter": "schemaVersion", "constant":3},
+              {"parameter": "schemaID", "constant":"generally_sem_diff_bl_v2"},
+              {"parameter": "schemaVersion", "constant":1},
               {"parameter": "identifierSuffix", "constant":"_bl"}
             ]
           },
@@ -77,16 +77,16 @@
             "transform": "PAMMultipleRaw",
             "inputMapping": [
               {"stepIdentifier":"PAMMultipleSelection", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"pam_multiple"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"pam_multiple_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "CTFTimeOfDayResult",
             "inputMapping": [
               {"stepIdentifier":"morning_notification_time_picker", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"morning_notification_time"},
-              {"parameter": "schemaVersion", "constant":3},
+              {"parameter": "schemaID", "constant":"morning_notification_time_v2"},
+              {"parameter": "schemaVersion", "constant":1},
               {"parameter": "key", "constant":"notification_time"}
             ]
           },
@@ -94,8 +94,8 @@
             "transform": "CTFTimeOfDayResult",
             "inputMapping": [
               {"stepIdentifier":"evening_notification_time_picker", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"evening_notification_time"},
-              {"parameter": "schemaVersion", "constant":2},
+              {"parameter": "schemaID", "constant":"evening_notification_time_v2"},
+              {"parameter": "schemaVersion", "constant":1},
               {"parameter": "key", "constant":"notification_time"}
             ]
           },
@@ -103,72 +103,72 @@
             "transform": "CTFTextResult",
             "inputMapping": [
               {"stepIdentifier":"notes", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"comments"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"comments_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "GoNoGoSummary",
             "inputMapping": [
               {"stepIdentifier":"go_no_go_stable_stimulus_active_task", "parameter":"GoNoGoResult"},
-              {"parameter": "schemaID", "constant":"goNoGo"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"goNoGo_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "GoNoGoSummary",
             "inputMapping": [
               {"stepIdentifier":"go_no_go_variable_stimulus_active_task", "parameter":"GoNoGoResult"},
-              {"parameter": "schemaID", "constant":"goNoGo"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"goNoGo_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "BARTSummary",
             "inputMapping": [
               {"stepIdentifier":"bart_25_cents_active_task", "parameter":"BARTResult"},
-              {"parameter": "schemaID", "constant":"bart"},
-              {"parameter": "schemaVersion", "constant":4}
+              {"parameter": "schemaID", "constant":"bart_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "BARTSummary",
             "inputMapping": [
               {"stepIdentifier":"bart_250_dollars_active_task", "parameter":"BARTResult"},
-              {"parameter": "schemaID", "constant":"bart"},
-              {"parameter": "schemaVersion", "constant":4}
+              {"parameter": "schemaID", "constant":"bart_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "DelayDiscountingRaw",
             "inputMapping": [
               {"stepIdentifier":"dd_money_6_month", "parameter":"DelayDiscountingResult"},
-              {"parameter": "schemaID", "constant":"delay_discounting_raw"},
-              {"parameter": "schemaVersion", "constant":6}
+              {"parameter": "schemaID", "constant":"delay_discounting_raw_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "DelayDiscountingRaw",
             "inputMapping": [
               {"stepIdentifier":"dd_time_1_year", "parameter":"DelayDiscountingResult"},
-              {"parameter": "schemaID", "constant":"delay_discounting_raw"},
-              {"parameter": "schemaVersion", "constant":6}
+              {"parameter": "schemaID", "constant":"delay_discounting_raw_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "DiscountingRaw",
             "inputMapping": [
               {"stepIdentifier":"pd_constant_money", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"discounting_raw"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"discounting_raw_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "DiscountingRaw",
             "inputMapping": [
               {"stepIdentifier":"pd_constant_probability", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"discounting_raw"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"discounting_raw_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           }
         ]
@@ -188,16 +188,16 @@
             "transform": "CTFMultipleChoiceResult",
             "inputMapping": [
               {"stepIdentifier":"baseline_behaviors_4", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"behavior_choices_4_bl"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"behavior_choices_4_bl_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "CTFTimeOfDayResult",
             "inputMapping": [
               {"stepIdentifier":"morning_notification_time_picker", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"morning_notification_time"},
-              {"parameter": "schemaVersion", "constant":3},
+              {"parameter": "schemaID", "constant":"morning_notification_time_v2"},
+              {"parameter": "schemaVersion", "constant":1},
               {"parameter": "key", "constant":"notification_time"}
             ]
           },
@@ -205,8 +205,8 @@
             "transform": "CTFTimeOfDayResult",
             "inputMapping": [
               {"stepIdentifier":"evening_notification_time_picker", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"evening_notification_time"},
-              {"parameter": "schemaVersion", "constant":2},
+              {"parameter": "schemaID", "constant":"evening_notification_time_v2"},
+              {"parameter": "schemaVersion", "constant":1},
               {"parameter": "key", "constant":"notification_time"}
             ]
           }
@@ -229,8 +229,8 @@
             "inputMapping": [
               {"stepIdentifier":"self_assessment_3", "parameter":"result_1"},
               {"stepIdentifier":"self_assessment_4", "parameter":"result_2"},
-              {"parameter": "schemaID", "constant":"past_year_likert_21"},
-              {"parameter": "schemaVersion", "constant":3},
+              {"parameter": "schemaID", "constant":"past_year_likert_21_v2"},
+              {"parameter": "schemaVersion", "constant":1},
               {"parameter": "identifierSuffix", "constant":"_21"}
             ]
           },
@@ -238,8 +238,8 @@
             "transform": "CTFScaleFormResult",
             "inputMapping": [
               {"stepIdentifier":"self_assessment_7", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"behavior_likert_21"},
-              {"parameter": "schemaVersion", "constant":3},
+              {"parameter": "schemaID", "constant":"behavior_likert_21_v2"},
+              {"parameter": "schemaVersion", "constant":1},
               {"parameter": "identifierSuffix", "constant":"_21"}
             ]
           },
@@ -248,8 +248,8 @@
             "inputMapping": [
               {"stepIdentifier":"self_assessment_8", "parameter":"result_1"},
               {"stepIdentifier":"self_assessment_9", "parameter":"result_2"},
-              {"parameter": "schemaID", "constant":"generally_sem_diff_21"},
-              {"parameter": "schemaVersion", "constant":3},
+              {"parameter": "schemaID", "constant":"generally_sem_diff_21_v2"},
+              {"parameter": "schemaVersion", "constant":1},
               {"parameter": "identifierSuffix", "constant":"_21"}
             ]
           },
@@ -257,8 +257,8 @@
             "transform": "CTFScaleFormResult",
             "inputMapping": [
               {"stepIdentifier":"self_assessment_10_21", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"last_week_7"},
-              {"parameter": "schemaVersion", "constant":2},
+              {"parameter": "schemaID", "constant":"last_week_7_v2"},
+              {"parameter": "schemaVersion", "constant":1},
               {"parameter": "identifierSuffix", "constant":"_21"}
             ]
           },
@@ -266,8 +266,8 @@
             "transform": "PAMMultipleRaw",
             "inputMapping": [
               {"stepIdentifier":"PAMMultipleSelection", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"pam_multiple"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"pam_multiple_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
@@ -277,80 +277,80 @@
               {"stepIdentifier":"notes_2", "parameter":"result_2"},
               {"stepIdentifier":"notes_3", "parameter":"result_3"},
               {"stepIdentifier":"notes_4", "parameter":"result_4"},
-              {"parameter": "schemaID", "constant":"comments_21"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"comments_21_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "CTFBooleanResult",
             "inputMapping": [
               {"stepIdentifier":"would_use", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"would_use_21"},
-              {"parameter": "schemaVersion", "constant":3}
+              {"parameter": "schemaID", "constant":"would_use_21_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "GoNoGoSummary",
             "inputMapping": [
               {"stepIdentifier":"go_no_go_stable_stimulus_active_task", "parameter":"GoNoGoResult"},
-              {"parameter": "schemaID", "constant":"goNoGo"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"goNoGo_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "GoNoGoSummary",
             "inputMapping": [
               {"stepIdentifier":"go_no_go_variable_stimulus_active_task", "parameter":"GoNoGoResult"},
-              {"parameter": "schemaID", "constant":"goNoGo"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"goNoGo_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "BARTSummary",
             "inputMapping": [
               {"stepIdentifier":"bart_25_cents_active_task", "parameter":"BARTResult"},
-              {"parameter": "schemaID", "constant":"bart"},
-              {"parameter": "schemaVersion", "constant":4}
+              {"parameter": "schemaID", "constant":"bart_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "BARTSummary",
             "inputMapping": [
               {"stepIdentifier":"bart_250_dollars_active_task", "parameter":"BARTResult"},
-              {"parameter": "schemaID", "constant":"bart"},
-              {"parameter": "schemaVersion", "constant":4}
+              {"parameter": "schemaID", "constant":"bart_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "DelayDiscountingRaw",
             "inputMapping": [
               {"stepIdentifier":"dd_money_6_month", "parameter":"DelayDiscountingResult"},
-              {"parameter": "schemaID", "constant":"delay_discounting_raw"},
-              {"parameter": "schemaVersion", "constant":6}
+              {"parameter": "schemaID", "constant":"delay_discounting_raw_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "DelayDiscountingRaw",
             "inputMapping": [
               {"stepIdentifier":"dd_time_1_year", "parameter":"DelayDiscountingResult"},
-              {"parameter": "schemaID", "constant":"delay_discounting_raw"},
-              {"parameter": "schemaVersion", "constant":6}
+              {"parameter": "schemaID", "constant":"delay_discounting_raw_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "DiscountingRaw",
             "inputMapping": [
               {"stepIdentifier":"pd_constant_money", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"discounting_raw"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"discounting_raw_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "DiscountingRaw",
             "inputMapping": [
               {"stepIdentifier":"pd_constant_probability", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"discounting_raw"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"discounting_raw_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           }
         ]
@@ -370,8 +370,8 @@
             "transform": "CTFScaleFormResult",
             "inputMapping": [
               {"stepIdentifier":"am_1", "parameter":"result_1"},
-              {"parameter": "schemaID", "constant":"morning_yesterday_sem_diff"},
-              {"parameter": "schemaVersion", "constant":3},
+              {"parameter": "schemaID", "constant":"morning_yesterday_sem_diff_v2"},
+              {"parameter": "schemaVersion", "constant":1},
               {"parameter": "identifierSuffix", "constant":"_am"}
             ]
           },
@@ -379,8 +379,8 @@
             "transform": "CTFScaleFormResult",
             "inputMapping": [
               {"stepIdentifier":"am_1a", "parameter":"result_1a"},
-              {"parameter": "schemaID", "constant":"morning_yesterday_likert"},
-              {"parameter": "schemaVersion", "constant":2},
+              {"parameter": "schemaID", "constant":"morning_yesterday_likert_v2"},
+              {"parameter": "schemaVersion", "constant":1},
               {"parameter": "identifierSuffix", "constant":"_am"}
             ]
           },
@@ -388,7 +388,7 @@
             "transform": "CTFMultipleChoiceResult",
             "inputMapping": [
               {"stepIdentifier":"am_behaviors", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"morning_behavior_choices"},
+              {"parameter": "schemaID", "constant":"morning_behavior_choices_v2"},
               {"parameter": "schemaVersion", "constant":1}
             ]
           },
@@ -396,8 +396,8 @@
             "transform": "CTFScaleFormResult",
             "inputMapping": [
               {"stepIdentifier":"am_3", "parameter":"result_3"},
-              {"parameter": "schemaID", "constant":"morning_sem_diff"},
-              {"parameter": "schemaVersion", "constant":3},
+              {"parameter": "schemaID", "constant":"morning_sem_diff_v2"},
+              {"parameter": "schemaVersion", "constant":1},
               {"parameter": "identifierSuffix", "constant":"_am"}
             ]
           },
@@ -405,72 +405,72 @@
             "transform": "PAMRaw",
             "inputMapping": [
               {"stepIdentifier":"PAM", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"pam"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"pam_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "GoNoGoSummary",
             "inputMapping": [
               {"stepIdentifier":"go_no_go_stable_stimulus_active_task", "parameter":"GoNoGoResult"},
-              {"parameter": "schemaID", "constant":"goNoGo"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"goNoGo_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "GoNoGoSummary",
             "inputMapping": [
               {"stepIdentifier":"go_no_go_variable_stimulus_active_task", "parameter":"GoNoGoResult"},
-              {"parameter": "schemaID", "constant":"goNoGo"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"goNoGo_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "BARTSummary",
             "inputMapping": [
               {"stepIdentifier":"bart_25_cents_active_task", "parameter":"BARTResult"},
-              {"parameter": "schemaID", "constant":"bart"},
-              {"parameter": "schemaVersion", "constant":4}
+              {"parameter": "schemaID", "constant":"bart_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "BARTSummary",
             "inputMapping": [
               {"stepIdentifier":"bart_250_dollars_active_task", "parameter":"BARTResult"},
-              {"parameter": "schemaID", "constant":"bart"},
-              {"parameter": "schemaVersion", "constant":4}
+              {"parameter": "schemaID", "constant":"bart_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "DelayDiscountingRaw",
             "inputMapping": [
               {"stepIdentifier":"dd_money_6_month", "parameter":"DelayDiscountingResult"},
-              {"parameter": "schemaID", "constant":"delay_discounting_raw"},
-              {"parameter": "schemaVersion", "constant":6}
+              {"parameter": "schemaID", "constant":"delay_discounting_raw_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "DelayDiscountingRaw",
             "inputMapping": [
               {"stepIdentifier":"dd_time_1_year", "parameter":"DelayDiscountingResult"},
-              {"parameter": "schemaID", "constant":"delay_discounting_raw"},
-              {"parameter": "schemaVersion", "constant":6}
+              {"parameter": "schemaID", "constant":"delay_discounting_raw_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "DiscountingRaw",
             "inputMapping": [
               {"stepIdentifier":"pd_constant_probability", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"discounting_raw"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"discounting_raw_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "DiscountingRaw",
             "inputMapping": [
               {"stepIdentifier":"pd_constant_money", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"discounting_raw"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"discounting_raw_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           }
         ]
@@ -490,8 +490,8 @@
             "transform": "CTFScaleFormResult",
             "inputMapping": [
               {"stepIdentifier":"pm_1", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"evening_sem_diff"},
-              {"parameter": "schemaVersion", "constant":3},
+              {"parameter": "schemaID", "constant":"evening_sem_diff_v2"},
+              {"parameter": "schemaVersion", "constant":1},
               {"parameter": "identifierSuffix", "constant":"_pm"}
             ]
           },
@@ -499,72 +499,72 @@
             "transform": "PAMRaw",
             "inputMapping": [
               {"stepIdentifier":"PAM", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"pam"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"pam_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "GoNoGoSummary",
             "inputMapping": [
               {"stepIdentifier":"go_no_go_stable_stimulus_active_task", "parameter":"GoNoGoResult"},
-              {"parameter": "schemaID", "constant":"goNoGo"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"goNoGo_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "GoNoGoSummary",
             "inputMapping": [
               {"stepIdentifier":"go_no_go_variable_stimulus_active_task", "parameter":"GoNoGoResult"},
-              {"parameter": "schemaID", "constant":"goNoGo"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"goNoGo_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "BARTSummary",
             "inputMapping": [
               {"stepIdentifier":"bart_25_cents_active_task", "parameter":"BARTResult"},
-              {"parameter": "schemaID", "constant":"bart"},
-              {"parameter": "schemaVersion", "constant":4}
+              {"parameter": "schemaID", "constant":"bart_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "BARTSummary",
             "inputMapping": [
               {"stepIdentifier":"bart_250_dollars_active_task", "parameter":"BARTResult"},
-              {"parameter": "schemaID", "constant":"bart"},
-              {"parameter": "schemaVersion", "constant":4}
+              {"parameter": "schemaID", "constant":"bart_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "DelayDiscountingRaw",
             "inputMapping": [
               {"stepIdentifier":"dd_money_6_month", "parameter":"DelayDiscountingResult"},
-              {"parameter": "schemaID", "constant":"delay_discounting_raw"},
-              {"parameter": "schemaVersion", "constant":6}
+              {"parameter": "schemaID", "constant":"delay_discounting_raw_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "DelayDiscountingRaw",
             "inputMapping": [
               {"stepIdentifier":"dd_time_1_year", "parameter":"DelayDiscountingResult"},
-              {"parameter": "schemaID", "constant":"delay_discounting_raw"},
-              {"parameter": "schemaVersion", "constant":6}
+              {"parameter": "schemaID", "constant":"delay_discounting_raw_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "DiscountingRaw",
             "inputMapping": [
               {"stepIdentifier":"pd_constant_probability", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"discounting_raw"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"discounting_raw_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           },
           {
             "transform": "DiscountingRaw",
             "inputMapping": [
               {"stepIdentifier":"pd_constant_money", "parameter":"result"},
-              {"parameter": "schemaID", "constant":"discounting_raw"},
-              {"parameter": "schemaVersion", "constant":2}
+              {"parameter": "schemaID", "constant":"discounting_raw_v2"},
+              {"parameter": "schemaVersion", "constant":1}
             ]
           }
         ]
