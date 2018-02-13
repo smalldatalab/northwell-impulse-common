@@ -6,13 +6,7 @@
       "identifier": "introduction",
       "type": "instruction",
       "title": "Baseline Survey",
-      "text": "In order to help us gain a better understanding of your thoughts, feelings and experiences, please complete the following questions. It will take approximately 15 minutes to complete today’s portion and about 4-10 minutes per day (2-5 minutes in the morning and 2-5 minutes in the evening) for the next 7 days."
-    },
-    {
-      "identifier": "group_label",
-      "type": "textfield",
-      "title": "Group Label",
-      "text": "Enter your group label below"
+      "text": "In order to help us gain a better understanding of your thoughts, feelings and experiences, please complete the following questions. It will take approximately 10 minutes to complete today’s portion and about 4-10 minutes per day (2-5 minutes in the morning and 2-5 minutes in the evening) for the next 7 days."
     },
     {
       "type": "elementFile",
@@ -237,7 +231,7 @@
       "type":"RSEnhancedInstructionStep",
       "title":"Thank you for completing the surveys!",
       "formattedText": {
-        "template": "###### Now, you will play some games. For baseline, you will complete full-length versions all at once. \n\n###### **Some of the games may repeat.** \n\n###### Then, you will only do one in the morning and one in the evening for the next 7 days. The games will take between 1-3 minutes to complete."
+        "template": "###### Now, you will play some games. For baseline, you will complete full-length versions all at once. \n\n###### Then, you will only do one in the morning and one in the evening for the next 7 days. The games will take between 1-3 minutes to complete."
       }
     },
     {

@@ -7,14 +7,7 @@
          "type":"standardConsentSection",
          "sectionType":"overview",
          "title":"Introduction",
-         "summary": "The purpose of this beta test is to get feedback on our app that we are developing to help people improve their health."
-      },
-      {
-         "identifier":"dataGathering",
-         "type":"standardConsentSection",
-         "sectionType":"dataGathering",
-         "title": "Collected Data",
-         "summary":"Because we are in the development phase, you will just be answering questions and completing game-like tasks. Some questions are about your thoughts, behaviors and emotions."
+         "summary": "You will be answering questions on your thoughts, behaviors and emotions, completing game-like tasks, and providing feedback on your experience using the app."
       },
       {
          "identifier":"timeCommitment",
@@ -36,14 +29,14 @@
          "type":"standardConsentSection",
          "sectionType":"privacy",
           "title": "Privacy",
-         "summary":"We do not collect your name or any identifying information, which is why you are given a code. Your data is kept on an encrypted database."
+         "summary":"We DO NOT collect your name or any identifying information, which is why you are given a code. Your data is kept on an encrypted database."
       },
       {
          "identifier":"questions",
          "type":"standardConsentSection",
          "sectionType":"custom",
          "title": "Questions?",
-         "summary":"If you have questions about this beta test, please email us at rvitale@northwell.edu."
+         "summary":"If you have questions about this app, please email us at rvitale@northwell.edu."
       }
    ],
    "signatures":[]

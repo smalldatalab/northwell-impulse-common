@@ -1,0 +1,91 @@
+{
+    "taskIdentifier":"self_assessment_closeout_7",
+    "schemaIdentifier":"sdffse",
+    "title":"Think about the one behavior that you chose at baseline when answering the following questions.",
+    "items":[
+        {
+            "identifier":"PBeffort",
+            "text":"In general, how much effort does it take to resist engaging in the behavior when you don’t want to?",
+            "type":"likert",
+            "range":{
+                "min":0,
+                "max":10,
+                "default":5,
+                "step":1,
+                "minValueText":"0-not at all",
+                "midValueText":"moderately",
+                "maxValueText":"10-extremely"
+            }
+        },
+        {
+            "identifier":"PBsocialtemp",
+            "text":"How much effort does it take to resist engaging in the behavior when you don’t want to do it, but someone is encouraging you to do so?",
+            "type":"likert",
+            "range":{
+                "min":0,
+                "max":10,
+                "default":5,
+                "step":1,
+                "minValueText":"0-not at all",
+                "midValueText":"moderately",
+                "maxValueText":"10-extremely"
+            }
+        },
+        {
+            "identifier":"PBmorn",
+            "text":"How much effort does it take to resist engaging in the behavior in the morning?",
+            "type":"likert",
+            "range":{
+                "min":0,
+                "max":10,
+                "default":5,
+                "step":1,
+                "minValueText":"0-not at all",
+                "midValueText":"moderately",
+                "maxValueText":"10-extremely"
+            }
+        },
+        {
+            "identifier":"PBeve",
+            "text":"How much effort does it take to resist engaging in the behavior in the evening?",
+            "type":"likert",
+            "range":{
+                "min":0,
+                "max":10,
+                "default":5,
+                "step":1,
+                "minValueText":"0-not at all",
+                "midValueText":"moderately",
+                "maxValueText":"10-extremely"
+            }
+        },
+        {
+            "identifier":"change",
+            "text":"How important is it for you to change the behavior?",
+            "type":"likert",
+            "range":{
+                "min":0,
+                "max":10,
+                "default":5,
+                "step":1,
+                "minValueText":"0-not at all",
+                "midValueText":"moderately",
+                "maxValueText":"10-extremely"
+            }
+        },
+        {
+            "identifier":"conseq",
+            "text":"How much does the behavior impact your life negatively?",
+            "type":"likert",
+            "range":{
+                "min":0,
+                "max":10,
+                "default":5,
+                "step":1,
+                "minValueText":"0-not at all",
+                "midValueText":"moderately",
+                "maxValueText":"10-extremely"
+            }
+        }
+    ]
+}

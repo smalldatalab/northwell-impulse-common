@@ -4,10 +4,14 @@
   "elements"   : [
 
     {
-      "identifier"   : "introduction",
+      "identifier"   : "introduction_dd_money_6_month_1",
       "type"         : "instruction",
-      "title"        : "Welcome to the Now and Later Game",
-      "text"         : "In this game you will choose between receiving different amounts of money either RIGHT NOW, or in SIX MONTHS. While you will not receive the actual money, please make your decisions as if you were really going to receive the money. There are no correct or incorrect choices."
+      "title"        : "Welcome to the Now and Later Game"
+    },
+    {
+      "identifier"   : "introduction_dd_money_6_month_2",
+      "type"         : "instruction",
+      "text"         : "In this game you will choose between receiving different amounts of money either RIGHT NOW, or in SIX MONTHS.\n\nWhile you will not receive the actual money, please make your decisions as if you were really going to receive the money. There are no correct or incorrect choices."
     },
       {
         "type"        : "CTFDelayedDiscountingActiveStep",
@@ -22,7 +26,7 @@
         }
       },
       {
-        "identifier"   : "results",
+        "identifier"   : "results_dd_money_6_month",
         "type"         : "instruction",
         "title"        : "Thank you for completing the task!",
         "text"         : ""

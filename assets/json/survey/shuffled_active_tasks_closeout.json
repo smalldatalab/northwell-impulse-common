@@ -1,0 +1,28 @@
+{
+  "identifier": "active_task_selector",
+  "type": "elementList",
+  "shuffleElements": true,
+  "elements": [
+
+    {
+      "identifier"    : "file_ref1",
+      "type"          : "elementFile",
+      "elementFileName" : "go_no_go_stable_stimulus_short_task"
+    },
+    {
+      "identifier"    : "file_ref3",
+      "type"          : "elementFile",
+      "elementFileName" : "bart_25_cents_short_task"
+    },
+    {
+      "identifier"    : "file_ref6",
+      "type"          : "elementFile",
+      "elementFileName" : "dd_money_6_month_short_task"
+    },
+    {
+      "identifier"    : "file_ref8",
+      "type"          : "elementFile",
+      "elementFileName" : "pd_constant_money_short_task"
+    }
+  ]
+}

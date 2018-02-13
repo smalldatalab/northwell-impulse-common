@@ -6,7 +6,7 @@
             "identifier":"introduction",
             "type":"instruction",
             "title":"Day 7 Survey",
-            "text":"Thank you for your participation over the last 7 days. This survey is similar to the first one and will take approximately 15 minutes to complete."
+            "text":"Thank you for your participation over the last 7 days. This survey is similar to the first one and will take approximately 10 minutes to complete."
         },
         {
             "type":"CTFLikertForm",
@@ -21,7 +21,7 @@
         {
             "type":"CTFLikertForm",
             "identifier":"self_assessment_7",
-            "parameterFileName":"self_assessment_7"
+            "parameterFileName":"self_assessment_7_closeout"
         },
         {
           "identifier": "semantic_differential_instruction",
@@ -91,13 +91,13 @@
         {
           "type": "elementFile",
           "identifier": "shuffled_active_tasks_ref",
-          "elementFileName": "shuffled_active_tasks"
+          "elementFileName": "shuffled_active_tasks_closeout"
         },
         {
           "type" : "emailStep",
           "identifier" : "thank_you_email",
           "formattedText": {
-            "template": "### Thank you for helping us with our beta-test!\n\n\n###### Please tap here to send us a blank email, allowing us to know that you have completed the 7-day test. You will be compensated $25 via Amazon gift card **within one week**."
+            "template": "### Thank you for using the Digital Marshmallow Test app!\n\n\n###### Please tap here to send us a blank email, allowing us to know that you have completed the 7-day test. You will be compensated $25 via Amazon gift card **within one week**."
           },
           "buttonText": "Launch Email",
           "recipientAddreses": ["rvitale@northwell.edu"],
