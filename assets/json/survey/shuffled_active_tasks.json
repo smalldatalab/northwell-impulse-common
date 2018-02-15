@@ -1,19 +1,8 @@
 {
   "identifier": "active_task_selector",
   "type": "elementList",
-  "shuffleElements": true,
+  "shuffleElements": false,
   "elements": [
-
-    {
-      "identifier"    : "file_ref1",
-      "type"          : "elementFile",
-      "elementFileName" : "go_no_go_stable_stimulus_full_task"
-    },
-    {
-      "identifier"    : "file_ref3",
-      "type"          : "elementFile",
-      "elementFileName" : "bart_25_cents_full_task"
-    },
     {
       "identifier"    : "file_ref6",
       "type"          : "elementFile",
@@ -23,6 +12,16 @@
       "identifier"    : "file_ref8",
       "type"          : "elementFile",
       "elementFileName" : "pd_constant_money_full_task"
+    },
+    {
+      "identifier"    : "file_ref3",
+      "type"          : "elementFile",
+      "elementFileName" : "bart_25_cents_full_task"
+    },
+    {
+      "identifier"    : "file_ref1",
+      "type"          : "elementFile",
+      "elementFileName" : "go_no_go_stable_stimulus_full_task"
     }
   ]
 }
