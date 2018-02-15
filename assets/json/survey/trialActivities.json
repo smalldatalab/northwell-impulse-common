@@ -4,6 +4,7 @@
   "title": "Activities",
   "guid": "impusivity-activities-123",
   "items": [
+
     {
       "type": "recurring",
       "identifier": "go-no-go-stable",

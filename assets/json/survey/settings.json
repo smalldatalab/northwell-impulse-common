@@ -73,6 +73,25 @@
             ]
           }
         ]
+    },
+    {
+        "type":"recurring",
+        "title":"Contact Us",
+        "identifier":"contact_us",
+        "guid":"contact_us-1",
+        "activity": {
+          "type" : "emailStep",
+          "identifier" : "contact_us_email",
+          "formattedText": {
+            "template": "### Contact Us\n\n\n###### Press the **Contact Us** button below if you're running into a problem and you'd like to send us an email."
+          },
+          "buttonText": "Contact Us",
+          "recipientAddreses": ["rvitale@northwell.edu"],
+          "messageSubject": "DMT Problem",
+          "errorMessage": "We're unable to compose the email. Please notify rvitale@northwell.edu",
+          "optional": false
+        },
+        "resultTransforms": []
     }
   ]
 }
