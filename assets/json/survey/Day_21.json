@@ -92,17 +92,6 @@
           "type": "elementFile",
           "identifier": "shuffled_active_tasks_ref",
           "elementFileName": "shuffled_active_tasks_closeout"
-        },
-        {
-          "type" : "DMTEmailStep",
-          "identifier" : "thank_you_email",
-          "formattedText": {
-            "template": "### Thank you for using the Digital Marshmallow Test app!\n\n\n###### Please tap here to send us a blank email, allowing us to know that you have completed the 7-day test. You will be compensated $25 via Amazon gift card **within one week**."
-          },
-          "buttonText": "Launch Email",
-          "recipientAddreses": ["rvitale@northwell.edu"],
-          "messageSubject": "Hey, I just completed DMT",
-          "errorMessage": "We're unable to compose the email. Please notify rvitale@northwell.edu"
         }
     ]
 }
