@@ -88,7 +88,7 @@
           "buttonText": "Contact Us",
           "recipientAddreses": ["rvitale@northwell.edu"],
           "messageSubject": "DMT Problem",
-          "errorMessage": "We're unable to compose the email. Please notify rvitale@northwell.edu",
+          "errorMessage": "We're unable to compose the email. This most likely means that your email client is not configured. Please notify rvitale@northwell.edu",
           "optional": false
         },
         "resultTransforms": []
